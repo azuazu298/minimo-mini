@@ -1,0 +1,1085 @@
+[
+  {
+    "text": "Please submit your timesheets by 5:00 PM on Friday. Late submissions will delay your paycheck.",
+    "question": "What will happen if a timesheet is submitted late?",
+    "choices": [
+      "Payment will be delayed.",
+      "The employee will be fired.",
+      "A manager must be notified.",
+      "The timesheet will be rejected."
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "We are currently out of stock of the blue sweaters. A new shipment will arrive on Tuesday.",
+    "question": "When will the store receive more sweaters?",
+    "choices": [
+      "On Monday.",
+      "On Tuesday.",
+      "On Wednesday.",
+      "On Thursday."
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The annual marketing conference will be held in Room 402. Please bring your registration badge.",
+    "question": "Where is the conference taking place?",
+    "choices": [
+      "In the main lobby.",
+      "At a local hotel.",
+      "In Room 402.",
+      "In the cafeteria."
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "Flight 409 to London has been delayed by two hours due to severe weather conditions.",
+    "question": "Why is the flight delayed?",
+    "choices": [
+      "Mechanical issues.",
+      "A pilot shortage.",
+      "Luggage loading problems.",
+      "Because of the weather."
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Let's meet at the coffee shop near the station at 3 PM to discuss our weekend plans.",
+    "question": "What is the purpose of the meeting?",
+    "choices": [
+      "To sign a contract.",
+      "To talk about weekend plans.",
+      "To interview a candidate.",
+      "To celebrate a birthday."
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The new training manual is available on the company intranet. All employees must read it by Monday.",
+    "question": "What are employees required to do by Monday?",
+    "choices": [
+      "Read a training manual.",
+      "Attend a seminar.",
+      "Submit a report.",
+      "Update their passwords."
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "Your table for four is ready. Please follow the host to the dining area.",
+    "question": "Who is the speaker most likely addressing?",
+    "choices": [
+      "Store clerks.",
+      "Delivery drivers.",
+      "A group of diners.",
+      "Kitchen staff."
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "TechCorp has announced the release of its new smartphone. It features a longer battery life.",
+    "question": "What is a feature of the new smartphone?",
+    "choices": [
+      "A larger screen.",
+      "A lower price.",
+      "Water resistance.",
+      "A longer battery life."
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "The apartment on 5th Avenue is available for rent starting next month. The monthly rent is $1,200.",
+    "question": "How much does it cost to rent the apartment per month?",
+    "choices": [
+      "$500.",
+      "$1,200.",
+      "$1,500.",
+      "$2,000."
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "The printer on the second floor is out of paper. Please refill it before printing.",
+    "question": "What is wrong with the printer?",
+    "choices": [
+      "It is jammed.",
+      "It has no ink.",
+      "It needs more paper.",
+      "It is unplugged."
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Mr. Chen, the former CEO of Global Tech, will be joining our board of directors next month. His extensive experience in international markets will be a great asset to our expansion team.",
+    "question": "What is indicated about Mr. Chen?",
+    "choices": [
+      "He has previously worked as a chief executive.",
+      "He is retiring from the board of directors.",
+      "He currently works for Global Tech.",
+      "He is applying for an entry-level position."
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "Thank you for your order from Fresh Foods. Unfortunately, the organic apples you requested are currently unavailable. We have substituted them with organic pears at no additional cost.",
+    "question": "What did the company do about the missing item?",
+    "choices": [
+      "They issued a full refund.",
+      "They replaced it with a different fruit.",
+      "They asked the customer to wait a week.",
+      "They canceled the entire order."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The seminar on digital marketing scheduled for October 12th has been moved to a larger venue. It will now take place at the Grand Hotel to accommodate the increased number of attendees.",
+    "question": "Why was the location of the event changed?",
+    "choices": [
+      "Due to a scheduling conflict.",
+      "The original venue closed down.",
+      "Because of poor weather conditions.",
+      "More people registered than expected."
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "Attention all residents. The water supply in Building B will be shut off for maintenance from 9:00 AM to 12:00 PM on Thursday. We apologize for any inconvenience this may cause.",
+    "question": "What is scheduled to happen on Thursday morning?",
+    "choices": [
+      "A new manager will be introduced.",
+      "Rent payments will be collected.",
+      "Some utility work will be performed.",
+      "The building will be inspected for safety."
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "I won't be able to make it to our tennis match this weekend. I injured my ankle during practice yesterday and the doctor advised me to rest for at least a week.",
+    "question": "Why is the person canceling the plans?",
+    "choices": [
+      "They have to work overtime.",
+      "They have a physical injury.",
+      "They are traveling out of town.",
+      "They forgot about the match."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "We are pleased to announce that Sarah Jenkins has been promoted to Senior Manager. She has been with the company for five years and has consistently demonstrated exceptional leadership skills.",
+    "question": "Why was Ms. Jenkins given a new role?",
+    "choices": [
+      "She has shown strong management abilities.",
+      "She recently graduated from university.",
+      "She requested a transfer to a new branch.",
+      "She brought in a major client."
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "If you are not completely satisfied with your purchase, you may return it within 30 days for a full refund. Please ensure the item is in its original packaging and include the receipt.",
+    "question": "What is required to get money back for an item?",
+    "choices": [
+      "Calling customer service.",
+      "Paying a restocking fee.",
+      "Providing proof of purchase.",
+      "Exchanging it for another product."
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Bakersfield Library is offering a new summer reading program for children. Participants who read ten books by the end of August will receive a free t-shirt and a certificate of achievement.",
+    "question": "What is the prize for completing the challenge?",
+    "choices": [
+      "A discount at a local bookstore.",
+      "A free book and a toy.",
+      "Tickets to an amusement park.",
+      "Some complimentary clothing and a document."
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "Passengers traveling on the express train to New York should proceed to Platform 3. Please have your tickets ready for inspection before boarding the train.",
+    "question": "What are travelers asked to do before getting on the train?",
+    "choices": [
+      "Store their luggage in the overhead bins.",
+      "Prepare their travel documents to be checked.",
+      "Purchase food and drinks.",
+      "Wait in the main seating area."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The quarterly budget meeting has been rescheduled. Instead of Tuesday morning, we will meet on Wednesday afternoon at 2:00 PM in the main conference room.",
+    "question": "When will the discussion now take place?",
+    "choices": [
+      "Later in the week than originally planned.",
+      "Early Monday morning.",
+      "On Tuesday afternoon.",
+      "Next month."
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "Due to the upcoming office relocation, all employees must pack their personal belongings by Friday. Moving boxes will be provided by the facilities department starting tomorrow morning.",
+    "question": "What will the facilities department do?",
+    "choices": [
+      "Clean the new office building.",
+      "Hire a professional moving company.",
+      "Supply materials for packing.",
+      "Organize a farewell party."
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "We regret to inform you that our restaurant will be closed for private events this weekend. We will resume normal business hours on Monday at 11:00 AM.",
+    "question": "When will the general public be able to dine at the establishment again?",
+    "choices": [
+      "On Friday evening.",
+      "On Saturday morning.",
+      "On Sunday afternoon.",
+      "At the beginning of the next week."
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "The latest issue of Business Weekly features an exclusive interview with our founder, Maria Gomez. She discusses the challenges of starting a tech company in a highly competitive market.",
+    "question": "What is the main topic of the article?",
+    "choices": [
+      "A new software update.",
+      "The difficulties of launching a new business.",
+      "The company's financial report.",
+      "Tips for investing in the stock market."
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Please note that the deadline to register for the annual charity run has been extended to November 5th. All proceeds will go to the local children's hospital.",
+    "question": "What change has been made to the event?",
+    "choices": [
+      "Participants have more time to sign up.",
+      "The location has been moved.",
+      "The entry fee has been lowered.",
+      "The race distance has been shortened."
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "The elevator in the east wing is currently out of service. Technicians are working to fix the issue. In the meantime, please use the stairs or the west wing elevator.",
+    "question": "What are visitors instructed to do?",
+    "choices": [
+      "Wait for the technicians to arrive.",
+      "Call the maintenance department.",
+      "Utilize alternative routes to change floors.",
+      "Reschedule their appointments."
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Did you review the quarterly sales report I sent yesterday?\nB: Yes, but I noticed a discrepancy in the marketing expenses section. The numbers don't match our initial budget.\nA: Really? I'll double-check the spreadsheet and send you an updated version before the meeting.",
+    "question": "What will person A most likely do next?",
+    "choices": [
+      "Cancel the upcoming meeting.",
+      "Correct an error in a financial document.",
+      "Approve the marketing budget.",
+      "Ask person B to rewrite the report."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "Dear Ms. Davis, I am writing to formally request a transfer to the Chicago branch. My spouse has recently accepted a job in the area, and we will be relocating next month. I have attached my updated resume and a letter of recommendation from my current supervisor.",
+    "question": "What is the main purpose of the email?",
+    "choices": [
+      "To complain about the current supervisor.",
+      "To apply for a promotion.",
+      "To announce a resignation from the company.",
+      "To ask for a change in work location due to family reasons."
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "Dear Valued Customer, We received your complaint regarding the damaged laptop you ordered. We sincerely apologize for the inconvenience. A replacement unit has been shipped via express delivery and should arrive within two business days. Please use the enclosed prepaid label to return the damaged item.",
+    "question": "What is the customer instructed to do with the original product?",
+    "choices": [
+      "Send it back using the provided shipping label.",
+      "Keep it as a spare part.",
+      "Take it to a local repair shop.",
+      "Throw it away."
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "Welcome to the 10th Annual Technology Expo. Please pick up your welcome packet at the registration desk, which includes a detailed map of the exhibition hall and a schedule of today's keynote speakers. The first presentation will begin in the main auditorium in 15 minutes.",
+    "question": "Where can attendees find information about the locations of the booths?",
+    "choices": [
+      "On the event website.",
+      "In the main auditorium.",
+      "In the materials given at the entrance.",
+      "By asking the keynote speakers."
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "This spacious two-bedroom apartment features a newly renovated kitchen, hardwood floors, and a balcony with a stunning view of the city skyline. Rent includes water and trash removal. Tenants are responsible for electricity and internet services. Pets are allowed with an additional deposit.",
+    "question": "Which utility must the renter pay for separately?",
+    "choices": [
+      "Water.",
+      "Power.",
+      "Trash removal.",
+      "Maintenance."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: The printer on the third floor is jammed again. I have a presentation in 20 minutes!\nB: Oh no. Have you tried the one in the HR department on the second floor? It's usually free.\nA: Good idea. I'll head down there now. Thanks for the tip.",
+    "question": "What is the problem person A is facing?",
+    "choices": [
+      "They lost their presentation notes.",
+      "They are late for a meeting with HR.",
+      "They don't know how to use the printer.",
+      "A piece of equipment is malfunctioning right before an important task."
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "To all staff members: The IT department will be upgrading our servers this weekend. Consequently, the company intranet and all internal email services will be unavailable from Saturday at 10 PM until Sunday at 6 AM. Please ensure you save all your work before the downtime begins.",
+    "question": "What is a consequence of the weekend project?",
+    "choices": [
+      "Employees will not be able to send messages within the company temporarily.",
+      "All staff members must work overtime on Saturday.",
+      "The office building will be completely closed.",
+      "New computers will be distributed on Monday."
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "Greenfield City Council has approved the construction of a new public park downtown. The project, funded by local business donations, will include a playground, walking trails, and a community garden. Construction is scheduled to begin in early spring and is expected to be completed by late autumn.",
+    "question": "How is the new recreational area being financed?",
+    "choices": [
+      "Through increased property taxes.",
+      "Through financial contributions from nearby companies.",
+      "By charging an entrance fee.",
+      "By a grant from the national government."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "Attention shoppers. For the next hour, we are offering a special 50% discount on all winter apparel. This includes coats, scarves, and gloves. Please bring your items to the registers at the front of the store. Thank you for shopping at Central Department Store.",
+    "question": "What is most likely NOT included in the current promotion?",
+    "choices": [
+      "A heavy coat.",
+      "Wool gloves.",
+      "Summer clothing.",
+      "A knitted scarf."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "As part of our commitment to employee wellness, the company is introducing a new flexible work policy. Starting next month, employees may choose to work from home up to two days a week. Interested staff should discuss their proposed schedules with their department managers for approval.",
+    "question": "What step must workers take to participate in the new program?",
+    "choices": [
+      "Get permission from their supervisors.",
+      "Sign a new employment contract.",
+      "Buy their own computer equipment.",
+      "Attend a mandatory wellness seminar."
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Are we still on track to launch the new software update on the 15th?\nB: Actually, the development team found a critical bug during the final testing phase yesterday.\nA: That's concerning. How long will it take to fix?\nB: They estimate at least another week of work. We should probably draft a notification for our clients.",
+    "question": "What is most likely true about the software update?",
+    "choices": [
+      "It has already been downloaded by many clients.",
+      "It will include new features requested by users.",
+      "It was tested without any issues.",
+      "It will not be released on its originally scheduled date."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "Dear Mr. Thompson, Thank you for interviewing for the Graphic Designer position. We were very impressed with your portfolio and your experience at design agencies. However, we have decided to move forward with a candidate whose background more closely aligns with our current focus on 3D animation. We will keep your resume on file for future openings.",
+    "question": "What can be inferred about Mr. Thompson's qualifications?",
+    "choices": [
+      "He has never worked at a design agency before.",
+      "He probably lacks strong expertise in creating three-dimensional animations.",
+      "His portfolio was considered unprofessional by the team.",
+      "He applied for a management role instead of a design role."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "Passengers waiting for the 4:30 PM ferry to Harbor Island, please be advised that departure has been delayed due to heavy fog in the channel. The Coast Guard has temporarily suspended all maritime traffic until visibility improves. We will provide another update in thirty minutes. Complimentary coffee is available in the terminal lounge.",
+    "question": "What is implied about the ferry's departure?",
+    "choices": [
+      "It will definitely depart in exactly thirty minutes.",
+      "It has been completely canceled for the day.",
+      "It is dependent on weather conditions improving.",
+      "It will take a different route than usual."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "I've been using the Vertex Pro vacuum cleaner for a month now. While the suction power is undeniably impressive and it easily picks up pet hair, I find it quite heavy to carry up and down the stairs. Additionally, the battery life falls short of the advertised 60 minutes, usually dying around the 40-minute mark on the highest setting.",
+    "question": "What does the reviewer suggest about the product's marketing?",
+    "choices": [
+      "It exaggerates how long the appliance can operate without recharging.",
+      "It falsely claims to be lightweight and easy to carry.",
+      "It overstates the vacuum's ability to pick up pet hair.",
+      "It promotes a lower price than what is charged in stores."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "To: All Sales Staff\nFrom: Management\nIt has come to our attention that several company vehicles have been returned to the lot with empty fuel tanks. As per company policy, all vehicles must be refueled if the gauge is below a quarter tank before being parked. Failure to adhere to this rule will result in the suspension of vehicle privileges.",
+    "question": "What are employees risking if they ignore this memo?",
+    "choices": [
+      "A reduction in their monthly salary.",
+      "They might lose permission to drive company cars.",
+      "They will be required to clean the vehicles.",
+      "They will have to pay for the fuel themselves."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: I see you've scheduled a meeting with the caterers for tomorrow afternoon.\nB: Yes, I want to finalize the menu for the retirement banquet next week.\nA: Did you remember that Mr. Harrison is highly allergic to shellfish?\nB: Oh, thank you for reminding me! I completely forgot. I'll make sure to request alternative appetizers.",
+    "question": "What will person B most likely do during the meeting tomorrow?",
+    "choices": [
+      "Cancel the banquet entirely.",
+      "Order more chairs for the guests.",
+      "Ask the caterer for a discount on the bill.",
+      "Change some of the food selections they had originally planned."
+    ],
+    "answer": 3,
+    "difficulty": 9
+  },
+  {
+    "text": "Local retailer Baxter's Home Goods announced on Monday that it will be closing three of its five regional stores by the end of the year. The CEO cited increased competition from online retailers and rising lease costs as the primary reasons for the consolidation. The remaining two stores will undergo renovations to enhance the in-store customer experience.",
+    "question": "What is implied about Baxter's Home Goods?",
+    "choices": [
+      "Their physical store locations are becoming more expensive to maintain.",
+      "They plan to open entirely new stores in a different region next year.",
+      "Their online sales are currently their biggest source of profit.",
+      "They are changing their product line from home goods to electronics."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Dear Ms. Lee, We received your warranty claim regarding your smartwatch. Our technicians have inspected the device and determined that the water damage it sustained is not covered under our standard one-year warranty, as the watch is only water-resistant, not waterproof. We can, however, offer a repair service at a discounted rate of $45.",
+    "question": "What does the company conclude about Ms. Lee's situation?",
+    "choices": [
+      "She will receive a brand new replacement watch for free.",
+      "Her warranty expired over a year ago.",
+      "Her issue does not qualify for free service because of the nature of the damage.",
+      "The technicians were unable to figure out what was wrong with the device."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "text": "The leadership workshop will commence on Monday at 9:00 AM with a keynote address by Dr. Emily Carter. Following her speech, attendees will break into smaller groups for interactive sessions. Lunch will be served at 12:30 PM in the courtyard. The afternoon will consist of a panel discussion and will conclude with a networking reception at 4:00 PM.",
+    "question": "When will the participants most likely be discussing topics actively among themselves?",
+    "choices": [
+      "During the keynote address.",
+      "Between the keynote speech and the lunch break.",
+      "During the lunch break in the courtyard.",
+      "After the networking reception concludes."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "All employees enrolled in the company's health insurance plan must review their coverage options for the upcoming fiscal year by Friday. If no changes are submitted through the online portal by the deadline, your current plan will be automatically renewed. Please note that premiums for the Premium Plus plan will increase by 5%.",
+    "question": "What will happen to an employee on the standard plan who takes no action by Friday?",
+    "choices": [
+      "They will be charged a 5% penalty fee.",
+      "They will lose their health insurance coverage.",
+      "They will be automatically upgraded to the Premium Plus plan.",
+      "Their existing coverage will continue unchanged."
+    ],
+    "answer": 3,
+    "difficulty": 9
+  }
+]
+
+[
+  {
+    "text": "Please sign the contract and return it to the HR department by tomorrow morning.",
+    "question": "What should be done with the contract?",
+    "choices": [
+      "It should be mailed to a client.",
+      "It should be destroyed.",
+      "It should be sent back to human resources.",
+      "It should be kept in a desk drawer."
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The new winter coats are on display in the front window. They cost $85 each.",
+    "question": "How much does a winter coat cost?",
+    "choices": [
+      "$15",
+      "$50",
+      "$75",
+      "$85"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Passengers for Flight 7A to Paris should proceed to Gate 12 immediately for boarding.",
+    "question": "Where are the passengers traveling to?",
+    "choices": [
+      "Paris",
+      "London",
+      "Gate 12",
+      "New York"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "The charity bake sale will take place on Saturday in the school cafeteria.",
+    "question": "Where will the event be held?",
+    "choices": [
+      "In a bakery.",
+      "In the school cafeteria.",
+      "In the main office.",
+      "At a local park."
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Don't forget to take an umbrella when you leave. The forecast predicts heavy rain this afternoon.",
+    "question": "Why does the person need an umbrella?",
+    "choices": [
+      "The sun is very bright.",
+      "It is snowing.",
+      "It is going to rain.",
+      "They are going to the beach."
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "Mr. Tanaka is out of the office today. He will reply to your emails on Monday.",
+    "question": "When will Mr. Tanaka respond to the emails?",
+    "choices": [
+      "On Monday.",
+      "Today.",
+      "Tomorrow.",
+      "On Friday."
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "The museum is open daily from 9 AM to 5 PM, except on national holidays.",
+    "question": "What time does the museum close?",
+    "choices": [
+      "9 AM",
+      "12 PM",
+      "3 PM",
+      "5 PM"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "We offer a free dessert with any main course ordered before 6 PM.",
+    "question": "What do customers get for free?",
+    "choices": [
+      "A drink.",
+      "A sweet dish.",
+      "A main course.",
+      "A salad."
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "This coupon gives you a 20 percent discount on all electronic items in the store.",
+    "question": "What kind of items are discounted?",
+    "choices": [
+      "Clothing.",
+      "Furniture.",
+      "Electronics.",
+      "Groceries."
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "The landlord requires a security deposit equal to one month's rent before moving in.",
+    "question": "What is required before a tenant can move in?",
+    "choices": [
+      "A letter of recommendation.",
+      "A financial deposit.",
+      "A background check.",
+      "A meeting with the neighbors."
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "Our company is looking for an experienced graphic designer to join our marketing team. Applicants must submit a portfolio of their previous work.",
+    "question": "What is a requirement for the job applicants?",
+    "choices": [
+      "Providing examples of past projects.",
+      "Taking a written exam.",
+      "Having a master's degree.",
+      "Living close to the office."
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "The annual science fair has been postponed due to a scheduling conflict with the venue. It will now be held next month.",
+    "question": "What happened to the science fair?",
+    "choices": [
+      "It was completely canceled.",
+      "It was moved to a new city.",
+      "It gained a new sponsor.",
+      "Its date was changed."
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "If the boots you ordered do not fit perfectly, you can mail them back within 14 days. We will cover the return shipping costs.",
+    "question": "Who pays for returning the item?",
+    "choices": [
+      "The delivery driver.",
+      "The customer.",
+      "The seller.",
+      "The post office."
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "To avoid long lines at the ticket counter, passengers are strongly encouraged to print their boarding passes at home before arriving at the airport.",
+    "question": "What are travelers advised to do in advance?",
+    "choices": [
+      "Pack their bags lightly.",
+      "Prepare their travel documents.",
+      "Call the airline.",
+      "Arrive at the airport very early."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The coffee machine in the breakroom is currently under repair. Employees can use the one on the second floor in the meantime.",
+    "question": "What is true about the breakroom appliance?",
+    "choices": [
+      "It has been permanently removed.",
+      "It is brand new.",
+      "It dispenses free drinks.",
+      "It is temporarily out of order."
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "Global Tech Inc. announced the acquisition of a small software startup yesterday. This move is expected to expand their mobile application division significantly.",
+    "question": "Why did Global Tech buy the startup?",
+    "choices": [
+      "To grow a specific part of their business.",
+      "To eliminate a rival company.",
+      "To save money on taxes.",
+      "To relocate their headquarters."
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "We apologize that your pizza was delivered cold. To make up for this error, we have added a credit of $15 to your online account for your next purchase.",
+    "question": "How is the restaurant compensating the customer?",
+    "choices": [
+      "By sending a free dessert.",
+      "By providing a discount on a future order.",
+      "By firing the delivery driver.",
+      "By giving them a full cash refund."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Attention patrons. The main elevator is closed for routine maintenance. Please use the escalators located near the south entrance to access the upper floors.",
+    "question": "How should people go to the upper levels?",
+    "choices": [
+      "By climbing the stairs.",
+      "By waiting for the elevator.",
+      "By taking the moving stairs.",
+      "By asking a staff member for help."
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "This office space features large windows that let in plenty of natural light. It is conveniently located just two blocks away from the central subway station.",
+    "question": "What is mentioned as a benefit of the office?",
+    "choices": [
+      "It has cheap rent.",
+      "It comes fully furnished.",
+      "It includes a free parking space.",
+      "It is close to public transportation."
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "Hi Lisa, I won't be able to attend the 2 PM strategy meeting. I have an urgent call with a client. Could you take notes for me?",
+    "question": "Why is the speaker missing the meeting?",
+    "choices": [
+      "They have to speak with a customer.",
+      "They are feeling sick.",
+      "They need to prepare a presentation.",
+      "They have a doctor's appointment."
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "Dear team, please remember that the deadline to submit expense reports for November is this Friday. Any reports submitted late will not be processed until the next billing cycle.",
+    "question": "What is the purpose of the message?",
+    "choices": [
+      "To announce a new billing system.",
+      "To remind employees about a cutoff date.",
+      "To complain about excessive spending.",
+      "To schedule a team meeting."
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "The bookstore is hosting a special event this weekend. Bestselling author Kevin Miller will be reading from his newest novel and signing copies for fans.",
+    "question": "What will happen at the bookstore?",
+    "choices": [
+      "A sale on old books.",
+      "A writing workshop.",
+      "A writer will interact with readers.",
+      "A poetry competition."
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Have you seen the revised quarterly budget?\nB: Yes, but I think the allocation for online advertising is too low compared to last year's spending.",
+    "question": "What does person B think about the advertising budget?",
+    "choices": [
+      "It is too complicated.",
+      "It is too high.",
+      "It was approved too quickly.",
+      "It is not enough."
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "Dr. Gupta's dental clinic has relocated to a larger facility on Oak Street. All existing appointments will remain at their scheduled times at the new location.",
+    "question": "What has changed about the clinic?",
+    "choices": [
+      "Its physical address.",
+      "Its operating hours.",
+      "Its phone number.",
+      "Its medical staff."
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "Your package was unable to be delivered because no one was present to sign for it. A second delivery attempt will be made tomorrow between 1 PM and 4 PM.",
+    "question": "Why was the delivery unsuccessful?",
+    "choices": [
+      "The address was incorrect.",
+      "The package was damaged.",
+      "A signature could not be obtained.",
+      "The driver ran out of time."
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Are we providing lunch for the workshop attendees on Thursday?\nB: Yes, I ordered sandwiches and salads from the local deli. They'll deliver at noon.\nA: Great. Don't forget that two of the guests are vegetarians.\nB: I made sure to request meat-free options for them.",
+    "question": "What has person B already done?",
+    "choices": [
+      "Sent invitations to the attendees.",
+      "Accommodated specific dietary needs.",
+      "Paid the local deli in advance.",
+      "Canceled the food delivery."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "To ensure the security of our corporate network, the IT department requires all staff members to update their passwords every 60 days. The new password must be at least twelve characters long and include a mix of letters, numbers, and symbols.",
+    "question": "What is a requirement for the new password?",
+    "choices": [
+      "It must match the previous password.",
+      "It must be easy to remember.",
+      "It must be changed every month.",
+      "It must contain various types of characters."
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "Are you tired of paying high monthly fees for your gym membership? FitLife Center offers state-of-the-art equipment, group fitness classes, and personal training, all for one low annual price. Sign up before October 31st and pay zero enrollment fees.",
+    "question": "How can someone save money at FitLife Center?",
+    "choices": [
+      "By joining before the end of October.",
+      "By bringing a friend to a class.",
+      "By paying a higher monthly fee.",
+      "By taking personal training sessions."
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "I bought a blender from your store last week, but it stopped working after just three uses. The motor makes a strange noise and the blades won't spin. I have my original receipt and would like to exchange it for a new one.",
+    "question": "What is the customer's main goal?",
+    "choices": [
+      "To ask for a refund.",
+      "To complain about the store staff.",
+      "To replace a defective appliance.",
+      "To learn how to use the blender."
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "Due to the unexpected resignation of our lead developer, the launch of the new banking app will be pushed back by one month. We are currently interviewing candidates to fill the position as quickly as possible to minimize further delays.",
+    "question": "What caused the delay in the project?",
+    "choices": [
+      "A lack of financial funding.",
+      "A technical issue with the app.",
+      "A key employee left the company.",
+      "A competitor launched a similar product."
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "A: The projector in Meeting Room C isn't connecting to my laptop.\nB: Did you check the HDMI cable? Sometimes it gets loose.\nA: Yes, it's plugged in securely. The screen just says 'No Signal'.\nB: Let me call technical support to come take a look.",
+    "question": "What is person A trying to do?",
+    "choices": [
+      "Display information on a screen.",
+      "Fix a broken computer.",
+      "Reserve Meeting Room C.",
+      "Buy a new HDMI cable."
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "Attention passengers waiting for the express bus to the airport. Due to heavy traffic on the highway, the bus is running approximately 20 minutes behind schedule. We apologize for the delay. Please wait in the designated seating area until the bus arrives at the platform.",
+    "question": "Why is the bus late?",
+    "choices": [
+      "It broke down.",
+      "There is congestion on the road.",
+      "The driver was delayed at the airport.",
+      "There is bad weather."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Excuse me, do you have these running shoes in a size 9?\nB: Let me check the stockroom. We might be sold out of that specific model.\nA: If you don't have them, can they be ordered?\nB: Absolutely, and we offer free home delivery for special orders.",
+    "question": "What will happen if the shoes are not in the stockroom?",
+    "choices": [
+      "The customer will get a discount.",
+      "The customer must visit another store.",
+      "The customer can have them shipped to their house.",
+      "The customer will choose a different color."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "The city council has unanimously voted to approve the construction of a new bicycle lane along Main Street. This initiative aims to reduce traffic congestion and promote eco-friendly transportation. Construction will begin next spring and conclude before the summer festival.",
+    "question": "What is a stated goal of the new project?",
+    "choices": [
+      "To increase parking spaces.",
+      "To repair the main road.",
+      "To prepare for the summer festival.",
+      "To encourage environmentally friendly travel."
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "Thank you for your inquiry about renting our banquet hall for your company's holiday party. The hall can accommodate up to 200 guests. While catering is not included in the rental fee, we can provide a list of approved local caterers you can hire.",
+    "question": "What must the client do if they want food at their event?",
+    "choices": [
+      "Pay an extra fee directly to the hall.",
+      "Arrange for meals through an outside vendor.",
+      "Bring their own home-cooked food.",
+      "Invite fewer than 200 guests."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "As our company expands its operations into Europe, fluency in a second language is becoming increasingly valuable. Therefore, HR is excited to announce a partnership with LinguaLearn to offer free weekly language courses to all full-time employees. Classes in French, Spanish, and German will be held during lunch hours starting next month. Space is limited, so early registration is advised.",
+    "question": "What is most likely true about the company?",
+    "choices": [
+      "It is trying to prepare its workforce for international business.",
+      "It requires all employees to speak a foreign language.",
+      "It is relocating its headquarters to Europe.",
+      "It is hiring language teachers from a local university."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "I hired Apex Landscaping to redesign my front yard. The crew was punctual and polite, and the final result looks exactly like the initial drawings. However, they left a pile of debris on my driveway for three days before coming back to collect it, which blocked my car. Despite the beautiful garden, I'm hesitant to recommend them.",
+    "question": "What can be inferred about the reviewer's experience?",
+    "choices": [
+      "They felt the workers were rude and unprofessional.",
+      "They were satisfied with the design but upset by the post-work cleanup.",
+      "They plan to hire the company again for their backyard.",
+      "They thought the landscaping looked nothing like the plans."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: I'm looking at our itinerary for the business trip to Tokyo. Our flight lands at Narita Airport at 4 PM.\nB: That means we'll hit rush hour traffic if we take a taxi to the hotel in Shinjuku.\nA: Good point. The express train takes about an hour and bypasses the roads completely.\nB: Let's do that. We can buy the train tickets online right now.",
+    "question": "Why did they decide against taking a taxi?",
+    "choices": [
+      "It is too expensive for their travel budget.",
+      "They cannot find a taxi at that time of day.",
+      "To avoid being delayed by heavy road congestion.",
+      "The train goes directly to their meeting location."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Has management made a decision about the proposed merger with Orion Tech yet?\nB: Not officially, but they've been consulting with financial advisors all week. The CEO seems hesitant because of Orion's recent drop in stock value.\nA: I guess we shouldn't expect an announcement at Friday's meeting then.\nB: Probably not. They'll want more assurances before proceeding.",
+    "question": "What is implied about the merger?",
+    "choices": [
+      "It has been officially canceled.",
+      "It will be announced on Friday.",
+      "The CEO is excited about the prospect.",
+      "It is unlikely to be finalized in the immediate future."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "Welcome to the grand opening of the Riverside Art Gallery. Tonight's exhibition features contemporary sculptures by local artists. While viewing the artwork, please refrain from touching the pieces, as many are fragile. Complimentary beverages are located in the lobby. Finally, the artists themselves are stationed near their respective works and would be thrilled to discuss their creative processes with you.",
+    "question": "What are attendees encouraged to do?",
+    "choices": [
+      "Purchase the artwork on display.",
+      "Bring their own drinks into the gallery.",
+      "Interact with the creators of the sculptures.",
+      "Help the staff clean the exhibition hall."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "Dear Mr. Vance, we have reviewed your architectural blueprints for the proposed commercial complex. While the design is innovative, it exceeds the city's strict zoning limits for building height in that specific district by nearly three meters. In order to obtain the necessary construction permits, substantial revisions will be required. Please let us know when you are available to discuss alternative designs.",
+    "question": "What can be inferred about the current blueprints?",
+    "choices": [
+      "They cannot be legally built in their present form.",
+      "They were approved by the city council yesterday.",
+      "They lack innovative architectural features.",
+      "They were designed for a residential neighborhood."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Your annual subscription to cloud storage expires in five days. As per our updated terms of service, accounts that fail to renew within 30 days of expiration will have all stored data permanently deleted to free up server space. To ensure uninterrupted access to your files and avoid irreversible data loss, please log in to your account and update your payment method before the deadline.",
+    "question": "What will happen if the user ignores this email for a month?",
+    "choices": [
+      "Their subscription will be automatically renewed.",
+      "Their digital files will be permanently erased from the server.",
+      "They will be charged a late fee on their next bill.",
+      "They will receive a phone call from customer service."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "To All Staff: Effective January 1st, the company will transition to a new payroll processing system. Direct deposits will now clear on the 15th and the last day of each month, rather than every other Friday. We anticipate a seamless transition, but ask that you review your first pay stub in January carefully to ensure all tax deductions and benefit contributions have been calculated accurately.",
+    "question": "What does the company expect employees to do in January?",
+    "choices": [
+      "Open a new bank account for direct deposits.",
+      "Work additional hours on the 15th of the month.",
+      "Verify that their financial information was transferred correctly.",
+      "Choose new health insurance benefit plans."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "text": "A: I can't believe the shipping department sent the wrong manuals to our biggest client in London. They received the Spanish versions instead of the English ones.\nB: That's a huge mistake. Have you contacted the courier to see if they can expedite a replacement shipment?\nA: Yes, but the earliest they can deliver is Thursday. The client's training seminar starts on Wednesday morning.\nB: We'll have to email them digital copies immediately so they have something to use on day one.",
+    "question": "What is implied about the situation?",
+    "choices": [
+      "The client prefers to use digital manuals instead of printed ones.",
+      "The shipping department has made this error multiple times before.",
+      "The courier company refused to send a replacement shipment.",
+      "The physical replacements will not arrive in time for the start of the event."
+    ],
+    "answer": 3,
+    "difficulty": 9
+  },
+  {
+    "text": "Tired of your smartphone battery dying halfway through the day? The new Quantum X features a revolutionary solar-charging back panel. Simply leaving your phone face down near a window or outdoors can extend your battery life by up to 40%. It also boasts a durable, water-resistant casing, making it the perfect companion for hikers and outdoor enthusiasts who spend long hours away from power outlets.",
+    "question": "What is most likely true about the Quantum X?",
+    "choices": [
+      "It requires a special cable to charge the battery.",
+      "It is designed for people who are frequently away from indoor electricity.",
+      "It can only be used in sunny weather conditions.",
+      "It is the most expensive smartphone on the market."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  }
+]

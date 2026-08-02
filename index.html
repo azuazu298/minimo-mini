@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minimo-mini</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+            --correct-color: #2ECC71;
+            --incorrect-color: #E74C3C;
+            --bg-color: #F5F7FA;
+            --text-color: #333333;
+            --container-bg: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        #app {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            background: var(--container-bg);
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .screen {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .screen.active {
+            display: flex;
+        }
+
+        h1, h2, h3 { text-align: center; }
+
+        .btn {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            max-width: 300px;
+            transition: opacity 0.2s;
+            margin: 10px auto;
+            display: block;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover { opacity: 0.8; }
+        .btn.primary { background-color: var(--primary-color); color: white; }
+        .btn.secondary { background-color: #ddd; color: #333; }
+        .btn:disabled { cursor: not-allowed; opacity: 0.5; }
+
+        .header-info {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .timer-container {
+            width: 100%;
+            height: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+
+        #timer-bar {
+            height: 100%;
+            width: 100%;
+            background-color: var(--primary-color);
+            transition: width 0.1s linear;
+        }
+        
+        #timer-text {
+            width: 100%;
+            text-align: right;
+            font-size: 16px;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .question-container {
+            margin-bottom: 10px;
+            text-align: center;
+            min-height: 60px;
+            transition: font-size 0.2s;
+            white-space: pre-wrap;
+        }
+
+        #passage-text {
+            font-weight: normal;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-align: left;
+            line-height: 1.5;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        #question-text {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .choices-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .choice-btn {
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 100%;
+            text-align: left;
+            line-height: 1.4;
+        }
+
+        .choice-btn:hover:not(:disabled) { border-color: var(--primary-color); }
+        .choice-btn.correct { background-color: var(--correct-color) !important; color: white !important; border-color: var(--correct-color) !important; }
+        .choice-btn.incorrect { background-color: var(--incorrect-color) !important; color: white !important; border-color: var(--incorrect-color) !important; }
+
+        #feedback-container { 
+            text-align: center; 
+            width: 100%; 
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #feedback-container.hidden { 
+            display: flex !important; 
+            visibility: hidden; 
+        }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        .icon-btn:hover { opacity: 0.6; }
+
+        #btn-save-image {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            display: none;
+        }
+
+        #font-size-controls {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            display: none; 
+            gap: 8px;
+            z-index: 10;
+        }
+
+        .font-btn {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+        .font-btn:hover { background-color: #ddd; }
+
+        #readme-content {
+            width: 100%;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+            white-space: pre-wrap;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <section id="screen-home" class="screen active">
+            <h1>minimo-mini</h1>
+            <button id="btn-start" class="btn primary">start</button>
+            <button id="btn-readme" class="btn secondary">readme</button>
+        </section>
+
+        <section id="screen-game" class="screen">
+            <div class="header-info">
+                <span id="question-counter">Question: 1 / 30</span>
+                <span id="difficulty-display"></span>
+            </div>
+            <div class="timer-container">
+                <div id="timer-bar"></div>
+            </div>
+            <div id="timer-text">30.0</div>
+            
+            <div class="question-container">
+                <p id="passage-text">Loading...</p>
+                <p id="question-text"></p>
+            </div>
+            
+            <div id="choices-container" class="choices-grid">
+            </div>
+
+            <div id="feedback-container" class="hidden">
+                <h2 id="feedback-result" style="margin: 5px 0;"></h2>
+                <button id="btn-next" class="btn primary">next</button>
+            </div>
+        </section>
+
+        <div id="font-size-controls">
+            <button id="btn-font-large" class="icon-btn font-btn" title="text larger">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+            </button>
+            <button id="btn-font-small" class="icon-btn font-btn" title="text smaller">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+            </button>
+        </div>
+
+        <button id="btn-save-image" class="icon-btn" title="copy image">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+        </button>
+
+        <section id="screen-result" class="screen">
+            <h2>Result</h2>
+            <div class="score-display">
+                <span>Score:</span>
+                <span id="final-rate">0</span>
+            </div>
+            <p style="margin-bottom:30px;">Good job!</p>
+            <button id="btn-home-from-result" class="btn primary">home</button>
+        </section>
+
+        <section id="screen-readme" class="screen">
+            <h2>readme</h2>
+            <div id="readme-content">Loading readme.txt ...</div>
+            <button id="btn-home-from-readme" class="btn primary">home</button>
+        </section>
+    </div>
+
+    <script>
+        let allQuestions = [];
+        let currentQuestions = [];
+        let currentQIndex = 0;
+        let timerInterval;
+        let timeLeft;
+        let currentTrialHistory = [];
+
+        let currentFontSize = parseInt(localStorage.getItem('toeicFontSize')) || 16;
+
+        const screens = {
+            home: document.getElementById('screen-home'),
+            game: document.getElementById('screen-game'),
+            result: document.getElementById('screen-result'),
+            readme: document.getElementById('screen-readme')
+        };
+
+        async function init() {
+            applyFontSize();
+
+            const fetchPromises = [];
+            for (let i = 1; i <= 9; i++) {
+                const p = fetch(`questions${i}.json`)
+                    .then(res => res.ok ? res.json() : [])
+                    .catch(() => []);
+                fetchPromises.push(p);
+            }
+
+            try {
+                const results = await Promise.all(fetchPromises);
+                results.forEach(questions => {
+                    allQuestions = allQuestions.concat(questions);
+                });
+            } catch (e) {
+                console.error("問題データの読み込みに失敗しました", e);
+            }
+            
+            fetch('readme.txt')
+                .then(res => res.ok ? res.text() : "readme.txt が見つかりません。同じフォルダに作成してください。")
+                .then(text => { document.getElementById('readme-content').textContent = text; })
+                .catch(() => { document.getElementById('readme-content').textContent = "読み込みエラー"; });
+
+            document.getElementById('btn-start').addEventListener('click', startGame);
+            document.getElementById('btn-readme').addEventListener('click', () => switchScreen('readme'));
+            
+            document.getElementById('btn-home-from-result').addEventListener('click', () => switchScreen('home'));
+            document.getElementById('btn-home-from-readme').addEventListener('click', () => switchScreen('home'));
+            
+            document.getElementById('btn-next').addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                nextQuestion();
+            });
+
+            document.getElementById('btn-save-image').addEventListener('click', function(e) {
+                e.stopPropagation();
+                try {
+                    const btnCamera = document.getElementById('btn-save-image');
+                    const btnFonts = document.getElementById('font-size-controls');
+                    btnCamera.style.display = 'none';
+                    btnFonts.style.display = 'none';
+
+                    const captureTarget = document.getElementById('app');
+                    const blobPromise = html2canvas(captureTarget, { backgroundColor: "#ffffff" }).then(canvas => {
+                        btnCamera.style.display = 'flex';
+                        btnFonts.style.display = 'flex';
+                        return new Promise(resolve => {
+                            canvas.toBlob(blob => resolve(blob));
+                        });
+                    });
+
+                    const item = new ClipboardItem({ "image/png": blobPromise });
+                    
+                    navigator.clipboard.write([item]).then(() => {
+                        alert("Copied to clipboard!");
+                    }).catch(err => {
+                        console.error("クリップボード書き込みエラー", err);
+                        alert("コピーに失敗しました。iOSの場合は設定により制限されている場合があります。");
+                        btnCamera.style.display = 'flex';
+                        btnFonts.style.display = 'flex';
+                    });
+                } catch (err) {
+                    console.error("画像の生成に失敗しました", err);
+                    document.getElementById('btn-save-image').style.display = 'flex';
+                    document.getElementById('font-size-controls').style.display = 'flex';
+                }
+            });
+
+            document.getElementById('btn-font-large').addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                currentFontSize = Math.min(currentFontSize + 4, 30); 
+                applyFontSize();
+            });
+
+            document.getElementById('btn-font-small').addEventListener('click', (e) => {
+                e.stopPropagation();
+                currentFontSize = Math.max(currentFontSize - 4, 12); 
+                applyFontSize();
+            });
+        }
+
+        function applyFontSize() {
+            const passageText = document.getElementById('passage-text');
+            passageText.style.fontSize = `${currentFontSize}px`;
+            localStorage.setItem('toeicFontSize', currentFontSize);
+        }
+
+        function switchScreen(screenName) {
+            Object.values(screens).forEach(s => s.classList.remove('active'));
+            screens[screenName].classList.add('active');
+            
+            document.getElementById('btn-save-image').style.display = 'none';
+            if (screenName === 'game') {
+                document.getElementById('font-size-controls').style.display = 'flex';
+            } else {
+                document.getElementById('font-size-controls').style.display = 'none';
+            }
+        }
+
+        function startGame() {
+            if (allQuestions.length < 30) {
+                alert(`Problem data shortage. Current loaded: ${allQuestions.length} questions.\n(Please place questions1.json ~ questions9.json)`);
+                return;
+            }
+            
+            let shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+            currentQuestions = shuffled.slice(0, 30).sort((a, b) => a.difficulty - b.difficulty);
+            
+            currentQIndex = 0;
+            currentTrialHistory = [];
+
+            switchScreen('game');
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            const q = currentQuestions[currentQIndex];
+
+            document.getElementById('question-counter').textContent = `Question: ${currentQIndex + 1} / 30`;
+            document.getElementById('difficulty-display').textContent = `Level: ${q.difficulty}`;
+            
+            document.getElementById('passage-text').textContent = q.text;
+            document.getElementById('question-text').textContent = q.question;
+            
+            document.getElementById('btn-save-image').style.display = 'none';
+            
+            const choicesContainer = document.getElementById('choices-container');
+            choicesContainer.innerHTML = '';
+            
+            const originalChoices = [...q.choices];
+            const correctAnswerStr = originalChoices[q.answer];
+            const shuffledChoices = [...originalChoices].sort(() => Math.random() - 0.5);
+            
+            shuffledChoices.forEach((choiceText) => {
+                const btn = document.createElement('button');
+                btn.textContent = choiceText;
+                btn.className = 'choice-btn';
+                btn.onclick = () => handleAnswer(choiceText, correctAnswerStr, q);
+                choicesContainer.appendChild(btn);
+            });
+
+            document.getElementById('feedback-container').classList.add('hidden');
+            
+            startTimer(correctAnswerStr, q);
+        }
+
+        function startTimer(correctAnswerStr, q) {
+            const maxTime = 30.0;
+            timeLeft = maxTime;
+            
+            const timerBar = document.getElementById('timer-bar');
+            const timerText = document.getElementById('timer-text');
+            
+            timerBar.style.width = '100%';
+            timerText.textContent = timeLeft.toFixed(1);
+            
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                timeLeft -= 0.1;
+                timerBar.style.width = `${(timeLeft / maxTime) * 100}%`;
+                timerText.textContent = Math.max(0, timeLeft).toFixed(1);
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    handleAnswer(null, correctAnswerStr, q); 
+                }
+            }, 100);
+        }
+
+        function handleAnswer(selectedText, correctText, q) {
+            clearInterval(timerInterval);
+            const isCorrect = selectedText === correctText;
+            const btns = document.querySelectorAll('.choice-btn');
+            
+            btns.forEach((btn) => {
+                btn.disabled = true; 
+                if (btn.textContent === correctText) {
+                    btn.classList.add('correct'); 
+                } else if (btn.textContent === selectedText) {
+                    btn.classList.add('incorrect'); 
+                }
+            });
+
+            currentTrialHistory.push({
+                difficulty: q.difficulty,
+                isCorrect: isCorrect
+            });
+
+            const feedbackResult = document.getElementById('feedback-result');
+            if (selectedText === null) {
+                feedbackResult.textContent = "Time out... (Incorrect)";
+                feedbackResult.style.color = "var(--incorrect-color)";
+            } else {
+                feedbackResult.textContent = isCorrect ? "Correct!" : "Incorrect...";
+                feedbackResult.style.color = isCorrect ? "var(--correct-color)" : "var(--incorrect-color)";
+            }
+            
+            document.getElementById('feedback-container').classList.remove('hidden');
+            document.getElementById('btn-save-image').style.display = 'flex';
+        }
+
+        function nextQuestion() {
+            currentQIndex++;
+            if (currentQIndex < 30) {
+                displayQuestion();
+            } else {
+                finishGame();
+            }
+        }
+
+        function finishGame() {
+            let totalPoints = 0;
+            let earnedPoints = 0;
+
+            // 新しい傾斜配点の計算処理 (10点 ＋ 難易度×2点)
+            currentTrialHistory.forEach(record => {
+                const point = 10 + (record.difficulty * 2);
+                totalPoints += point;
+                if (record.isCorrect) {
+                    earnedPoints += point;
+                }
+            });
+
+            // 990点満点換算
+            let finalRate = totalPoints === 0 ? 0 : (earnedPoints / totalPoints) * 990;
+            
+            // 5点刻みに丸める
+            finalRate = Math.round(finalRate / 5) * 5;
+
+            // ノーミスでないのに990点になってしまった場合のストッパー
+            if (earnedPoints < totalPoints && finalRate >= 990) {
+                finalRate = 985;
+            }
+            
+            // 安全装置 (0以下や990以上にならないように)
+            if (finalRate > 990) finalRate = 990;
+            if (finalRate < 0) finalRate = 0;
+
+            document.getElementById('final-rate').textContent = finalRate;
+            
+            switchScreen('result');
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>

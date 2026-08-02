@@ -99,13 +99,12 @@
             font-size: 16px;
             font-weight: bold;
             color: #666;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
 
         .question-container {
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             text-align: center;
-            min-height: 60px;
             transition: font-size 0.2s;
             white-space: pre-wrap;
         }
@@ -113,7 +112,7 @@
         #passage-text {
             font-weight: normal;
             font-size: 16px;
-            margin-bottom: 15px;
+            margin-bottom: 5px;
             text-align: left;
             line-height: 1.5;
             background: #f9f9f9;
@@ -125,8 +124,8 @@
         #question-text {
             font-weight: bold;
             font-size: 18px;
-            margin-top: 15px;
-            margin-bottom: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         .choices-grid {
@@ -218,6 +217,27 @@
             max-height: 400px;
             overflow-y: auto;
         }
+        
+        .score-display {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0 40px 0;
+        }
+        
+        .score-label {
+            font-size: 24px;
+            color: #555;
+            font-weight: bold;
+        }
+        
+        #final-rate {
+            font-size: 72px;
+            color: var(--primary-color);
+            font-weight: bold;
+            line-height: 1;
+            margin-top: 10px;
+        }
 
         .hidden { display: none !important; }
     </style>
@@ -282,10 +302,9 @@
         <section id="screen-result" class="screen">
             <h2>Result</h2>
             <div class="score-display">
-                <span>Score:</span>
+                <span class="score-label">Score</span>
                 <span id="final-rate">0</span>
             </div>
-            <p style="margin-bottom:30px;">Good job!</p>
             <button id="btn-home-from-result" class="btn primary">home</button>
         </section>
 
@@ -529,7 +548,6 @@
             let totalPoints = 0;
             let earnedPoints = 0;
 
-            // 新しい傾斜配点の計算処理 (10点 ＋ 難易度×2点)
             currentTrialHistory.forEach(record => {
                 const point = 10 + (record.difficulty * 2);
                 totalPoints += point;
@@ -538,18 +556,14 @@
                 }
             });
 
-            // 990点満点換算
             let finalRate = totalPoints === 0 ? 0 : (earnedPoints / totalPoints) * 990;
             
-            // 5点刻みに丸める
             finalRate = Math.round(finalRate / 5) * 5;
 
-            // ノーミスでないのに990点になってしまった場合のストッパー
             if (earnedPoints < totalPoints && finalRate >= 990) {
                 finalRate = 985;
             }
             
-            // 安全装置 (0以下や990以上にならないように)
             if (finalRate > 990) finalRate = 990;
             if (finalRate < 0) finalRate = 0;
 

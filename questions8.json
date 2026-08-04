@@ -1,0 +1,1082 @@
+[
+  {
+    "text": "I will meet you at the cafe at 3:00 P.M. Please do not be late.",
+    "question": "What time is the meeting scheduled?",
+    "choices": [
+      "At 1:00 P.M.",
+      "At 2:00 P.M.",
+      "At 3:00 P.M.",
+      "At 4:00 P.M."
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The grocery store has changed its hours. It will close at 8:00 P.M. starting tomorrow.",
+    "question": "What time will the store close starting tomorrow?",
+    "choices": [
+      "At 8:00 P.M.",
+      "At 9:00 P.M.",
+      "At 10:00 P.M.",
+      "At 11:00 P.M."
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "Please show your library card at the front entrance of the Williams Building.",
+    "question": "Where should visitors show their library card?",
+    "choices": [
+      "At the cafe",
+      "At the bus stop",
+      "At the park gate",
+      "At the front entrance"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Our new online chat service provides a faster means for customer complaints.",
+    "question": "What is the purpose of the new online chat service?",
+    "choices": [
+      "To order food",
+      "To handle customer complaints",
+      "To book a room",
+      "To rent a car"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The conference room is located in the basement of this building.",
+    "question": "Where is the conference room located?",
+    "choices": [
+      "In the basement",
+      "On the second floor",
+      "On the roof",
+      "Near the lobby"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "Ms. Ito gave a large sum of money to the local charity organization.",
+    "question": "Who gave money to the charity organization?",
+    "choices": [
+      "Mr. Smith",
+      "Ms. Williams",
+      "Ms. Ito",
+      "Mr. Tanaka"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "I left my missing folders on your desk. Please check them.",
+    "question": "Where are the missing folders?",
+    "choices": [
+      "In the cabinet",
+      "On the desk",
+      "In the car",
+      "Under the table"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "This special coupon is only valid for purchases made online.",
+    "question": "Where can the coupon be used?",
+    "choices": [
+      "At any local store",
+      "At the airport shop",
+      "In the restaurant",
+      "Online"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "The tour fee is very reasonable. It is only 15 dollars per person.",
+    "question": "How much is the tour fee?",
+    "choices": [
+      "15 dollars",
+      "25 dollars",
+      "35 dollars",
+      "50 dollars"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "The landlord plans to demolish the old building to make room for a new park.",
+    "question": "What will be built in place of the old building?",
+    "choices": [
+      "A library",
+      "A school",
+      "A park",
+      "A hospital"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The training session on the new messaging system will start at 10:00 A.M. tomorrow.",
+    "question": "What time will the training session start tomorrow?",
+    "choices": [
+      "At 9:00 A.M.",
+      "At 10:00 A.M.",
+      "At 11:00 A.M.",
+      "At 12:00 P.M."
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "We offer free home delivery to our corporate clients for office supplies.",
+    "question": "Who is eligible for the free home delivery service?",
+    "choices": [
+      "All individual shoppers",
+      "Local schools only",
+      "Hospital patients",
+      "Corporate clients"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "The company will announce its new clothing line at the press conference today.",
+    "question": "What will the company announce at the press conference?",
+    "choices": [
+      "A new clothing line",
+      "A merger plan",
+      "A budget cut",
+      "A change in leadership"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "The delegation from Japan arrived early for the international economic conference.",
+    "question": "Where did the delegation come from?",
+    "choices": [
+      "The United States",
+      "Canada",
+      "Japan",
+      "Germany"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "The new library will be closed on Mondays for regular maintenance.",
+    "question": "On what day will the new library be closed?",
+    "choices": [
+      "Sundays",
+      "Mondays",
+      "Wednesdays",
+      "Saturdays"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "I am busy preparing for my presentation. I cannot join you for lunch.",
+    "question": "Why is the writer unable to join for lunch?",
+    "choices": [
+      "Because of presentation preparation",
+      "Because of a cold",
+      "Because of a train delay",
+      "Because of a dental appointment"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "Mr. Carter will become the new supervisor of the shipping department next month.",
+    "question": "Which department will Mr. Carter supervise next month?",
+    "choices": [
+      "The accounting department",
+      "The marketing department",
+      "The human resources department",
+      "The shipping department"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "Plastic bags will not be provided. Please bring your own shopping bags.",
+    "question": "What item will not be provided at the store?",
+    "choices": [
+      "Paper receipts",
+      "Plastic bags",
+      "Gift boxes",
+      "Discount coupons"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "We will stay at the Palmhouse Resort during our business trip in December.",
+    "question": "Where will the writers stay during their trip?",
+    "choices": [
+      "At the Grand Hotel",
+      "At the City Inn",
+      "At the Palmhouse Resort",
+      "At the Airport Motel"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "A local youth group will clean up Ashburton Park this Saturday morning.",
+    "question": "Which park will be cleaned up this Saturday?",
+    "choices": [
+      "Ashburton Park",
+      "Lafayette Park",
+      "Central Park",
+      "Riverside Park"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "Mr. Davis, who has spearheaded the accounting department, will step down next month. The board of directors is currently interviewing candidates from external recruitment agencies to fill his vacancy.",
+    "question": "What is implied about Mr. Davis's department?",
+    "choices": [
+      "It will be closed.",
+      "It will have a new leader.",
+      "It has a lower budget.",
+      "It will hire more staff."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Due to an unexpected delay in the supply chain, our organic apples are temporarily out of stock. We sincerely apologize for this inconvenience and are offering a 20% discount on all other fruits.",
+    "question": "What is indicated about the organic apples?",
+    "choices": [
+      "They are cheaper than before.",
+      "They are imported from overseas.",
+      "They are currently unavailable.",
+      "They are sold in boxes."
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "Volox Solutions recently launched a new website featuring its updated services. Customers can now easily register for webinars and access helpful resources with just a few clicks.",
+    "question": "What did Volox Solutions recently do?",
+    "choices": [
+      "They introduced an online site.",
+      "They hired a design agency.",
+      "They closed a local branch.",
+      "They held a press conference."
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "The annual design workshop has been rescheduled from Friday to Sunday because of a room reservation conflict. Please let us know if you can still attend by tomorrow afternoon.",
+    "question": "Why was the date of the design workshop changed?",
+    "choices": [
+      "The main speaker was sick.",
+      "The registration fee was too high.",
+      "The weather was terrible.",
+      "The space was not available."
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "The Weston Public Library will undergo major renovations starting next Monday. During this period, all borrowing services will be temporarily suspended, but our digital collection remains accessible online.",
+    "question": "What is stated about the library?",
+    "choices": [
+      "It is moving to a new address.",
+      "It will be repaired.",
+      "It is hiring new librarians.",
+      "It will buy more books."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "I received your draft of the proposal. It is very detailed, but I suggest making the introduction more concise so the client can understand our main goal easily.",
+    "question": "What does the writer recommend for the proposal?",
+    "choices": [
+      "Adding more charts",
+      "Expanding the budget",
+      "Reducing the introduction length",
+      "Changing the deadline"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "All employees must wear their identification badges on their shirts while they are in the building. This security measure is crucial to ensure safety for everyone.",
+    "question": "What is a requirement for the staff?",
+    "choices": [
+      "To display their ID cards",
+      "To attend security training",
+      "To work on the weekends",
+      "To submit their resumes"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "Green Bistro has decided to adjust its menu to offer more vegetarian options. The manager mentioned that this decision is a response to recent feedback from many loyal customers.",
+    "question": "Why did Green Bistro modify its menu?",
+    "choices": [
+      "To lower food costs",
+      "To attract tourists",
+      "To reduce preparation time",
+      "To satisfy customer requests"
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "The flight from Toronto to Seattle has been canceled due to severe weather conditions in the region. Passengers are advised to visit the customer service desk to rebook their flights.",
+    "question": "Why was the flight to Seattle canceled?",
+    "choices": [
+      "Mechanical issues",
+      "Extremely bad weather",
+      "A pilot shortage",
+      "A strike at the airport"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Lafayette Apartments offers beautifully renovated rooms with a spectacular view of the river. The location is very convenient, being just a five-minute walk from the central station.",
+    "question": "What is highlighted as a benefit of Lafayette Apartments?",
+    "choices": [
+      "Free parking space",
+      "An indoor gym",
+      "Its proximity to transport",
+      "Low rental prices"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "Ms. Patel wants to review the quarterly sales figures before she meets with the board of directors. Please compile the data into a comprehensive report by tomorrow morning.",
+    "question": "What is Ms. Patel planning to do?",
+    "choices": [
+      "Examine the sales data",
+      "Hire an assistant",
+      "Reschedule a board meeting",
+      "Purchase new software"
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "Because the item you ordered is currently unavailable, we would like to offer you a full refund. Alternatively, you can choose a similar product of equal value from our catalog.",
+    "question": "What option is provided to the customer?",
+    "choices": [
+      "To pay extra for shipping",
+      "To get their money back",
+      "To wait for three months",
+      "To write a review"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The city council announced that the construction of the new community center will begin in September. This project is expected to generate many job opportunities for local residents.",
+    "question": "What is stated about the new community center?",
+    "choices": [
+      "It will be built near a school.",
+      "It was designed by an artist.",
+      "It will open in December.",
+      "It will create employment."
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "To ensure that we have sufficient seats for all attendees, we request that you register for the seminar in advance. The registration form can be found on our website.",
+    "question": "Why are people asked to sign up early?",
+    "choices": [
+      "To get a discount",
+      "To choose their lunch",
+      "To guarantee enough space",
+      "To meet the speakers"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Water bills are due on the last day of each month. If you fail to submit your payment on time, you will be charged an additional late fee of 10 dollars.",
+    "question": "What happens if a customer pays their water bill late?",
+    "choices": [
+      "They must pay extra money.",
+      "Their service will be stopped.",
+      "They will receive a discount.",
+      "They must call the office."
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "I had trouble finding the restaurant because my GPS was not working properly. I suggest we meet at a more familiar place next time.",
+    "question": "Why was the writer late to the restaurant?",
+    "choices": [
+      "The train was delayed.",
+      "Their navigation system failed.",
+      "They forgot the address.",
+      "The weather was terrible."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The supervisor reminded the staff that all vacation requests must be submitted at least two weeks before the planned departure date. This policy helps us manage our workload effectively.",
+    "question": "What is the main purpose of the supervisor's reminder?",
+    "choices": [
+      "To announce a holiday",
+      "To change a meeting time",
+      "To reduce working hours",
+      "To clarify the vacation request policy"
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "The chef at Bella Italia has decided to incorporate more organic ingredients into their signature dishes. Many diners have expressed high satisfaction with this change.",
+    "question": "What did Bella Italia recently do?",
+    "choices": [
+      "They closed their kitchen.",
+      "They lowered their prices.",
+      "They modified their recipes.",
+      "They relocated to a new street."
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "The itinerary for the city tour features historical sites, museums, and a lunch at a famous local eatery. The bus will depart from the hotel lobby at 9:00 A.M. sharp.",
+    "question": "What is included in the city tour?",
+    "choices": [
+      "A meal at a popular restaurant",
+      "A flight to a nearby island",
+      "A visit to a beach",
+      "A seminar at the university"
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "The manager of the apartment complex warned that leaving personal items in the hallways is strictly prohibited because they obstruct emergency escape routes.",
+    "question": "What is forbidden in the apartment building?",
+    "choices": [
+      "Having pets in the rooms",
+      "Storing belongings in corridors",
+      "Playing loud music at night",
+      "Parking cars in front of the gate"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Ms. Channing, who has spearheaded our marketing strategies, is going to transition to the London headquarters. Before relocating, she must finalize the outstanding promotion project with her successor, Mr. Westmore.",
+    "question": "What is Ms. Channing expected to do before moving to London?",
+    "choices": [
+      "Hire a new assistant",
+      "Examine the accounting budget",
+      "Complete an ongoing project with Mr. Westmore",
+      "Launch a new product line"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Looks like the copy machine is out of order again.\nB: Rest assured, our maintenance crew will attend to it immediately. They should have it fixed in less than an hour.",
+    "question": "What does Speaker B imply will happen soon?",
+    "choices": [
+      "The copier will be repaired shortly.",
+      "A new machine will be purchased.",
+      "A meeting will be rescheduled.",
+      "Staff members will get extra training."
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "To enhance its brand presence, Apex Corp. decided to consolidate its local branches into a single state-of-the-art facility. This change will allow the enterprise to optimize its customer support.",
+    "question": "What is stated about Apex Corp.'s strategy?",
+    "choices": [
+      "It is closing its digital services.",
+      "It is expanding to overseas markets.",
+      "It will open more local offices.",
+      "It is merging its physical locations."
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "Because of the upcoming international summit, local hotels are rapidly being occupied. Travelers are advised to make reservations beforehand to avoid disappointment and secure their accommodation.",
+    "question": "What is recommended for travelers visiting the area?",
+    "choices": [
+      "To purchase travel insurance",
+      "To book a room in advance",
+      "To travel by train",
+      "To check the local weather forecast"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Overcoming financial difficulties, the city has finally devized a sequence of reforms to restore the historic library. These modifications will considerably enhance safety and accessibility.",
+    "question": "What did the city do for the historic library?",
+    "choices": [
+      "It demolished the building.",
+      "It hired more librarians.",
+      "It planned structural improvements.",
+      "It increased the borrowing fees."
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A: I'm struggling with these budget spreadsheets. Any chance you can help me out?\nB: Definitely. Let's look at them together after our lunch break in the cafeteria.",
+    "question": "What will the speakers most likely do after lunch?",
+    "choices": [
+      "Review some financial documents",
+      "Order some lunch items",
+      "Reschedule a staff meeting",
+      "Clean up the office desks"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "The treasurer reported that our excess of revenues over expenditures has more than doubled. Consequently, we can now allocate a larger budget to research and development.",
+    "question": "What does the report indicate about the company?",
+    "choices": [
+      "It is suffering from a massive deficit.",
+      "It will reduce its staff size.",
+      "It will relocate its headquarters.",
+      "Its financial situation has improved."
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "Please note that all sales are final. We cannot accept returns or exchanges unless a product has apparent defects that were present at the time of purchase.",
+    "question": "Under what condition can a product be returned?",
+    "choices": [
+      "If the customer finds a cheaper alternative",
+      "If the item is clearly damaged",
+      "If the receipt is lost",
+      "If the customer changes their mind"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Our highly knowledgeable guide will help you to explore Kyoto's historical sites. The tour departs daily from the main station, regardless of inclement weather.",
+    "question": "What is suggested about the Kyoto tour?",
+    "choices": [
+      "It will run even if it rains.",
+      "It is free for students.",
+      "It requires online registration.",
+      "It is held only on weekends."
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "A sequence of repairs is scheduled for the apartment complex's elevator next week. Residents should anticipate temporary out-of-service periods and plan to utilize the stairs.",
+    "question": "What are residents advised to do next week?",
+    "choices": [
+      "Contact the repair crew",
+      "Pay an extra maintenance fee",
+      "Park their cars outside",
+      "Use the stairwell instead"
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Lola, I noticed that the color printer in the design department isn't working properly.\nB: Again? Sakura Williams handled the repair request last month, so she might know what to do.\nA: OK, I'll go ask her to contact the maintenance crew right away before our meeting.",
+    "question": "What will the man most likely do next?",
+    "choices": [
+      "Repair the printer himself",
+      "Speak with Ms. Williams",
+      "Reschedule the meeting",
+      "Order new printing paper"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "Failure to observe the store policy regarding refunds may lead to the rejection of your request. Having purchased an item, you must present the original receipt within thirty days to obtain a reimbursement. Please note that custom-made products are completely ineligible for exchanges.",
+    "question": "What is required to receive a refund?",
+    "choices": [
+      "A validation code",
+      "A membership card",
+      "Proof of purchase",
+      "An online application form"
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "Featuring authentic Japanese cuisine, the newly opened eatery on the underground level has become highly popular. Only by utilizing locally sourced organic materials can our skilled chefs produce optimum flavors. We guarantee that your dining experience here will be both enjoyable and memorable.",
+    "question": "What is unique about the new restaurant?",
+    "choices": [
+      "It prepares dishes with local organic ingredients.",
+      "It offers free meals to university students.",
+      "It is located near the airport terminal.",
+      "It specializes in fast-food delivery."
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Hello, I have a reservation for a compact car, but I was told none are available.\nB: That is correct. Samantha, can we upgrade this client to a standard-size vehicle at no additional charge?\nC: Certainly. Just apply code one-zero-three to waive the extra fee.",
+    "question": "What is the outcome of the conversation?",
+    "choices": [
+      "The client is charged a cancellation fee.",
+      "The client gets a discount on fuel.",
+      "The client cancels their reservation.",
+      "The client receives a larger car for free."
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "Overcoming severe budget constraints, the city council successfully devised an innovative plan to restore the historic theater. Having secured sufficient funding from several prominent local enterprises, the project team will initiate the renovations next Monday, considerably enhancing the area's cultural value.",
+    "question": "How did the city council manage to fund the restoration project?",
+    "choices": [
+      "By increasing local residential taxes",
+      "By getting financial support from companies",
+      "By selling old artifacts to museums",
+      "By applying for a government loan"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Would you be able to e-mail me a rough estimate for the kitchen renovation?\nB: Honestly, I am unable to quote you without actually inspecting the site.\nA: I understand. How about visiting my apartment tomorrow afternoon around three?",
+    "question": "What does the man suggest?",
+    "choices": [
+      "Sending an estimate by e-mail",
+      "Buying new kitchen equipment",
+      "A face-to-face evaluation tomorrow",
+      "Rescheduling the renovation project"
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "Only candidates that fulfill the following requirements can apply for the research vacancy. Possessing a doctoral degree in chemistry, the successful applicant must also demonstrate outstanding communication skills. Please submit your application, including your references and portfolio, before the deadline.",
+    "question": "Who is eligible to apply for the position?",
+    "choices": [
+      "Individuals with a PhD in chemistry",
+      "Candidates with retail experience",
+      "Students who graduated this year",
+      "People with a background in accounting"
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "The prosperous boulevard is lined with boutique clothing stores, souvenir shops, and cafes. Among our priorities is ensuring that visitors have a pleasant experience. Consequently, we provide free shuttle bus services connecting the main parking area to the shopping district.",
+    "question": "What is indicated about the apartment complex?",
+    "choices": [
+      "It is situated across from a park.",
+      "It has a free swimming pool.",
+      "It was built by local volunteers.",
+      "It is currently fully occupied."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Tariq, can you help me prepare the materials for tomorrow's training workshop?\nB: Sure. I can definitely gather the documents and set up the equipment in the room.\nA: Great. I appreciate your commitment to making this session a success.",
+    "question": "What is the main purpose of the conversation?",
+    "choices": [
+      "To cancel a client presentation",
+      "To order new office computers",
+      "To schedule a business trip",
+      "To request assistance for a workshop"
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "Designed by a renowned architect, our new apartment complex features spacious living rooms and a modern fitness center. Residents can easily access a beautiful park located directly opposite the main entrance. Please contact our leasing agent to arrange a visit and explore our facilities.",
+    "question": "What is indicated about the apartment complex?",
+    "choices": [
+      "It is situated across from a park.",
+      "It has a free swimming pool.",
+      "It was built by local volunteers.",
+      "It is currently fully occupied."
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Narumi, did you manage to resolve the database access issue on your computer?\nB: Yes, but only after seeking help from an outside consultant specializing in AI software.\nA: That's reassuring. I'll head to her break room now to see if she can walk me through the solution before our presentation.",
+    "question": "What does the man intend to do?",
+    "choices": [
+      "Hire a training consultant",
+      "Get assistance from Narumi",
+      "Examine the database himself",
+      "Cancel the afternoon presentation"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "Believing that personalized customer service is crucial, we have implemented an innovative feedback system. Having analyzed the initial results, our management crew decided to adjust the delivery schedules to satisfy our corporate clients. Consequently, outstanding orders will be prioritized during busy holiday seasons.",
+    "question": "What did the company do to improve customer satisfaction?",
+    "choices": [
+      "It modified its delivery timetable.",
+      "It hired extra holiday staff.",
+      "It reduced prices on custom orders.",
+      "It closed its physical branches."
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "To revitalize its traditional business model, Zenith Corp. appointed a new CEO specializing in digital transformation. Under her visionary leadership, the enterprise not only doubled its profitability but also expanded into international markets, proving that traditional businesses can thrive in the modern era.",
+    "question": "What led to Zenith Corp.'s financial growth?",
+    "choices": [
+      "An increase in local taxes",
+      "The launch of a physical store",
+      "A change in top management",
+      "A merger with a retail competitor"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Is the boarding gate for flight 1226 to New York still the same?\nB: Actually, because of a maintenance delay, it was relocated to gate 35 on the upper floor.\nA: Oh, I'd better hurry then. My colleague is waiting for me at the cafe near the original gate.",
+    "question": "What is indicated about flight 1226?",
+    "choices": [
+      "It was canceled due to bad weather.",
+      "It will arrive in New York early.",
+      "It has already finished boarding.",
+      "Its departure point has been changed."
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "Only by submitting a certified copy of your birth certificate can you secure a passport for your upcoming voyage. Having obtained the document, you should contact the travel agency to finalize your reservation. Rest assured, our friendly customer support team will assist you with any inquiries.",
+    "question": "What must a person do before completing their travel booking?",
+    "choices": [
+      "Attend a training workshop",
+      "Acquire an official identity document",
+      "Pay an extra reservation fee",
+      "Submit a medical certificate"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: I'm concerned about the upcoming inspection of our construction site.\nB: Don't worry. I've already cleaned the laser level and checked all safety goggles.\nA: That's a relief. I'll make sure to double-check the blueprints tonight as well.",
+    "question": "Why is the man relieved?",
+    "choices": [
+      "Necessary preparations have been made.",
+      "The inspection was rescheduled.",
+      "He found a new blueprint designer.",
+      "The weather conditions improved."
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "Seeking ways to differentiate ourselves from existing competitors, we initiated preliminary negotiations concerning a capital alliance. Having finalized the merger, we anticipate that our market share will double within three years, considerably boosting employee morale and shareholder confidence.",
+    "question": "What was the main purpose of initiating negotiations?",
+    "choices": [
+      "To reduce office rental costs",
+      "To recruit high-quality managers",
+      "To gain a competitive edge",
+      "To change the product design"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "The premium for your insurance policy varies in accordance with the contingency against which you are insured. To ensure that you receive the optimum coverage, our agents will analyze your specific business risks and design a customized package tailored to your budgetary constraints.",
+    "question": "What determines the cost of the insurance policy?",
+    "choices": [
+      "The location of the retail store",
+      "The number of employees in the company",
+      "The duration of the coverage period",
+      "The specific risks being covered"
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Excuse me, does this city tour bus stop at the historical museum?\nB: Yes, but only on weekends. Today is Friday, so we will skip that stop and head directly to the waterfront.\nA: I see. I guess I'll have to adjust my itinerary and visit the museum tomorrow instead.",
+    "question": "Why will the bus not stop at the museum today?",
+    "choices": [
+      "Because the museum is closed.",
+      "Because it is a weekday.",
+      "Because of road construction.",
+      "Because of inclement weather."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "Undergoing a critical phase of transformation, the local museum has temporarily relocated its valuable artifacts to a secure storage facility. While the main gallery is closed for renovations, visitors can access our digital exhibits online at an affordable rate, ensuring continued cultural education.",
+    "question": "What is stated about the local museum?",
+    "choices": [
+      "Its physical gallery is closed for repairs.",
+      "It is hiring new security guards.",
+      "It recently purchased new artifacts.",
+      "It will be demolished next year."
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "Ms. Patel, who has spearheaded the marketing department for the past decade, will be stepping down next month. Her innovative strategies have consistently boosted our quarterly sales, establishing our brand as an industry leader. The board is currently interviewing external candidates to fill her position.",
+    "question": "What is implied about Ms. Patel's replacement?",
+    "choices": [
+      "The person will be promoted from within.",
+      "The person will change the current strategies.",
+      "The person will come from outside the organization.",
+      "The person will start working immediately."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: I am extremely disappointed with the delivery delay of the custom furniture I purchased in March.\nB: I apologize sincerely, Mr. McKenna. A shortage of premium V-shaped pattern fabrics slowed down our production process.\nA: Since my calls to your service center went unanswered, I expect a waived delivery charge to resolve this matter.",
+    "question": "What is most likely true about Mr. McKenna?",
+    "choices": [
+      "He received his custom furniture in March.",
+      "He tried to contact the company by telephone.",
+      "He chose the regular fabric option to save money.",
+      "He plans to cancel his entire order tomorrow."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "According to an informal survey, no more than 15% of local proprietors regard the current economic outlook as favorable. Fearing that things could get worse, many business owners have already begun cutting wages to sustain short-term profitability, with some even contemplating a complete suspension of their operations.",
+    "question": "What can be inferred about the local business environment?",
+    "choices": [
+      "Most owners are pessimistic about the economy.",
+      "Proprietors plan to expand their workforce.",
+      "Wages have been steadily increasing.",
+      "An official survey was recently published."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "To accommodate the increased passenger traffic expected for the city's 100th anniversary, the transit authority will operate trains under a special schedule next week. Commuters are strongly advised to check our website for the updated timetables, as historical district routes are anticipated to be particularly congested.",
+    "question": "What is implied about next week's train services?",
+    "choices": [
+      "They will be free for all passengers.",
+      "They will be suspended on weekdays.",
+      "They will follow the regular timetables.",
+      "More trains than usual will be running."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "A: I found an attractive mansion for sale in an affluent neighborhood, but the price is too high.\nB: Given the ongoing situation in real estate investments, things could get worse. Perhaps you should wait a few months.\nA: Good point. I'll monitor the market trends before making any commitments.",
+    "question": "What is implied about the current real estate market?",
+    "choices": [
+      "Mansion prices are expected to drop immediately.",
+      "It is currently a risky time to invest.",
+      "Affluent neighborhoods are losing popularity.",
+      "The mansion has already been sold."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "Joe was highly impressed by the entrepreneur's presentation, which was both informative and entertaining. Although Joe has academic credentials that satisfy the criteria for the research vacancy at her startup, he is not sure if he wants to leave his stable job at the prestigious accounting firm.",
+    "question": "What is implied about Joe's professional situation?",
+    "choices": [
+      "He was recently dismissed from his job.",
+      "He lacks the qualifications for the startup role.",
+      "He is currently unemployed and seeking work.",
+      "He is hesitating to change his employer."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Could I speak to whoever is in charge of recruitment in the human resources division?\nB: Mr. Westmore handles those inquiries, but he is currently away on business in Toronto.\nA: I see. Is there a telephone number where he can be reached during his trip?",
+    "question": "What is implied about Mr. Westmore?",
+    "choices": [
+      "He is not in his regular office today.",
+      "He has recently left the organization.",
+      "He is currently conducting an interview.",
+      "He works for a client in Toronto."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "The stationery shop has since changed its business hours, no longer operating seven days a week due to being short-staffed. To ensure that our loyal clients are not inconvenienced, we suggest placing bulk orders online. We waive the delivery charge for any transactions exceeding fifty dollars.",
+    "question": "What is suggested about the stationery shop?",
+    "choices": [
+      "It has closed its online catalog.",
+      "It is closed on at least one day of the week.",
+      "It recently hired more retail staff.",
+      "It charges extra fees for all home deliveries."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Did you submit the reimbursement forms for last week's conference on e-commerce?\nB: Not yet. I wasn't sure about the company policy regarding car rental rates.\nA: The company reimburses a standard rate of forty dollars per day, but you must attach the original receipt.",
+    "question": "What is implied about the reimbursement process?",
+    "choices": [
+      "The man will receive more than forty dollars a day.",
+      "Reimbursements are paid in cash immediately.",
+      "The conference registration fee is not covered.",
+      "The man must have kept his car rental receipt."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "Overcoming severe budgetary constraints, the municipal library has transitioned to a digital archive system. Consequently, physical book storage areas will be reorganized into study rooms, with many outdated volumes being donated to local schools, thereby maximizing the utility of the public space.",
+    "question": "What will happen to the library's physical building?",
+    "choices": [
+      "It will be demolished next month.",
+      "It will require an additional expansion fee.",
+      "It will feature more study spaces.",
+      "It will stop admitting students."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Our mission is searching for ways to differentiate ourselves from existing competitors, yet our recent performance appraisal system was completely devised by an outside agency with zero input from our actual team.\nB: I agree. Overcoming these difficulties and boosting employee morale requires a sequence of reforms that we should suggest directly to the board of directors next week.",
+    "question": "What does the woman imply about the performance appraisal system?",
+    "choices": [
+      "It has successfully boosted employee morale.",
+      "It was finalized by the internal R&D team.",
+      "It does not reflect the input of the employees.",
+      "It will be replaced by the board tomorrow."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "text": "Having received numerous customer complaints regarding our online patient scheduling portal, the clinic administration decided to adjust the system's security features. Although Sakura Williams is temporarily away on vacation, Sakura's colleague has successfully finalized the update. Consequently, scheduling remains unavailable until Sakura returns to verify the security protocols.",
+    "question": "What can be inferred about the online patient scheduling system?",
+    "choices": [
+      "It cannot be used by patients at the moment.",
+      "It was designed by an external recruitment firm.",
+      "It is currently being tested by Sakura Williams.",
+      "It will be permanently replaced next month."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "A critic familiar with Evans doubted the new CEO could revitalize their business for the duration of his tenure. What we learned afterwards was that Evans was run by executives lacking managerial expertise, whose decisions led to an innovative performance appraisal system being abolished and arbitrary numerical quotas being reinstated instead.",
+    "question": "What is implied about the company under the previous executives?",
+    "choices": [
+      "It hired a highly qualified consulting firm.",
+      "Its management choices were poorly received.",
+      "It successfully expanded its international market share.",
+      "Its revenue doubled during the CEO's tenure."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: The conference on e-commerce is scheduled next month, but we have yet to finalize our travel budget.\nB: Standard daily car rental rates are forty dollars, but if we book our accommodation and transport together on the hotel website beforehand, we can save up to twenty percent on the overall expenditure.",
+    "question": "What does the woman suggest to reduce the trip cost?",
+    "choices": [
+      "Canceling the car rental service",
+      "Shortening the duration of their stay",
+      "Hiring a local travel guide",
+      "Using a combined booking package"
+    ],
+    "answer": 3,
+    "difficulty": 9
+  },
+  {
+    "text": "In keeping with the town council's theme of environmental sustainability, the renovation of the municipal library has utilized only recyclable materials like glass, plastics, and metals. While the physical facility will be temporarily closed for the duration of the reconstruction phase, members can continue to borrow digital publications via our website.",
+    "question": "What is implied about the municipal library?",
+    "choices": [
+      "It will close its services permanently.",
+      "It is purchasing more paper-based books.",
+      "Its physical building is undergoing reconstruction.",
+      "It has hired a new team of librarians."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "text": "A: I am having trouble finding a certified copy of my birth certificate, which is required for my passport application.\nB: If you fail to submit it to the agency before the end of the month, your upcoming voyage to London might have to be rescheduled.\nA: True. I'd better search my desk drawers again.",
+    "question": "What will happen if the man does not find his certificate soon?",
+    "choices": [
+      "His trip to London may be delayed.",
+      "He will be charged an additional fee.",
+      "He will lose his job at the accounting firm.",
+      "He must cancel his apartment rental contract."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "To maintain consistency across our international branches, the regional director emphasized that all prospective employees must undergo rigorous training sessions. Furthermore, failure to observe our strict dress code during these sessions will result in immediate disqualification, regardless of the applicant's prior academic credentials or prestigious achievements.",
+    "question": "What can be inferred about the company's training policy?",
+    "choices": [
+      "It is only held on the upper floor of the building.",
+      "It prioritizes adherence to rules over qualifications.",
+      "It is voluntary for experienced candidates.",
+      "It was completely designed by an external recruitment agency."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "While driving in an affluent neighborhood, I came across a 'For Sale' sign on an attractive mansion. To determine if the property is a viable investment, I requested a rough estimate of the maintenance fees, which revealed that the annual expenditure exceeds the average household budget in the region.",
+    "question": "What did the writer discover about the mansion?",
+    "choices": [
+      "It has been occupied for ten years.",
+      "It is located near Lafayette Park.",
+      "It was designed by a local architect.",
+      "Its maintenance cost is extremely high."
+    ],
+    "answer": 3,
+    "difficulty": 9
+  },
+  {
+    "text": "A: The flight schedule shows that our connecting flight to Toronto departs in less than forty minutes.\nB: Given the current congestion at the security checkpoint, we will likely miss the boarding time unless we ask the staff for priority assistance.\nA: Good idea. Let's find an agent to guide us through the fast-track lane immediately.",
+    "question": "What is implied about the speakers?",
+    "choices": [
+      "They have already missed their flight.",
+      "They are in a hurry to catch a plane.",
+      "They plan to stay in Toronto for a week.",
+      "They want to reschedule their vacation trip."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "To accommodate the upcoming literary awards competition, the spacious municipal hall will undergo critical transformation next week. Consequently, our regular weekly art exhibitions will be temporarily suspended, but visitors can still browse the collection online at an affordable rate on our website, ensuring continued support for local creators.",
+    "question": "What can be inferred about the municipal hall's schedule next week?",
+    "choices": [
+      "Art exhibitions will not be held inside the hall.",
+      "The hall will be closed to all visitors entirely.",
+      "A new R&D seminar will be held on Monday.",
+      "The hall will buy more valuable artifacts."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  }
+]

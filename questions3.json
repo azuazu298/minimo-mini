@@ -1,0 +1,1082 @@
+[
+  {
+    "text": "Mr. So-Jin has been promoted to director of the Logistics department. He will assume his new responsibilities starting next Saturday.",
+    "question": "When will Mr. So-Jin start his new role?",
+    "choices": [
+      "In February",
+      "Next Saturday",
+      "This afternoon",
+      "Next month"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The Café will be closed on next Sunday for an annual inventory check. We apologize for any inconvenience caused to our customers.",
+    "question": "Why will the store be closed on Sunday?",
+    "choices": [
+      "To train new employees",
+      "To perform an inventory check",
+      "To relocate to San Francisco",
+      "To renovate the dining area"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Momenox Enterprises officially released its latest printer yesterday. This new device features a longer battery life of up to thirty hours.",
+    "question": "What product did Momenox Enterprises release yesterday?",
+    "choices": [
+      "A customized scanner",
+      "A new printer",
+      "A smart television",
+      "An operating system"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The annual technology conference will take place at the Grand Hotel in Doha on June 34. Registration closes tomorrow.",
+    "question": "Where will the conference be held?",
+    "choices": [
+      "In a library basement",
+      "At the Zenith Solutions office",
+      "Online via Super Speed Automotive",
+      "At the Grand Hotel in Doha"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "The Baltimore Public Library is offering free computer workshops every Monday morning. These classes are designed for local senior citizens.",
+    "question": "Who are the workshops intended for?",
+    "choices": [
+      "Professional programmers",
+      "High school students",
+      "Library staff members",
+      "Local senior citizens"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "I am planning to meet Ms. Rodriguez at the Stationery Shop tomorrow at 10:00 P.M.. Let me know if you would like to join us.",
+    "question": "What is the speaker planning to do tomorrow?",
+    "choices": [
+      "Attend a meeting in Seattle",
+      "Meet Ms. Rodriguez at a Stationery Shop",
+      "Apply for a job at Luxor Fixtures",
+      "Purchase a new projector"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "All employees must submit their weekly timesheets to the Research and Development manager by Friday at 5:00 P.M. to avoid any payroll delays.",
+    "question": "What is the deadline for submitting timesheets?",
+    "choices": [
+      "Friday at 5:00 P.M.",
+      "Tomorrow morning",
+      "Next June",
+      "Today at noon"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "Order #363 has been shipped from our warehouse in Doha. It is scheduled to be delivered to your address on Monday.",
+    "question": "Where was the order shipped from?",
+    "choices": [
+      "The Borpact Limited office",
+      "A local distribution center",
+      "A retail outlet in Singapore",
+      "A warehouse in Doha"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Flight 602 to Seattle has been delayed due to severe weather conditions. Passengers should check the monitors for gate updates.",
+    "question": "Why is the flight delayed?",
+    "choices": [
+      "Because of bad weather",
+      "For a pilot inspection",
+      "Due to mechanical issues",
+      "To wait for late passengers"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "The local museum is offering a twenty percent discount on admission tickets during the month of December for residents of San Francisco.",
+    "question": "What is offered during December?",
+    "choices": [
+      "Free parking in the basement",
+      "A complimentary projector",
+      "A guided tour of San Francisco",
+      "A discount on museum admission"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Ms. Lisa Rodriguez is organizing a retirement luncheon for Hank next Saturday. Please RSVP to her by Friday if you plan to attend.",
+    "question": "Who is the luncheon being held for?",
+    "choices": [
+      "New candidates",
+      "The Sales team",
+      "Ms. Lisa Rodriguez",
+      "Hank"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "Customers who purchase any smartwatch at our store in Baltimore this week will receive a free protective case as a special gift.",
+    "question": "What do customers receive with a purchase?",
+    "choices": [
+      "A cash refund of $14",
+      "An extended warranty",
+      "A free protective case",
+      "A discount coupon"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Borpact Limited announced yesterday that its quarterly revenue has increased by fifteen percent compared to the same period last year.",
+    "question": "What did Borpact Limited announce yesterday?",
+    "choices": [
+      "A merger with Novanic Services",
+      "A new marketing campaign",
+      "The retirement of Robert Chen",
+      "An increase in quarterly revenue"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "The annual community arts festival will be held at San Francisco Park on next Friday from 3:30 A.M. until 4:00 P.M.. Entrance is free for everyone.",
+    "question": "At what time does the arts festival begin?",
+    "choices": [
+      "In the evening",
+      "Next Friday",
+      "At 4:00 P.M.",
+      "At 3:30 A.M."
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "The water supply to all apartments in the Momenox Enterprises residential building will be temporarily suspended this Thursday from 12:30 A.M. to 8:00 P.M..",
+    "question": "What will happen on Thursday?",
+    "choices": [
+      "A fire drill will take place",
+      "Elevator maintenance will occur",
+      "Water supply will be suspended",
+      "A safety inspection will start"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "James O'Connor recommended a new Italian restaurant on London Boulevard. I want to check it out this weekend.",
+    "question": "What did James O'Connor recommend?",
+    "choices": [
+      "A movie theater in London",
+      "A travel agency",
+      "A new projector",
+      "An Italian restaurant"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "The Accounting team will hold a brief meeting tomorrow at 11:30 A.M. in Conference Room B to discuss the upcoming project schedule.",
+    "question": "Which conference room will the team use?",
+    "choices": [
+      "The cafeteria",
+      "Conference Room A",
+      "Conference Room B",
+      "The Research and Development office"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "If you are not satisfied with your projector, you can return it within thirty days of purchase for a full refund.",
+    "question": "How long do customers have to return the product?",
+    "choices": [
+      "Two months",
+      "One week",
+      "Thirty days",
+      "Next Thursday"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "The tour bus for the London historic district departs promptly at 1:30 A.M. from the main entrance of the visitor center.",
+    "question": "Where does the tour bus depart from?",
+    "choices": [
+      "The local railway station",
+      "The Grand Hotel in Singapore",
+      "The visitor center main entrance",
+      "Albrecht Creations headquarters"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Due to scheduled electrical maintenance, the community sports center will close early at 6:00 P.M. this coming Tuesday.",
+    "question": "Why will the sports center close early?",
+    "choices": [
+      "To host a tournament",
+      "For staff training",
+      "For electrical maintenance",
+      "Because of a local holiday"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Luxor Fixtures has decided to consolidate its local branch offices. Consequently, the Research and Development and Sales teams will be relocated to our new centralized headquarters in downtown Singapore next November.",
+    "question": "What is indicated about the teams?",
+    "choices": [
+      "They will be merged into a single department.",
+      "They will work remotely from next November.",
+      "They are hiring new supervisors.",
+      "They will move to a new office in downtown Singapore."
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "We are currently experiencing a temporary shortage of our popular projector models. However, we anticipate a new shipment will arrive from our supplier on July 32. You may pre-order yours today to secure one.",
+    "question": "What does the store suggest customers do?",
+    "choices": [
+      "Place a pre-order to secure the product",
+      "Purchase an alternative model",
+      "Request a discount voucher",
+      "Visit another store in Sydney"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "In a recent interview, Ms. Ms. Hewett, CEO of Momenox Enterprises, outlined her vision for sustainable expansion. The firm plans to invest $296 in eco-friendly manufacturing technologies over the next two years.",
+    "question": "What is the focus of Momenox Enterprises's planned investment?",
+    "choices": [
+      "Upgrading the customer database",
+      "Opening retail outlets in Toronto",
+      "Environmentally friendly technologies",
+      "Expanding the marketing department"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "All registered participants for the Seattle Marathon must pick up their race packets at the sports complex prior to Monday. Please bring a valid photo identification card and your registration confirmation email.",
+    "question": "What must marathon participants do before Monday?",
+    "choices": [
+      "Register online via the website",
+      "Collect their race packets",
+      "Pay an additional fee of $33",
+      "Submit a health certificate"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The New York Botanical Garden will soon open its new glass greenhouse, which houses exotic plant species from around the world. Members of the Horticultural Society are invited to a special preview on January 44.",
+    "question": "Who is eligible to attend the special preview on January 44?",
+    "choices": [
+      "The general public of New York",
+      "Botanical Garden staff only",
+      "High school biology students",
+      "Horticultural Society members"
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "Lisa Rodriguez is looking for a volunteer opportunity in San Francisco. She mentioned that she is interested in tutoring children in mathematics at the community center, which is located just around the corner from her apartment.",
+    "question": "What kind of volunteer work is Lisa Rodriguez interested in?",
+    "choices": [
+      "Organizing a charity event",
+      "Assisting senior citizens",
+      "Planting trees in the park",
+      "Teaching math to children"
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "Ms. Hank has completed the draft of the new safety guidelines for the warehouse staff. She requests that all department supervisors review the manuscript and provide their feedback by next Sunday.",
+    "question": "What are supervisors asked to do by next Sunday?",
+    "choices": [
+      "Order new protective gear",
+      "Provide feedback on the draft guidelines",
+      "Submit their vacation requests",
+      "Conduct a safety drill in the warehouse"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Due to a technical glitch, some customers were double-billed for their subscriptions last month. Novanic Services is currently processing corrections and will apply a credit of $44 to the affected accounts automatically.",
+    "question": "What will Novanic Services do to resolve the billing issue?",
+    "choices": [
+      "Send a check to each customer",
+      "Apply a credit to affected accounts",
+      "Cancel last month's subscriptions",
+      "Offer a discount on the next purchase"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The express train service between Doha and San Francisco will experience delays next week due to track maintenance work near the central station. Passengers are advised to allow an extra thirty minutes of travel time.",
+    "question": "What is the reason for the train delays?",
+    "choices": [
+      "A strike by railway employees",
+      "Track maintenance operations",
+      "Severe weather conditions",
+      "An unexpected power failure"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The landlord of the San Francisco apartment complex announced that the main parking garage will undergo resurfacing. Residents must park their vehicles in the temporary designated outer lot starting this Thursday.",
+    "question": "Where should residents park their vehicles starting Thursday?",
+    "choices": [
+      "At the local shopping center",
+      "In the temporary outer lot",
+      "In the basement of Albrecht Creations",
+      "Along the main street"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Zenith Solutions is transitioning to a new digital filing system next December. To ensure a smooth transition, the IT department will host mandatory training sessions for all administrative personnel throughout next week.",
+    "question": "What is the main purpose of the training sessions?",
+    "choices": [
+      "To explain the company's dress code",
+      "To introduce a marketing database",
+      "To demonstrate how to use new scanners",
+      "To prepare staff for a new filing system"
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "Our records show that your annual membership at Shamrock Studio is set to expire on February 7. If you renew your membership online before that date, you will receive a ten percent discount on your next purchase.",
+    "question": "What benefit is offered for early online renewal?",
+    "choices": [
+      "A waiver of the late payment fee",
+      "Free delivery on all orders",
+      "A complimentary projector",
+      "A ten percent purchase discount"
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "Evans Ltd. has acquired the local publication, Luxor Fixtures Weekly, for $322. Under the leadership of Ms. John Smith, the publication will shift its focus toward digital content and expand its coverage of local businesses.",
+    "question": "What change is planned for the acquired publication?",
+    "choices": [
+      "A move to a new headquarters in Toronto",
+      "A shift toward digital content",
+      "The hiring of a new chief editor",
+      "An increase in advertising fees"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The registration desk for the annual medical symposium will open at 2:30 A.M. on Saturday in the lobby of the Toronto Convention Center. Please ensure you have your confirmation code ready for faster check-in.",
+    "question": "What should attendees bring to check in quickly?",
+    "choices": [
+      "A valid passport",
+      "An electronic receipt for $10",
+      "A copy of their resume",
+      "Their registration confirmation code"
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "The city council announced a new initiative to upgrade public parks in Singapore. The project, which begins next March, will include installing energy-efficient lighting, planting native trees, and repairing the walking paths.",
+    "question": "What will the upcoming park project include?",
+    "choices": [
+      "Building a new community pool",
+      "Constructing a visitor center",
+      "Expanding the parking lot capacity",
+      "Repairing the walking paths"
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "I spoke with Ms. Patel from the Marketing department, and she suggested we check the inventory database. There might be some spare tablet models in the storage room on the second floor.",
+    "question": "Where does the speaker think the spare models might be?",
+    "choices": [
+      "At the Baltimore branch office",
+      "At a local retail outlet",
+      "In the second-floor storage room",
+      "In the Luxor Fixtures warehouse"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Mr. Michael Chang has requested a detailed list of all expenses incurred during the business trip to Baltimore last week. Please submit all receipts and the reimbursement form to the accounting office by Friday.",
+    "question": "Who should receive the reimbursement forms and receipts?",
+    "choices": [
+      "The Research and Development manager",
+      "The accounting office",
+      "Mr. Michael Chang",
+      "The client in Baltimore"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "To request an exchange or refund for your purchase, please present the original receipt and ensure the item is in its original packaging. Please note that promotional items are eligible only for store credit.",
+    "question": "What is indicated about promotional items?",
+    "choices": [
+      "They must be returned within next Saturday.",
+      "They can only be returned for store credit.",
+      "They are ineligible for any returns.",
+      "They can be exchanged for scanners."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Due to a scheduling conflict, the keynote address by Dr. Dr. Sharma has been moved to Room 402 of the conference hall. The presentation will still begin at the originally scheduled time of 2:00 P.M..",
+    "question": "What change has been made to the presentation?",
+    "choices": [
+      "It will cover a different topic.",
+      "It will be held in a different room.",
+      "It has been rescheduled for next Saturday.",
+      "It will feature a different speaker."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The local utility company, Evans Ltd., will perform routine safety inspections of gas pipelines throughout the neighborhood this week. Residents do not need to be home unless they receive a separate notice.",
+    "question": "Who will perform the safety inspections?",
+    "choices": [
+      "The utility company, Evans Ltd.",
+      "The city fire department",
+      "A local construction firm",
+      "An independent safety inspector"
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "Our company has recently experienced a significant boost in sales of our smartphone models. To sustain this momentum, the board has approved the allocation of additional resources to the Accounting department for hiring external marketing consultants.",
+    "question": "What did the board approve to support the Accounting department?",
+    "choices": [
+      "Additional resources to hire consultants",
+      "An upgrade to the office computer network",
+      "A move to a larger facility in Doha",
+      "An increase in employee salaries"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "We apologize for the delay in processing your order #841. Due to a temporary shortage of components at our manufacturing plant, shipping is expected to take an additional week. We will waive the delivery charge to apologize.",
+    "question": "What will the company do to compensate for the shipping delay?",
+    "choices": [
+      "Waive the delivery fee",
+      "Apply a fifty percent discount",
+      "Provide a full cash refund of $256",
+      "Send a complimentary scanner"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "The upcoming issue of Borpact Limited Magazine will feature a profile on Ms. Ms. Patel, who successfully spearheaded the restructuring of Albrecht Creations. The article will focus on her innovative strategies that dramatically improved employee morale.",
+    "question": "Who will be profiled in the upcoming magazine issue?",
+    "choices": [
+      "A local business reporter",
+      "An editor of Borpact Limited Magazine",
+      "An investor from Doha",
+      "Ms. Ms. Patel"
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "All delegates attending the global climate summit in Toronto are invited to a networking reception on Saturday evening in the hotel's spacious banquet hall. Complimentary refreshments and local delicacies will be served from 12:00 P.M..",
+    "question": "What event is scheduled for Saturday evening?",
+    "choices": [
+      "A networking reception",
+      "A guided tour of Toronto",
+      "A panel discussion on energy",
+      "The opening keynote address"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "The local community center will temporarily host an exhibition of historical artifacts from June 13. To accommodate the exhibits, the center's standard recreational classes will be relocated to the public library annex.",
+    "question": "Why will the standard classes be held at the library annex?",
+    "choices": [
+      "To reduce the rental costs of the facility",
+      "Due to a scheduled heating repair in the building",
+      "Because the community center is hosting an exhibition",
+      "Because the sports complex is being renovated"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "I tried calling Lisa Rodriguez to ask about the feedback on the smartphone manual, but her line was busy. I will send her an email instead and request that she review the final draft before our team meeting next Sunday.",
+    "question": "How does the speaker plan to contact Lisa Rodriguez?",
+    "choices": [
+      "By visiting her in the Customer Service office",
+      "By sending an email",
+      "By calling her supervisor",
+      "By texting her mobile phone"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "The HR director has introduced a new policy regarding the usage of the company database. To protect sensitive customer information, employees are now required to update their passwords every sixty days.",
+    "question": "What does the new company database policy require?",
+    "choices": [
+      "Updating passwords every sixty days",
+      "Enrolling in a safety training course",
+      "Restricting database access to directors",
+      "Reporting errors to the IT department"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "Please note that our store hours will vary during the holiday season. From July 15 through January 5, we will extend our operating hours, opening at 8:00 A.M. and closing at 10:00 P.M. daily to better serve our shoppers.",
+    "question": "What is indicated about the store's operations?",
+    "choices": [
+      "Free shipping will be offered for online orders.",
+      "A new store will open in downtown Sydney.",
+      "Operating hours will be extended during holidays.",
+      "Prices of all laptops will be reduced."
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "Due to a technical problem with the online ticket booking system, the reservation portal for the upcoming theater festival will be shut down for maintenance this Monday from 2:30 A.M. until 12:00 P.M.. We appreciate your patience.",
+    "question": "What is the reason for shutting down the portal?",
+    "choices": [
+      "A change in the festival's schedule",
+      "An upgrade to the seat selection map",
+      "A sell-out of all admission tickets",
+      "Technical issues with the online system"
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "The local city hall has announced that starting next week, residents must register all domestic pets through the new online platform. The previous paper registration forms will no longer be accepted by the city administration.",
+    "question": "How must local residents register their pets starting next week?",
+    "choices": [
+      "By submitting a mailed application form",
+      "Through their veterinarian clinic",
+      "By visiting the city clerk's office",
+      "Through a new online platform"
+    ],
+    "answer": 3,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Hi, Emily Watson. Are you ready for the Research and Development presentation on Saturday?\nB: Actually, I'm waiting for Nick to finish the financial statements.\nA: She told me she would complete them by 6:00 P.M. today.\nB: Great. Once she delivers them, I can finalize the slide deck.",
+    "question": "What is Emily Watson waiting for before finalising the slide deck?",
+    "choices": [
+      "Approval from the Research and Development director",
+      "Feedback from the marketing team",
+      "The latest quarterly sales data",
+      "The financial statements from Nick"
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Welcome to Stationery Shop, how can I help you today?\nB: Hello. I bought this printer last week, but it seems to have a cracked screen.\nA: Oh, I apologize for that. If you have the receipt, I can exchange it for a new one immediately.\nB: Yes, I have it right here in my bag.",
+    "question": "What is the customer's main reason for visiting the store?",
+    "choices": [
+      "To ask about the store's warranty policy",
+      "To exchange a damaged printer",
+      "To request a refund of $366",
+      "To purchase a protective screen cover"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Have you read the draft of the press release for Borpact Limited?\nB: Yes, it's concise, but I think we should emphasize our new sustainable practices in Baltimore.\nA: Good point. I'll revise that section before we publish it on Sunday.\nB: Perfect, let's look at the revised draft tomorrow morning.",
+    "question": "What does the woman suggest adding to the press release?",
+    "choices": [
+      "The total cost of the upcoming project",
+      "Information about sustainable practices",
+      "A list of retail locations in Baltimore",
+      "A quote from the chief executive officer"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "To guarantee a comfortable workplace atmosphere, Super Speed Automotive has implemented strict regulations concerning the conference center. All delegates must display their official badges at all times. Failure to conform to this policy will result in a suspension of facility access.",
+    "question": "What will happen if a delegate does not display their badge?",
+    "choices": [
+      "They will be required to leave the city of San Francisco.",
+      "They will be asked to contact the supervisor.",
+      "They will be fined an additional amount.",
+      "Their access to the facility will be suspended."
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "Only candidates who fulfill the following strict academic credentials can apply for the Toronto Historical Research Grants. All applications, including a detailed research proposal and three professional recommendations, must be submitted to the committee before the end of January.",
+    "question": "What is a requirement for applying for the research grants?",
+    "choices": [
+      "Completing a three-week internship",
+      "Having a recommendation from Ms. Betty",
+      "Being a resident of downtown Toronto",
+      "Fulfilling specific academic credentials"
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "Sushma is highly optimistic about the upcoming community garden project. She recently organized a local volunteer group to clear the vacant lot near the subway station and plans to begin planting vegetable seeds early next April.",
+    "question": "Where is the new community garden project located?",
+    "choices": [
+      "Near the local subway station",
+      "Behind the public library annex",
+      "In the courtyard of Zenith Solutions",
+      "Along the main canal in Baltimore"
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "Our mission is searching for innovative ways to differentiate ourselves from potential competitors. Therefore, the manager has proposed outsourcing our standard data-entry work so that our internal team can focus solely on creative product development.",
+    "question": "What does the manager suggest outsourcing?",
+    "choices": [
+      "Social media advertising campaigns",
+      "Standard data-entry operations",
+      "The recruitment of new candidates",
+      "Customer database maintenance work"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "Borpact Limited has recently changed its business hours, no longer operating on weekends due to a severe shortage of administrative staff. We apologize for the inconvenience and encourage customers to utilize our digital platform for transactions.",
+    "question": "What is the reason for the change in business hours?",
+    "choices": [
+      "An upgrade to the checkout terminal system",
+      "A decline in the number of weekend shoppers",
+      "A shortage of administrative personnel",
+      "A request from the local city council"
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "The scenic railway tour through the valley is scheduled to resume operations on March 27. Because of the high demand during the summer season, travelers are strongly encouraged to purchase their tickets online at least two weeks in advance.",
+    "question": "What are travelers encouraged to do?",
+    "choices": [
+      "Book a stay at the valley resort",
+      "Consult a local travel consultant",
+      "Buy railway tickets online in advance",
+      "Register for the loyalty program"
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "The local sports complex is undergoing major repairs to fix a water leak in the main swimming pool. As a result, the indoor pool facility will remain closed until next Monday, while the outdoor courts will operate on a regular schedule.",
+    "question": "Which part of the sports complex will be closed until Monday?",
+    "choices": [
+      "The fitness training room",
+      "The main registration lobby",
+      "The outdoor tennis courts",
+      "The indoor swimming pool"
+    ],
+    "answer": 3,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Nick, did you hear that the Customer Service department is relocating to New York?\nB: Yes, So-Jin mentioned it yesterday. She said the move is scheduled for next December.\nA: That's a huge transition. Will the company offer any travel allowance?\nB: Yes, they will cover all moving expenses for current employees.",
+    "question": "What is indicated about the company's relocation to New York?",
+    "choices": [
+      "All administrative roles will be outsourced.",
+      "The transition will take place next week.",
+      "Employees must apply for a new position.",
+      "Moving expenses will be covered for staff."
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Excuse me, I'm looking for the latest model of the scanner.\nB: I'm sorry, but we currently have a temporary shortage due to high demand.\nA: Oh, that's disappointing. When do you expect a new shipment to arrive?\nB: We anticipate receiving more stock from our supplier on next Saturday.",
+    "question": "What is the main problem discussed in the conversation?",
+    "choices": [
+      "The customer received a defective item.",
+      "The price of the device has increased.",
+      "The store will be closed next Saturday.",
+      "The requested scanner is out of stock."
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "A: The city council is proposing a new park project in downtown Sydney.\nB: I saw that on the news. They want to install energy-efficient lighting.\nA: Yes, and they also plan to plant native trees along the paths.\nB: That will certainly improve the overall atmosphere of the area.",
+    "question": "What is a planned feature of the new downtown park project?",
+    "choices": [
+      "A parking garage under the complex",
+      "A public library annex in the center",
+      "The installation of energy-efficient lights",
+      "A modern playground for local children"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "According to a recent press release, Borpact Limited will soon initiate preliminary negotiations concerning a capital alliance with Momenox Enterprises. Overcoming regulatory difficulties boosted their confidence, and they expect to finalize the agreement by the end of November.",
+    "question": "What is the main topic of the press release?",
+    "choices": [
+      "The retirement of Ms. Ms. Patel",
+      "Negotiations for a capital alliance",
+      "The launch of a new marketing database",
+      "A decline in quarterly sales of tablets"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "For security reasons, all passengers traveling through the international terminal must print their boarding passes prior to arrival. If you want your luggage processed quickly, make sure that a self-addressed, stamped shipping tag is enclosed on each bag.",
+    "question": "What are passengers instructed to do with their bags?",
+    "choices": [
+      "Keep them under thirty kilograms",
+      "Check them in at the Luxor Fixtures desk",
+      "Attach a stamped shipping tag",
+      "Submit them for an electrical inspection"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "David Miller was incredibly helpful in resolving the issue with our home internet connection. She recommended a local technician who arrived promptly on Saturday morning and successfully repaired the damaged wiring in our basement within an hour.",
+    "question": "What was the result of the technician's visit on Saturday?",
+    "choices": [
+      "The electrical outlets were upgraded.",
+      "The home internet connection was repaired.",
+      "A new computer network was installed.",
+      "A water leak in the basement was fixed."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "Ms. Mr. Takizawa has spearheaded the marketing department for the past decade, consistently boosting our quarterly sales with her innovative strategies. The board is currently interviewing external candidates to fill her position after she steps down next month.",
+    "question": "What is indicated about the search for Ms. Mr. Takizawa's replacement?",
+    "choices": [
+      "The recruitment process has been outsourced.",
+      "The candidate must have ten years of experience.",
+      "The company is interviewing external candidates.",
+      "The new manager will come from within the firm."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "Due to scheduled road repairs on Singapore Boulevard, our home delivery service will experience slight delays this coming weekend. We apologize for the inconvenience and will offer a five dollar coupon to all affected households.",
+    "question": "What is the reason for the upcoming delivery delays?",
+    "choices": [
+      "A technical glitch in the order database",
+      "A shortage of delivery truck drivers",
+      "Severe weather in the Singapore area",
+      "Scheduled road repair operations"
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "The annual corporate retreat will be held at the Lakeside Resort from May 36 to 36. Employees who face scheduling conflicts must notify Audrey Walters, the administrative director, at least two weeks before the event.",
+    "question": "Who should employees contact regarding scheduling conflicts?",
+    "choices": [
+      "The Lakeside Resort manager",
+      "The Human Resources department",
+      "Ms. Ms. Hewett",
+      "Audrey Walters"
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "A sequence of reforms enabled the city hospital to considerably enhance its operational efficiency. By upgrading their customer database and simplifying the patient registration process, the administrative staff reduced average waiting times by thirty percent.",
+    "question": "What led to the reduction in hospital waiting times?",
+    "choices": [
+      "Expanding the size of the main facility",
+      "Hiring additional medical personnel",
+      "Purchasing new diagnostic scanners",
+      "Simplifying the registration process"
+    ],
+    "answer": 3,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Ms. Emily Watson, I'm concerned about the budget constraints for the Accounting campaign.\nB: I know the deficit has doubled over the past year, but we must produce optimum results.\nA: Should we reduce our spending on newspaper ads and focus solely on social media?\nB: Yes. That would allow us to target our prospective audience much more effectively.",
+    "question": "What is implied about the company's advertising strategy?",
+    "choices": [
+      "They will increase the budget for the Accounting team.",
+      "They will launch a new software next month.",
+      "They will decrease their print media advertising.",
+      "They plan to hire an external marketing consultant."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Welcome to Supermarket. Did you find everything you were looking for?\nB: Yes, but I noticed the price on this scanner is different from the one on the shelf.\nA: Ah, the clearance sale ended yesterday, so the system reverted to the standard price.\nB: Oh, I see. I'll take it anyway, but the shelf tag should probably be updated.",
+    "question": "What is implied about the scanner?",
+    "choices": [
+      "It is currently out of stock in the warehouse.",
+      "It was incorrectly placed on the shelf.",
+      "It is no longer offered at a discounted price.",
+      "It was manufactured by a competing firm."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Have you reviewed the rental contract for the office space in downtown Seattle?\nB: Yes, but the clause regarding the maintenance of utilities seems a bit ambiguous.\nA: I agree. We should request a written clarification before we sign it on next Monday.\nB: Definitely. Let's call the property owner's representative this afternoon.",
+    "question": "What is most likely true about the speakers?",
+    "choices": [
+      "They are dissatisfied with the location in Seattle.",
+      "They have already paid the security deposit of $83.",
+      "They plan to relocate their headquarters immediately.",
+      "They want to clarify the contract terms before signing."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "Consequently, numerical quotas were abolished in the sales department, and an innovative performance appraisal system was devised. Furthermore, an in-house newsletter was published regularly to motivate personnel, which ultimately boosted employee morale and resulted in a twenty percent increase in quarterly sales.",
+    "question": "What is implied about the previous quota system?",
+    "choices": [
+      "It was highly popular among department supervisors.",
+      "It was not effective in motivating the staff.",
+      "It required the usage of a complex database.",
+      "It was maintained by an external consultant."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "The stationery shop has since changed its business hours, no longer operating seven days a week due to severe budgetary constraints. While we understand this may cause inconvenience, customers can still purchase our products through our online catalog with free delivery for bulk orders.",
+    "question": "What is implied about the stationery shop?",
+    "choices": [
+      "It is trying to reduce its operating expenses.",
+      "It will close down its operations permanently soon.",
+      "It primarily targets corporate office clients.",
+      "It has relocated its physical store to Seattle."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "According to an informal survey, no more than fifteen percent of proprietors regard the current economic outlook as favorable. As the economy deteriorated, many local businesses cut wages and postponed capital investments to sustain short-term profitability during the recession.",
+    "question": "What does the survey imply about local business owners?",
+    "choices": [
+      "They plan to expand their operations to London soon.",
+      "They are planning to hire more administrative staff.",
+      "The majority of them are pessimistic about the economy.",
+      "They have received financial support from the city."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "Our mission is searching for ways to differentiate ourselves from existing and potential competitors in the luxury travel sector. Rather than reducing ticket prices, we will focus on providing personalized concierge services and complimentary access to airport lounges for all business-class passengers.",
+    "question": "What is implied about the company's competitive strategy?",
+    "choices": [
+      "They are outsourcing their customer service operations.",
+      "They will target budget-conscious travelers.",
+      "They plan to consolidate their routes to Seattle.",
+      "They aim to compete on service quality rather than price."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "The city council's decision to suspend parking enforcement on weekends was intended to stimulate business for local merchants. However, several residents have complained that finding parking near their apartments has become nearly impossible, prompting calls for a revised policy.",
+    "question": "What is implied about the weekend parking policy?",
+    "choices": [
+      "It was implemented without any public notice.",
+      "It will be replaced by a new parking permit system.",
+      "It failed to attract more shoppers to the area.",
+      "It had an unintended negative impact on residents."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "Emily Watson mentioned that the local community pool is desperately short-staffed this summer. Although they have advertised several positions for lifeguards, they have received very few applications, which may force them to shorten their daily operating hours next month.",
+    "question": "What is most likely true about the community pool?",
+    "choices": [
+      "It is struggling to recruit sufficient employees.",
+      "It is located in the basement of city hall.",
+      "It recently doubled its admission fee to $36.",
+      "It will undergo extensive electrical maintenance."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "Joe is not sure if his academic credentials satisfy the criteria they are seeking for the senior researcher position. Although he has a doctorate in biochemistry, the job description places a high priority on practical experience in managing clinical trials.",
+    "question": "What is implied about Joe's qualifications?",
+    "choices": [
+      "He does not possess any degree in science.",
+      "He needs to submit his manuscript for publication first.",
+      "He is overqualified for the senior researcher role.",
+      "His academic background may exceed his practical experience."
+    ],
+    "answer": 3,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Matthew, did you see the proposal from the IT department about using AI software?\nB: Yes, but I'm worried it might make data entry too complicated for our current staff.\nA: We could hire an outside consultant to handle the training sessions next May.\nB: That would certainly ease the transition, but we must stay within our budgetary constraints.",
+    "question": "What is implied about the proposed AI software?",
+    "choices": [
+      "It has already been implemented by competing firms.",
+      "It requires specialized training for effective utilization.",
+      "It will eliminate the need for administrative personnel.",
+      "It is too expensive for the Luxor Fixtures budget."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: The premium for our property insurance varies in accordance with the contingency plans.\nB: Does that mean we would be insured against any unexpected water damage?\nA: Yes, but only if we install a modern monitoring system in the basement.\nB: I see. Let's obtain an estimate from Zenith Solutions for the installation costs.",
+    "question": "What is implied about the insurance premium?",
+    "choices": [
+      "It can be reduced by installing a monitoring system.",
+      "It is fixed for the duration of the annual contract.",
+      "It does not cover any damage in the basement.",
+      "It is lower than the premium offered by competing firms."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "A: The community center is proposing a series of reforms for the local park.\nB: I agree that the walking paths are in disrepair and need resurfacing.\nA: Yes, but some residents are concerned about the proposed reduction in green spaces.\nB: We should host a public discussion next Saturday to gather more feedback.",
+    "question": "What is implied about the park renovation proposal?",
+    "choices": [
+      "It was designed by an architect from London.",
+      "It faces some resistance from the local community.",
+      "It will be fully funded by a corporate grant of $446.",
+      "It will be completed before the end of January."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "Overcoming difficulties in the early stages boosted the team's confidence and morale. Moreover, the sequence of structural reforms enabled Super Speed Automotive to make continuous innovations, thus considerably enhancing their overall productivity and securing a leading position in the highly competitive global market.",
+    "question": "What is implied about Super Speed Automotive?",
+    "choices": [
+      "Its previous organizational structure hindered innovation.",
+      "It outsourced its product development to an external firm.",
+      "It is facing severe budgetary constraints this quarter.",
+      "It recently hired a new chief executive officer from Baltimore."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "While we waive the delivery charge for bulk orders, namely quantities larger than those listed in our standard catalog, please be aware that any customized orders will incur an additional processing fee. We appreciate your cooperation and patience regarding this policy.",
+    "question": "What is implied about the company's shipping policy?",
+    "choices": [
+      "Standard catalog orders are subject to a delivery charge.",
+      "Bulk orders are eligible for a ten percent discount.",
+      "Customized orders are processed within next Sunday.",
+      "Free delivery is offered for all online purchases."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "A report in the Sydney Business Journal suggests that the premium on commercial real estate varies significantly in accordance with proximity to public transit. Consequently, properties near central stations rarely experience high vacancy rates, even during periods of economic depression.",
+    "question": "What does the report imply about commercial properties?",
+    "choices": [
+      "They require frequent safety and electrical inspections.",
+      "Proximity to transit stations maintains property demand.",
+      "They are ineligible for any municipal tax deductions.",
+      "Their rental prices are set by the local city council."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "Eager to participate in the international discussion, the delegation from Japan arrived early at the conference center in New York. Although they faced some initial travel delays, they were able to attend the preparatory workshop concerning cross-border trade regulations on Thursday.",
+    "question": "What is most likely true about the Japanese delegation?",
+    "choices": [
+      "They traveled to New York via a chartered train service.",
+      "They represent an external consulting firm hired by Momenox Enterprises.",
+      "They considered the preparatory workshop to be important.",
+      "They were forced to reschedule their presentation for May."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "text": "The decision to demolish the historic theater in downtown Doha has sparked intense debate. While preservationists argue that the building is a valuable cultural artifact, developers claim that constructing a modern shopping center will bring much-needed economic benefits to the neighborhood.",
+    "question": "What is implied about the downtown theater?",
+    "choices": [
+      "It represents a conflict between heritage and development.",
+      "It is currently undergoing extensive asbestos removal.",
+      "It will be replaced by a new public library annex.",
+      "It was originally built by the city council in August."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Betty is looking for an apartment in Sydney that is adjacent to a public park. Because she frequently jogs in the morning, having access to green spaces is a crucial factor in her decision, even if the monthly rent is slightly above her budget.",
+    "question": "What is implied about Betty's apartment search?",
+    "choices": [
+      "She prioritizes location over a lower rental price.",
+      "She is looking for a short-term lease agreement.",
+      "She plans to purchase a car for her daily commute.",
+      "She wants to find a roommate to share the expenses."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Seeing co-workers laid off would result in less incentive to engage in productive undertakings. To prevent a decline in morale, the human resources director has emphasized the company's commitment to maintaining job security throughout the restructuring process next April.",
+    "question": "What is implied about the restructuring process?",
+    "choices": [
+      "It will be spearheaded by an external marketing consultant.",
+      "It aims to consolidate the sales and accounting departments.",
+      "It will begin immediately after the next board meeting.",
+      "It was planned without the intention of laying off employees."
+    ],
+    "answer": 3,
+    "difficulty": 9
+  }
+]

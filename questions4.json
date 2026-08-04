@@ -1,0 +1,1082 @@
+[
+  {
+    "text": "Ms. Mercer will host the mandatory safety seminar in Conference Room B at 10:00 A.M. tomorrow.",
+    "question": "Where will the safety seminar be held?",
+    "choices": [
+      "In Conference Room B",
+      "In the main lobby",
+      "At a local hotel",
+      "In the cafeteria"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "Stellar Bakery on Maple Avenue offers a 10% discount on all pastries every Tuesday.",
+    "question": "On what day can customers get a discount on pastries?",
+    "choices": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Orion Media officially launched its brand-new streaming platform for mobile users this morning.",
+    "question": "What did Orion Media launch this morning?",
+    "choices": [
+      "A mobile app store",
+      "A printing press",
+      "A streaming platform",
+      "A television channel"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "Flight 305 to Denver has been delayed by three hours due to heavy snow.",
+    "question": "Why is the flight delayed?",
+    "choices": [
+      "Because of mechanical issues",
+      "Because of pilot shortages",
+      "Because of heavy snow",
+      "Because of ticket errors"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The local history museum is open from 10:00 A.M. to 5:00 P.M., but it is closed on Mondays.",
+    "question": "When is the museum closed?",
+    "choices": [
+      "On weekends",
+      "On Wednesdays",
+      "On Mondays",
+      "On Friday evenings"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "I am going to meet Ken for lunch at the Italian restaurant near the central station tomorrow.",
+    "question": "Where is the speaker meeting Ken tomorrow?",
+    "choices": [
+      "At the train station",
+      "At the Italian restaurant",
+      "At the library",
+      "At the central office"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Please submit your weekly timesheets to the accounting office by Friday afternoon at 4:00 P.M.",
+    "question": "To which department should timesheets be submitted?",
+    "choices": [
+      "Human Resources",
+      "Sales department",
+      "Marketing department",
+      "Accounting office"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Lumina Electronics currently has only four smart television models remaining in stock.",
+    "question": "How many smart television models are in stock?",
+    "choices": [
+      "Two",
+      "Four",
+      "Six",
+      "Eight"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The new winter clothing catalog is now available for download on our official website.",
+    "question": "Where can customers access the new winter catalog?",
+    "choices": [
+      "In the local newspaper",
+      "On the company website",
+      "By calling customer service",
+      "At the physical store"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Ms. Lawson booked a single room at the Oasis Hotel for four nights starting next Thursday.",
+    "question": "How long will Ms. Lawson stay at the Oasis Hotel?",
+    "choices": [
+      "Two nights",
+      "Three nights",
+      "Four nights",
+      "Five nights"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The marketing department has postponed the brainstorming session from Monday morning to Wednesday afternoon.",
+    "question": "When is the brainstorming session scheduled to occur now?",
+    "choices": [
+      "Monday morning",
+      "Tuesday afternoon",
+      "Wednesday afternoon",
+      "Friday morning"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "All customers who register for our online newsletter will receive a 15% discount coupon immediately.",
+    "question": "What do customers get for signing up for the newsletter?",
+    "choices": [
+      "A free gift",
+      "A discount coupon",
+      "A membership card",
+      "A catalog"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "Apex Publishing announced that it will release its annual business handbook next Wednesday.",
+    "question": "When will the business handbook be released?",
+    "choices": [
+      "Next Monday",
+      "Next Wednesday",
+      "Next Friday",
+      "In two weeks"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "The departure platform for the express train to Boston has been changed to Platform 7.",
+    "question": "Which platform is the train departing from?",
+    "choices": [
+      "Platform 3",
+      "Platform 5",
+      "Platform 7",
+      "Platform 9"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Water service in the East Tower will be temporarily suspended tonight for emergency plumbing repairs.",
+    "question": "What utility will be suspended tonight?",
+    "choices": [
+      "Electricity",
+      "Water service",
+      "Internet access",
+      "Gas supply"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "I agreed to help Sarah paint her new living room this Saturday morning.",
+    "question": "What will the speaker do this Saturday morning?",
+    "choices": [
+      "Help Sarah paint",
+      "Go to a museum",
+      "Clean his apartment",
+      "Meet Sarah for lunch"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "The IT support team will update all office computers with new antivirus software this Friday.",
+    "question": "What will be updated this Friday?",
+    "choices": [
+      "The company website",
+      "Antivirus software",
+      "Office laptops",
+      "The network server"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "The Bistro Grill requires a deposit of $50 for groups of eight or more people.",
+    "question": "What is required for a large group reservation?",
+    "choices": [
+      "An email confirmation",
+      "A menu selection",
+      "A cash deposit",
+      "A membership number"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Our latest smartwatch model is now available at a special promotional price for club members.",
+    "question": "Who can purchase the smartwatch at a promotional price?",
+    "choices": [
+      "All retail shoppers",
+      "First-time website visitors",
+      "Company employees",
+      "Club members"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "The international trade conference will begin on November 8 at the Grand Plaza Hotel.",
+    "question": "Where will the trade conference take place?",
+    "choices": [
+      "At the Grand Plaza Hotel",
+      "At the airport terminal",
+      "At the city library",
+      "At the trade office"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "Dr. Patel from the Human Resources division requested all team leaders to complete the employee evaluations by November 5. These reviews must be uploaded directly to the secure portal.",
+    "question": "What must team leaders do by November 5?",
+    "choices": [
+      "Submit staff performance assessments",
+      "Conduct individual interviews",
+      "Organize a training workshop",
+      "Update their contact information"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "Stellar Furniture offers free shipping on orders exceeding $500. For smaller purchases, a standard delivery fee of $25 will be automatically applied at checkout.",
+    "question": "Under what condition is delivery free of charge?",
+    "choices": [
+      "When purchasing specific items",
+      "When purchases exceed five hundred dollars",
+      "For first-time customers",
+      "During the holiday promotion"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Zephyr Logistics recently acquired Nova Transport in an effort to expand its delivery network in Canada. The merger is expected to create over two hundred new jobs.",
+    "question": "What is the main topic of the announcement?",
+    "choices": [
+      "A company merger",
+      "An increase in shipping rates",
+      "A new training program",
+      "The opening of a warehouse"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "Passengers traveling to Paris on Flight 88 must present their boarding passes and passports at Gate 12. Boarding will commence exactly forty minutes prior to departure.",
+    "question": "What is required to board Flight 88?",
+    "choices": [
+      "Identification and boarding documents",
+      "A negative health certificate",
+      "A credit card for verification",
+      "An oversized baggage tag"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "The Oakville Public Library will undergo extensive roof repairs beginning next Monday. During this two-week renovation period, visitors are advised to use the secondary entrance on Pine Street.",
+    "question": "How can visitors enter the library next week?",
+    "choices": [
+      "Through the main lobby door",
+      "By calling the receptionist",
+      "Through an alternative doorway",
+      "From the underground parking lot"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "Hey Lisa, I have an extra ticket for the classical concert at the Civic Hall tonight. Let me know if you can join me by 5:00 P.M. so I can arrange parking.",
+    "question": "What is the speaker offering Lisa?",
+    "choices": [
+      "A ride to the Civic Hall",
+      "An invitation to a musical performance",
+      "A reservation at a restaurant",
+      "A map of the parking lot"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Please note that the annual safety inspection of our manufacturing equipment is scheduled for Wednesday afternoon. Engineers from Safe-Tech will inspect all assembly lines.",
+    "question": "What will happen on Wednesday afternoon?",
+    "choices": [
+      "An equipment evaluation",
+      "A staff training seminar",
+      "A safety award ceremony",
+      "A product launch event"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "The Green Grocery is facing a temporary shortage of fresh strawberries due to recent weather conditions. We expect our next shipment from local farms to arrive on Thursday.",
+    "question": "Why are strawberries currently unavailable?",
+    "choices": [
+      "Because of high sales volume",
+      "Because of agricultural supply disruptions",
+      "Because of transportation strikes",
+      "Because of pricing disputes"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "TechVibe Magazine is offering a 20% discount on annual digital subscriptions to commemorate its tenth anniversary. This special promotion is valid only until the end of this month.",
+    "question": "What is being promoted by TechVibe Magazine?",
+    "choices": [
+      "A reduced rate for a publication",
+      "An anniversary celebration event",
+      "A free technical newsletter",
+      "A new mobile application"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "Mr. Thorne will arrive at the Dover Inn on Friday evening for a two-night stay. He has requested an airport shuttle service to pick him up at 6:00 P.M.",
+    "question": "How will Mr. Thorne travel to the Dover Inn?",
+    "choices": [
+      "By renting a compact car",
+      "By hotel transportation",
+      "By taking a public bus",
+      "By booking a local taxi"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Lumina Tech is currently seeking a senior software developer to join its innovative engineering team in Austin. Applicants are required to have at least five years of experience with database design.",
+    "question": "What is indicated about the position at Lumina Tech?",
+    "choices": [
+      "It is located in Texas.",
+      "It requires travel to Boston.",
+      "It is an entry-level job.",
+      "It involves training interns."
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "To receive a full refund, customers must return purchased clothing items in their original condition with all tags attached. Returns must be processed within thirty days of the purchase date.",
+    "question": "What is required to obtain a complete reimbursement?",
+    "choices": [
+      "Exchanging the item for a larger size",
+      "Processing the return within a month",
+      "Showing a digital membership card",
+      "Sending a written request to customer support"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The board of Zenith Solutions announced the appointment of Ms. Higgins as the new CEO. Ms. Higgins, who previously managed global sales at Apex Corp, will begin her term next month.",
+    "question": "What is true about Ms. Higgins?",
+    "choices": [
+      "She was promoted from within Zenith Solutions.",
+      "She will assume her new leadership role next month.",
+      "She has spent her entire career at Apex Corp.",
+      "She is retiring from business management."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Passengers on Flight 412 should be aware that the departure gate has been moved to Terminal 2, Gate C. Boarding will begin thirty minutes earlier than scheduled due to traffic.",
+    "question": "What has changed about Flight 412?",
+    "choices": [
+      "The ticket price",
+      "The departure location",
+      "The destination city",
+      "The meal options"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Please note that the main parking garage at Riverview Suites will be closed on Saturday morning for pressure washing. All residents must park their vehicles on the street during this time.",
+    "question": "What are residents instructed to do on Saturday morning?",
+    "choices": [
+      "Clean their parking spaces",
+      "Park on the public road",
+      "Request a parking pass",
+      "Register their vehicles"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Hey John, I am organizing a volunteer cleanup at Oak Park this Saturday. We will gather near the main fountain at 9:00 A.M. Gloves and trash bags will be provided.",
+    "question": "What is the purpose of Saturday's event?",
+    "choices": [
+      "To clean a public park",
+      "To repair a water fountain",
+      "To host a community picnic",
+      "To recruit park employees"
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "Our primary computer server will be taken offline for a system upgrade on Saturday night. Consequently, employees will be unable to access the corporate database between midnight and 4:00 A.M.",
+    "question": "What will happen on Saturday night?",
+    "choices": [
+      "Employees will receive new laptops.",
+      "Database access will be temporarily blocked.",
+      "A new security system will be tested.",
+      "The server room will be cleaned."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Savour Bistro is excited to introduce its new autumn menu tomorrow. As a result, several summer dishes will be permanently discontinued. We appreciate your understanding and continued support.",
+    "question": "What will happen at Savour Bistro tomorrow?",
+    "choices": [
+      "The restaurant will close for renovations.",
+      "New dining options will be launched.",
+      "Summer dishes will be discounted.",
+      "Free samples will be distributed."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The Business Herald has launched a new premium digital subscription that includes daily financial podcasts. Subscribing before Friday will save you 30% on the standard annual rate.",
+    "question": "What is offered at a reduced price?",
+    "choices": [
+      "A financial podcast app",
+      "A premium newspaper subscription",
+      "A ticket to a business summit",
+      "A digital marketing guide"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The shuttle bus service between the airport and the convention hall runs every fifteen minutes. Attendees can board the shuttle at Bus Stop 3 outside the main arrivals hall.",
+    "question": "What is indicated about the shuttle service?",
+    "choices": [
+      "It operates once an hour.",
+      "It is free for convention attendees.",
+      "It departs from Bus Stop 3.",
+      "It requires a reservation."
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Due to a technical glitch, some employees experienced difficulties logging into the payroll system yesterday. Our IT technicians have resolved the issue, and all services are now fully operational.",
+    "question": "What occurred yesterday?",
+    "choices": [
+      "A company holiday",
+      "An orientation session",
+      "A software login problem",
+      "A payroll budget meeting"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "The Grand Toy Shop is currently holding a clearance sale to make room for winter inventory. Customers can enjoy discounts up to 50% on selected board games and outdoor toys.",
+    "question": "Why is the store holding a sale?",
+    "choices": [
+      "To celebrate its anniversary",
+      "To attract online customers",
+      "To clear space for new stock",
+      "To promote local game designers"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A feature article about the rise of eco-friendly packaging will be published in next month's issue of Green Business. The piece includes interviews with several prominent manufacturing directors.",
+    "question": "What will next month's issue of Green Business contain?",
+    "choices": [
+      "A report on sustainable packaging",
+      "A profile of a new CEO",
+      "An advertisement for a seminar",
+      "A review of manufacturing software"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "Travelers heading to London on the high-speed rail should check their tickets for platform updates. Due to construction work at Central Station, several departures have been redirected to the North Platform.",
+    "question": "What has caused changes in departures?",
+    "choices": [
+      "Severe weather forecasts",
+      "Platform maintenance work",
+      "Train scheduling errors",
+      "An increase in passenger numbers"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "The management office of Pine Crest Apartments announced that the outdoor swimming pool will remain closed for repairs until Wednesday. We apologize for the inconvenience and appreciate your patience.",
+    "question": "What is indicated about the swimming pool?",
+    "choices": [
+      "It will open early on Wednesday.",
+      "It is currently undergoing maintenance.",
+      "It will be replaced with a gym.",
+      "It is free for all residents."
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Hi Clara, I am organizing a dinner for our colleague David's retirement at the Lotus Restaurant next Friday. Please let me know your availability by tomorrow afternoon.",
+    "question": "What is the purpose of the dinner?",
+    "choices": [
+      "To celebrate a retirement",
+      "To welcome a new client",
+      "To discuss a project budget",
+      "To interview a job candidate"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "Ms. Mercer will conduct a training session on our new project management tool this Thursday at 2:00 P.M. Attendance is highly recommended for all marketing staff members.",
+    "question": "What is the focus of Thursday's session?",
+    "choices": [
+      "A marketing presentation",
+      "Software instruction",
+      "A project budget review",
+      "A hiring policy update"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Saffron Spices offers a wide selection of imported seasonings. Customers who spend over $40 can choose a free sample of organic tea at the checkout counter.",
+    "question": "How can customers obtain a free sample of tea?",
+    "choices": [
+      "By registering for a loyalty card",
+      "By spending a minimum amount",
+      "By presenting a print coupon",
+      "By writing an online review"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Weekly Tech reported that CoreDynamics has seen a 12% rise in profits after upgrading its automated assembly lines. The company plans to hire thirty new engineers next quarter.",
+    "question": "What contributed to CoreDynamics' increased earnings?",
+    "choices": [
+      "Expanding its marketing campaigns in Europe",
+      "Hiring thirty new engineers",
+      "Modernizing its production machinery",
+      "Acquiring a rival software company"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "Guests staying at the Summit Lodge can access the fitness center on the third floor. The gym is open 24 hours a day, but room keys are required for entry after 10:00 P.M.",
+    "question": "What is required to enter the gym late at night?",
+    "choices": [
+      "An additional fee",
+      "A reservation slot",
+      "A room keycard",
+      "A staff signature"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Hi, Jessica. Did you finish compiling the sales data from our regional branches?\nB: Almost, Mark. I'm just waiting for the Vancouver office to email their final report.\nA: Oh, they are usually on time. Let's call them before the department head meeting.",
+    "question": "Why is Jessica unable to complete the task?",
+    "choices": [
+      "She is waiting for a regional branch report.",
+      "She has lost the files for Vancouver.",
+      "She needs to attend a meeting first.",
+      "She is unfamiliar with the database software."
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "The Customer Service Desk at Prime Goods is experiencing higher call volumes than usual today due to our recent holiday sales promotion. If you are calling about an exchange, please hold, or send an inquiry through our website for a faster response.",
+    "question": "What is suggested about Prime Goods?",
+    "choices": [
+      "It is currently closed for the holiday.",
+      "Its website is temporarily down for maintenance.",
+      "It is receiving a large number of phone inquiries.",
+      "It has run out of stock for popular items."
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "Metro Daily recently reported that Zenith Solutions has secured a major contract to construct a new eco-friendly corporate headquarters in Berlin. The project, valued at fifty million euros, is scheduled to begin in early spring and will incorporate advanced solar panels.",
+    "question": "What is the subject of the news article?",
+    "choices": [
+      "An increase in Zenith Solutions' stock price",
+      "A major construction agreement",
+      "The opening of a branch office in Berlin",
+      "A new solar panel manufacturing process"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Good morning. I'm booked on Flight 12 to London, but I noticed a gate change on the screen.\nB: Yes, sir. It has been moved from Gate 4 to Terminal B, Gate 15.\nA: I see. Do I need to get a new boarding pass printed?\nB: No, your current pass is perfectly fine.",
+    "question": "What is the passenger asking about?",
+    "choices": [
+      "A flight cancellation",
+      "A departure gate change",
+      "The price of an upgrade",
+      "Baggage restrictions"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "Notice to all residents of Oak Gardens: The water supply will be temporarily shut down this Friday between 1:00 P.M. and 4:00 P.M. to allow engineers to perform routine pipe maintenance. Please ensure all faucets are tightly closed to prevent accidental flooding.",
+    "question": "What are residents instructed to do?",
+    "choices": [
+      "Store water in large containers",
+      "Keep all faucets shut",
+      "Contact the maintenance engineers",
+      "Vacate the building on Friday afternoon"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Hey Clara, did you hear about the volunteer tree planting event at the city park this Saturday?\nB: Yes, but I already promised to help my sister move into her new apartment that morning.\nA: Oh, that's fine. I'll take pictures and let you know about the next one.",
+    "question": "Why is Clara unable to attend the tree planting event?",
+    "choices": [
+      "She is working on Saturday morning.",
+      "She has to assist a family member.",
+      "She is traveling out of town.",
+      "She does not enjoy outdoor activities."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "The Human Resources department has announced a new online training portal that will replace the traditional in-person safety workshops. All employees must complete the basic training module within thirty days of the portal's launch to comply with updated safety guidelines.",
+    "question": "What is indicated about the new safety training?",
+    "choices": [
+      "It will be conducted in small groups.",
+      "It is entirely web-based.",
+      "It is optional for senior staff.",
+      "It will take thirty days to complete."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Welcome to Elite Apparel. How can I help you today?\nB: Hi. I purchased this leather jacket last week, but the zipper seems to be defective.\nA: I'm sorry to hear that. Since you have the receipt, we can offer you a replacement or a store credit.",
+    "question": "What problem does the customer report?",
+    "choices": [
+      "The price was too high.",
+      "The jacket is the wrong size.",
+      "A component is damaged.",
+      "The store did not have his size."
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "Stellar Cosmetics is excited to unveil its new organic skincare line, Botanica, at the upcoming beauty exhibition in Paris next Tuesday. This innovative line features ingredients sourced entirely from certified organic farms and is designed to appeal to environmentally conscious consumers.",
+    "question": "What is true about the Botanica product line?",
+    "choices": [
+      "It will be launched next Tuesday.",
+      "It is manufactured in Paris.",
+      "It features synthetic ingredients.",
+      "It is designed for professional stylists."
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "The organizers of the International Education Conference have announced that the registration deadline has been extended to Friday, October 15. Due to limited seating capacity at the conference hall, early registration is strongly encouraged to guarantee a spot.",
+    "question": "What are attendees advised to do?",
+    "choices": [
+      "Register early to secure a seat",
+      "Book a hotel room in advance",
+      "Request a digital copy of the schedule",
+      "Pay the registration fee on-site"
+    ],
+    "answer": 0,
+    "difficulty": 6
+  },
+  {
+    "text": "Due to recent changes in safety regulations, all warehouse personnel are strictly required to wear protective headgear and safety vests at all times. Failure to comply with these updated guidelines may result in immediate suspension from the facility. Your cooperation in this matter is highly appreciated.",
+    "question": "What is the main purpose of the notice?",
+    "choices": [
+      "To announce safety equipment requirements",
+      "To schedule warehouse maintenance work",
+      "To introduce a new shift manager",
+      "To explain a shipping delay policy"
+    ],
+    "answer": 0,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Excuse me, I'm looking for the organic honey, but the shelf seems empty.\nB: Ah, we ran out of stock yesterday due to a delivery delay.\nA: Oh, I see. When do you expect the next shipment?\nB: It should arrive by tomorrow morning. I can hold one for you.",
+    "question": "What does the store clerk offer to do?",
+    "choices": [
+      "Order an alternative brand of honey",
+      "Provide a discount on the purchase",
+      "Reserve a product from the next delivery",
+      "Deliver the item directly to the customer's home"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "The Daily News reported that Nova Retail has completed its acquisition of Apex Supermarkets for eighty million dollars. Under the terms of the agreement, all existing Apex stores will continue to operate under their current names, but their management systems will be integrated immediately.",
+    "question": "What will happen to the Apex stores?",
+    "choices": [
+      "They will be permanently closed next month.",
+      "They will operate under a new brand name.",
+      "They will adopt Nova's management systems.",
+      "They will be sold to an international competitor."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Good afternoon, Ms. Vance. I'm calling from hotel customer service. We have a shuttle leaving for the airport at 4:00 P.M.\nB: Oh, thank you. But my flight is not until 8:00 P.M., so I'll take the later one at 5:30 P.M.\nA: Certainly. I'll update your reservation for that shuttle.",
+    "question": "Why did Ms. Vance decline the 4:00 P.M. shuttle?",
+    "choices": [
+      "She is waiting for a colleague to arrive.",
+      "She has a meeting in the afternoon.",
+      "Her flight departs later in the evening.",
+      "She prefers to take a local taxi."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "The management of Riverview Apartments announced that the fitness center will be closed for floor replacement from Monday through Thursday. Residents who have paid the annual gym fee will receive a pro-rated credit on their next monthly rent payment to compensate for this temporary closure.",
+    "question": "What will residents receive as compensation?",
+    "choices": [
+      "A discount on gym membership renewals",
+      "A financial credit on their rent",
+      "Free access to an alternative facility",
+      "An extension of their lease agreement"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Hi, Clara. Are you going to the annual charity gala tonight?\nB: Yes, but I'm a bit concerned about the parking. The main lot is usually full.\nA: You should take the subway. The station is right across the street from the venue.",
+    "question": "What does the man suggest Clara do?",
+    "choices": [
+      "Arrive at the gala early",
+      "Park in the secondary lot",
+      "Use public transportation",
+      "Carpool with other attendees"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "Our main corporate server will undergo critical database maintenance this Saturday between 11:00 P.M. and 3:00 A.M. As a result, both the internal payroll application and the customer relationship management database will be entirely inaccessible. Please save all active work beforehand.",
+    "question": "What is true about the database maintenance?",
+    "choices": [
+      "It is scheduled for Friday morning.",
+      "It will affect several internal databases.",
+      "It will be performed by external consultants.",
+      "It is designed to upgrade software security."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "The Bistro Gourmet is delighted to announce the introduction of its winter menu starting tomorrow. Consequently, our seasonal lunch specials will be adjusted, and several popular summer dishes will be temporarily removed from the menu. We appreciate your understanding and continued patronage.",
+    "question": "What changes will occur at the restaurant tomorrow?",
+    "choices": [
+      "The dining room will be renovated.",
+      "The operating hours will be extended.",
+      "The food options will be modified.",
+      "The prices of all drinks will be reduced."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "TechVibe reported that CoreDynamics has experienced a significant rise in its quarterly profits after streamlining its automated assembly lines. The company attributes this success to reduced manufacturing costs and plans to expand its product distribution in Asia next year.",
+    "question": "What contributed to CoreDynamics' increased profits?",
+    "choices": [
+      "Expanding its marketing campaigns in Europe",
+      "Lowering its manufacturing expenses",
+      "Developing a new software application",
+      "Hiring several senior developers"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "The registration fee for the upcoming World Tourism Summit includes access to all keynote sessions, a digital copy of the conference proceedings, and lunch at the main exhibition hall. Attendees must register by September 30 to receive the early-bird discount rate.",
+    "question": "What is included in the registration fee?",
+    "choices": [
+      "Transportation to the hotel",
+      "A digital copy of the proceedings",
+      "A ticket to the evening dinner",
+      "A physical copy of the handbook"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "Ms. Vance, who has successfully spearheaded our marketing campaigns for the past five years, will be stepping down next month to lead an exciting new tech startup in Boston. Her creative strategies have consistently boosted our quarterly sales figures. The board of directors is currently interviewing external candidates to fill her vacant position.",
+    "question": "What is implied about Ms. Vance's replacement?",
+    "choices": [
+      "The person will come from outside the organization.",
+      "The person will be promoted from within the department.",
+      "The person will start working immediately this week.",
+      "The person will change the current marketing strategies."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Good morning. I purchased this wireless router yesterday, but I can't seem to connect it to my home network.\nB: I'm sorry to hear that. Did you install the latest firmware update from our website before setting it up?\nA: No, the manual didn't mention any updates.\nB: Ah, we recently released an update to resolve connection issues.",
+    "question": "What does the store clerk suggest the customer do?",
+    "choices": [
+      "Return the router for a full refund",
+      "Download a software update online",
+      "Purchase a different router model",
+      "Contact a professional network technician"
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "The Financial Times reported that Novis Retail is in advanced talks to purchase Apex Supermarkets for ninety million dollars. While some analysts believe this acquisition will lead to a monopoly in the region, Novis Retail claims the merger will ultimately lower grocery prices for consumers and create several hundred new jobs in local communities.",
+    "question": "What is implied about the proposed acquisition?",
+    "choices": [
+      "It is opposed by some financial analysts.",
+      "It will be finalized by next Wednesday.",
+      "It will cause grocery prices to rise immediately.",
+      "It has been rejected by Apex Supermarkets' board."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Hi, Clara. I noticed that the departures board shows a delay for our flight to Berlin.\nB: Yes, Thomas. Heavy snow in Berlin has delayed all inbound flights by at least two hours.\nA: That's unfortunate. We might miss the introductory session of the conference.\nB: Let's call the hotel and let them know we'll check in late.",
+    "question": "What is implied about the speakers?",
+    "choices": [
+      "They are traveling to Berlin for a conference.",
+      "They have missed their flight already.",
+      "They need to cancel their hotel reservation.",
+      "They are traveling by train due to weather."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "The management of Riverview Towers has announced that the secondary parking garage on Elm Street will be closed for structural repairs from Monday through Thursday. All residents who hold parking permits for this facility are instructed to park their vehicles in the main lot or on the street, where parking fees will be waived during this period.",
+    "question": "What is implied about residents with parking permits?",
+    "choices": [
+      "They will not have to pay for street parking next week.",
+      "They must vacate the apartments during repairs.",
+      "They will be assigned permanent spaces in the main lot.",
+      "They are required to pay a repair fee."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Hey Clara, are you attending the volunteer cleanup at Oak Park this Saturday morning?\nB: I really wanted to, but I have a dentist appointment at 10:00 A.M. that I can't reschedule.\nA: That's a shame. We really need volunteers to help plant the new trees near the fountain.\nB: I could help with the planning beforehand.",
+    "question": "What is implied about Clara?",
+    "choices": [
+      "She is unavailable on Saturday morning.",
+      "She is the main organizer of the cleanup.",
+      "She has a meeting with the park director.",
+      "She will plant trees on Friday instead."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "The IT department has announced that all employee laptops must be submitted for a mandatory security upgrade by Friday afternoon. Laptops that do not receive this update will be temporarily blocked from accessing the corporate network starting next Monday morning. The process takes approximately twenty minutes and can be scheduled online.",
+    "question": "What is implied about employees who miss the Friday deadline?",
+    "choices": [
+      "They will be unable to access the corporate network on Monday.",
+      "They will have to purchase new office laptops.",
+      "They must work from home next week.",
+      "They will be suspended from the IT department."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "The Bistro Gourmet requires a non-refundable deposit of fifty dollars for reservations of eight or more guests. Additionally, party organizers must select from our set menus at least three days prior to the event date. This policy allows our chefs to source fresh ingredients from local organic farms in advance.",
+    "question": "What is implied about the Bistro Gourmet's policy?",
+    "choices": [
+      "It helps the restaurant prepare fresh ingredients.",
+      "It is designed to discourage large group bookings.",
+      "It is only valid during the holiday season.",
+      "It requires guests to pay the full bill in advance."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "TechVibe reported that CoreDynamics has experienced an impressive 15% increase in its quarterly profits after upgrading its automated assembly lines with advanced robotic arms. The company attributes this success to a significant reduction in manufacturing errors and plans to expand its product distribution to the European market next year.",
+    "question": "What is implied about CoreDynamics' recent upgrade?",
+    "choices": [
+      "It resulted in fewer production defects.",
+      "It required hiring many factory workers.",
+      "It was funded by a European investment firm.",
+      "It has delayed the distribution of smartwatches."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "The registration fee for the upcoming Global Tourism Summit includes access to all presentations, a digital copy of the conference proceedings, and daily lunch at the main exhibition hall. Attendees who complete their registration by September 30 will receive a significant early-bird discount on the standard rate.",
+    "question": "What is implied about the registration rates?",
+    "choices": [
+      "They are cheaper for early registrants.",
+      "They do not cover lunch at the summit.",
+      "They will increase after Friday afternoon.",
+      "They are discounted for university students."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Good morning, David. Did you review the contract proposal from Orion Media?\nB: Yes, but the terms for the licensing fees seem a bit restrictive compared to our usual agreements.\nA: You are right. Let's draft an alternative proposal with more flexible terms and present it to them on Thursday.\nB: Sounds good. I'll work on that right away.",
+    "question": "What will the speakers most likely do next?",
+    "choices": [
+      "Modify the contract terms to be more flexible",
+      "Reject the proposal from Orion Media",
+      "Postpone the meeting scheduled for Thursday",
+      "Sign the contract as currently written"
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "The Green Grocery prides itself on sourcing fresh produce directly from local family farms. Due to recent unexpected frost in the northern region, our supply of organic strawberries has been severely disrupted. We expect shipments to return to normal once local temperatures rise, and we appreciate your understanding during this temporary shortage.",
+    "question": "What can be inferred about the organic strawberries?",
+    "choices": [
+      "Their availability is dependent on local weather conditions.",
+      "They are imported from an international distributor.",
+      "They are currently sold at a discounted price.",
+      "They will be permanently removed from the store."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Greenwood Press announced that it will release its highly anticipated annual gardening guide next Tuesday. This year's edition includes a special section on urban balcony gardens and features interviews with several award-winning landscape designers. Customers who pre-order a copy through our website before Monday will receive a free seed packet.",
+    "question": "What is suggested about the gardening guide?",
+    "choices": [
+      "It offers a special gift for pre-orders.",
+      "It is only available in a digital format.",
+      "It is written by award-winning landscape designers.",
+      "It has been delayed due to printing issues."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Welcome to the Grand Plaza Hotel. How can I assist you today?\nB: Hi. I have a reservation under the name Gellar, but my flight was delayed, so I'm checking in late.\nA: No problem, Mr. Gellar. I see your booking for a double room. Your keycard is ready, and complimentary breakfast is served in the lobby starting at 7:00 A.M.",
+    "question": "What is true about Mr. Gellar's stay?",
+    "choices": [
+      "He arrived at the hotel later than expected.",
+      "He needs to pay extra for late check-in.",
+      "He is staying in a single room on the third floor.",
+      "He must register for breakfast in advance."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Water services in the East Tower of Riverview Suites will be temporarily suspended tonight between 11:00 P.M. and 3:00 A.M. to allow emergency plumbing repairs. All residents are advised to store sufficient water for basic needs and to keep all faucets tightly closed to prevent accidental flooding once service is restored.",
+    "question": "What can be concluded about the water suspension?",
+    "choices": [
+      "It is scheduled to occur overnight.",
+      "It will affect the entire apartment complex.",
+      "It will last for more than twelve hours.",
+      "It was requested by the residents of the East Tower."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Hi, Clara. Are you going to the classical concert at the Civic Hall tonight?\nB: Yes, but I'm still trying to find someone to take my evening shift at the library.\nA: Oh, I see. My brother is free tonight and has worked there before. I can ask him if you want.\nB: That would be incredibly helpful! Thank you.",
+    "question": "What does the man offer to do for Clara?",
+    "choices": [
+      "Help Clara find a shift replacement",
+      "Drive Clara to the classical concert",
+      "Purchase tickets for the Civic Hall",
+      "Introduce Clara to his brother"
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "The IT support division has announced that a critical security update will be deployed on all corporate servers this Sunday. To ensure no data loss, all employees are urged to log out of the company intranet and save all active files before leaving the office on Friday afternoon. Access to servers will be completely blocked during the update.",
+    "question": "What is implied about the server update?",
+    "choices": [
+      "It will prevent data loss if users save files on Friday.",
+      "It will take place during regular business hours.",
+      "It is designed to upgrade the payroll software.",
+      "It will be postponed if some employees remain logged in."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "Elite Apparel is hosting its annual winter clearance event, offering up to 60% off on selected winter coats, boots, and wool sweaters. This special promotion is exclusive to our loyalty card holders during the first three days of the sale, after which discounts will be made available to the general public.",
+    "question": "What is suggested about the clearance event?",
+    "choices": [
+      "Loyalty card holders get early access to the discounts.",
+      "All items in the store are discounted by 60%.",
+      "The sale is only held online for three days.",
+      "It is designed to promote a new summer clothing line."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "The Board of Directors at Apex Corp has announced the appointment of Ms. Higgins as the new Chief Executive Officer, effective next month. Ms. Higgins, who has spearheaded global marketing at Zenith Solutions for the past decade, succeeded in consistently boosting Zenith's market share. The board is confident her leadership will drive Apex's international expansion.",
+    "question": "What is implied about Ms. Higgins?",
+    "choices": [
+      "She has experience leading international marketing campaigns.",
+      "She was promoted from within Apex Corp.",
+      "She has spent her entire career at Zenith Solutions.",
+      "She will begin her new role at Apex Corp this week."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "The Grand Arena is pleased to host the annual International Tech Expo from November 10 to 12. Attendees can explore cutting-edge exhibits, participate in hands-on workshops, and network with industry leaders. Early-bird registration, which offers a 20% savings on standard passes, is open online until the end of this week.",
+    "question": "What is implied about the Tech Expo passes?",
+    "choices": [
+      "They are cheaper if purchased before the end of the week.",
+      "They include free entry to the hands-on workshops.",
+      "They must be printed at the Grand Arena ticket office.",
+      "They are limited to residents of the local city."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  }
+]

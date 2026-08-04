@@ -1,0 +1,1082 @@
+[
+  {
+    "text": "Ms. Lattimore will host a staff meeting in Conference Room A at 5:30 P.M. tomorrow.",
+    "question": "Where will the meeting be held?",
+    "choices": [
+      "In Conference Room A",
+      "In the main office",
+      "At a local hotel",
+      "In the cafeteria"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "The newly opened Rustique offers a 20% discount on all modems until next Thursday night.",
+    "question": "What is on sale at the store?",
+    "choices": [
+      "Wireless routers",
+      "Office chairs",
+      "modems",
+      "Laptops"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "DynaCore successfully acquired its main competitor in Nairobi last month.",
+    "question": "What happened last month?",
+    "choices": [
+      "DynaCore bought another company.",
+      "DynaCore opened a new branch.",
+      "DynaCore hired a new director.",
+      "DynaCore changed its main logo."
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "The annual marketing seminar will begin at 2:30 P.M. on Monday at SunsetManor.",
+    "question": "At what time does the seminar start?",
+    "choices": [
+      "In the evening",
+      "On Monday",
+      "At 2:30 P.M.",
+      "At 10:00 P.M."
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The main water pipe at CrystalSprings is scheduled for urgent maintenance this Friday.",
+    "question": "Which facility is undergoing repairs?",
+    "choices": [
+      "The conference hall",
+      "The main office",
+      "The swimming pool",
+      "CrystalSprings"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "I am planning to meet Mr. Ophelia for dinner at SpiceTrail tomorrow evening.",
+    "question": "With whom is the speaker meeting tomorrow?",
+    "choices": [
+      "With coworkers",
+      "With Mr. Ophelia",
+      "With a client",
+      "With Ms. Nethercott"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Please submit your monthly travel expense report to Mr. Kaelen by Wednesday evening.",
+    "question": "To whom should the report be sent?",
+    "choices": [
+      "To Mr. Kaelen",
+      "To the finance team",
+      "To the office assistant",
+      "To Ms. Fitzwilliam"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "We currently have 50 units of scanners in stock at our warehouse in Budapest.",
+    "question": "Where are the items stored?",
+    "choices": [
+      "In Budapest",
+      "In the retail shop",
+      "In the main office",
+      "At the local store"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "BioPharma is pleased to announce the promotion of Ms. Orpington to sales manager.",
+    "question": "What is Ms. {name1}'s new job title?",
+    "choices": [
+      "Chief executive officer",
+      "Sales manager",
+      "Office secretary",
+      "Marketing coordinator"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The direct express train to Singapore will depart from Platform 3 at 1:45 P.M..",
+    "question": "Where is the train going?",
+    "choices": [
+      "To Singapore",
+      "To the airport",
+      "To the main hotel",
+      "To the conference hall"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "The training session for the new corporate database software will start next Monday.",
+    "question": "What is scheduled for next Monday?",
+    "choices": [
+      "A client presentation",
+      "A training session",
+      "An annual dinner",
+      "A staff interview"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "Customers who purchase two items at BlueApron will receive a free projectors today.",
+    "question": "What is being offered as a free gift?",
+    "choices": [
+      "A discount coupon",
+      "A projectors",
+      "A gift voucher",
+      "A promotional bag"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "CipherSec will host its annual charity golf tournament in Wellington next Saturday.",
+    "question": "Where will the golf tournament take place?",
+    "choices": [
+      "In Wellington",
+      "In the main gym",
+      "At the local park",
+      "In the school yard"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "Please register for the digital photography workshop online before tomorrow morning.",
+    "question": "How should attendees register for the workshop?",
+    "choices": [
+      "By phone",
+      "By email",
+      "In person",
+      "Online"
+    ],
+    "answer": 3,
+    "difficulty": 2
+  },
+  {
+    "text": "A spacious two-bedroom apartment at CascadeLodge is now available for lease.",
+    "question": "What type of property is offered?",
+    "choices": [
+      "A retail shop",
+      "A two-bedroom apartment",
+      "An office suite",
+      "A storage warehouse"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "I forgot my smartphone on the desk, so please contact me via email instead.",
+    "question": "How should the speaker be contacted?",
+    "choices": [
+      "Via phone call",
+      "Via text message",
+      "Via email",
+      "In person"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "The security guard will lock the main entrance of the building at 3:15 P.M. tonight.",
+    "question": "At what time does the main entrance close?",
+    "choices": [
+      "At 6:00 P.M.",
+      "At 3:15 P.M.",
+      "At midnight",
+      "In the morning"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "If you are not satisfied with your purchase, you can return it within 30 days.",
+    "question": "What is the return policy period?",
+    "choices": [
+      "10 days",
+      "14 days",
+      "30 days",
+      "60 days"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "The biography of Celestia's founder, Mr. Jellicoe, will be published in Copenhagen.",
+    "question": "Whose biography will be released?",
+    "choices": [
+      "A local artist's",
+      "Celestia's founder's",
+      "A marketing manager's",
+      "A corporate consultant's"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "The shuttle service from CascadeLodge to the city center runs every 30 minutes.",
+    "question": "How often does the shuttle service run?",
+    "choices": [
+      "Every 10 minutes",
+      "Every 15 minutes",
+      "Every 30 minutes",
+      "Every hour"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "LithoLabs decided to postpone the quarterly board meeting until next month. Mr. Yvonne will update the digital calendar with the revised schedule later today.",
+    "question": "What is true about the board meeting?",
+    "choices": [
+      "It was canceled permanently.",
+      "It has been delayed.",
+      "It is scheduled for today.",
+      "It will be hosted in Copenhagen."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Due to a delay in the delivery of our ingredients, SilverSpoon will close earlier than usual today. We sincerely apologize for any inconvenience caused.",
+    "question": "Why is {store1} shutting down early?",
+    "choices": [
+      "Because of a staff shortage",
+      "Because of a holiday",
+      "Because of a late shipment",
+      "Because of a water leak"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "WaveFront recently merged with a major European firm to expand its global reach. This strategic alliance is expected to increase international sales significantly.",
+    "question": "What is the purpose of the business merger?",
+    "choices": [
+      "To reduce tax expenses",
+      "To boost international business",
+      "To hire a new executive",
+      "To close underperforming offices"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The schedule for the medical technology conference at CascadeLodge has been updated. Attendees should verify the revised timeline on our official website.",
+    "question": "What should conference participants do?",
+    "choices": [
+      "Check the updated schedule online",
+      "Contact the coordinator by phone",
+      "Register at the front desk",
+      "Pay the additional fee"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "The management of CascadeLodge will replace the old carpet in all hallways next week. Residents are requested to keep their personal items inside their rooms.",
+    "question": "What work will be done at the property next week?",
+    "choices": [
+      "The elevators will be repaired.",
+      "The building exterior will be painted.",
+      "The hallway flooring will be renewed.",
+      "A new heating system will be installed."
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "I am struggling to complete this budget sheet because my computer keeps restarting. Would you mind if I borrowed your laptop for a few hours?",
+    "question": "Why is the speaker asking to use another device?",
+    "choices": [
+      "Their computer is malfunctioning.",
+      "Their office is closed.",
+      "Their spreadsheet was deleted.",
+      "Their internet is not working."
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "Mr. Fiona from the accounting department requested all employees to hand in their travel receipts by Friday. No reimbursements will be processed after this deadline.",
+    "question": "What are workers asked to do by Friday?",
+    "choices": [
+      "Register for a seminar",
+      "Submit their expense documents",
+      "Create a monthly budget",
+      "Confirm their travel plans"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "SilverSpoon is currently offering a special promotion where you can purchase a standard projectors and get another one at half price. This deal ends this Sunday.",
+    "question": "What is indicated about the promotion at {store1}?",
+    "choices": [
+      "It applies only to online orders.",
+      "It offers a discount on the second item.",
+      "It is restricted to regular members.",
+      "It includes free delivery."
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "Ms. Fiona, the lead architect of Celestia, will present her sustainable building designs at the civic center tomorrow. Her designs focus on using recycled materials.",
+    "question": "What will Ms. {name1} do tomorrow?",
+    "choices": [
+      "Interview candidates",
+      "Host a grand opening",
+      "Present eco-friendly designs",
+      "Coordinate a staff meeting"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "The morning flight from Copenhagen to Copenhagen has been delayed due to severe weather. Passengers should check the digital displays at the terminal for the latest gate assignments.",
+    "question": "What is the cause of the flight delay?",
+    "choices": [
+      "A technical malfunction",
+      "A staff shortage",
+      "Adverse weather conditions",
+      "A schedule conflict"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "All employees are required to complete the digital security training program before the end of this week. Please contact Ms. Fiona if you need additional assistance.",
+    "question": "What must workers do by the end of the week?",
+    "choices": [
+      "Submit their budget proposals",
+      "Finish an online security course",
+      "Change their system passwords",
+      "Attend a department seminar"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The newly designed projectors has received excellent feedback from our customers. Due to high demand, we have decided to double our production capacity starting next month.",
+    "question": "What does the company plan to do next month?",
+    "choices": [
+      "Increase manufacturing output",
+      "Reduce the price of the item",
+      "Launch a new marketing campaign",
+      "Expand their local retail store"
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "Celestia is pleased to announce that its net profits have increased by 15% over the past quarter. This growth is primarily attributed to strong online sales.",
+    "question": "What contributed most to the company's recent success?",
+    "choices": [
+      "An aggressive advertising campaign",
+      "The opening of a new branch",
+      "Strong digital commerce sales",
+      "A reduction in production costs"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "The express train service will be temporarily suspended this weekend due to track maintenance. Shuttle buses will be provided at no extra charge to passengers.",
+    "question": "What is indicated about the train service this weekend?",
+    "choices": [
+      "It will be delayed by an hour.",
+      "It is temporarily unavailable.",
+      "It will require online reservations.",
+      "It has been permanently canceled."
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Ms. Fiona is looking for a quiet one-bedroom apartment near her new office. She prefers a property with private parking and a modern kitchen.",
+    "question": "What is Ms. {name1} trying to find?",
+    "choices": [
+      "A retail shop",
+      "A suitable residence",
+      "An office assistant",
+      "A corporate consultant"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "I was going to cook some pasta tonight, but I just realized we are completely out of cheese. Would you mind stopping by the local grocery store on your way home?",
+    "question": "What does the speaker want the listener to do?",
+    "choices": [
+      "Cook dinner tonight",
+      "Go to the supermarket",
+      "Clean the kitchen",
+      "Check the recipe online"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The company will transition to a new email system next Monday. All staff members should back up their important files to ensure no data is lost during the process.",
+    "question": "What are employees advised to do before next Monday?",
+    "choices": [
+      "Back up their digital documents",
+      "Create a new email address",
+      "Contact the system administrator",
+      "Install an antivirus software"
+    ],
+    "answer": 0,
+    "difficulty": 4
+  },
+  {
+    "text": "SilverSpoon is hosting a special clearance sale on all kitchen items this week. Our stock is limited, so we recommend that customers visit our shop as early as possible.",
+    "question": "What is suggested about the clearance sale?",
+    "choices": [
+      "Items can only be purchased online.",
+      "The selection of goods is restricted.",
+      "Some products are offered at a higher price.",
+      "The stock of items may run out quickly."
+    ],
+    "answer": 3,
+    "difficulty": 4
+  },
+  {
+    "text": "The new CEO of Celestia, Mr. Fiona, will deliver his introductory speech at the civic center tomorrow. He has over twenty years of experience in the technology industry.",
+    "question": "What is Mr. {name1} scheduled to do tomorrow?",
+    "choices": [
+      "Conduct interviews with candidates",
+      "Give an opening address",
+      "Sign a business contract",
+      "Host a department seminar"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "The registration fee for the business summit will increase by 20% after this Friday. We highly recommend registering online before the deadline to save money.",
+    "question": "Why should attendees register before Friday?",
+    "choices": [
+      "To secure a seat at the main hall",
+      "To obtain a discount coupon",
+      "To avoid a price increase",
+      "To receive a free gift"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Ms. Fiona is unavailable this afternoon because she is conducting interviews for the marketing assistant position. Please leave a message with Mr. Fiona if you have any urgent questions.",
+    "question": "What is Ms. {name1} doing this afternoon?",
+    "choices": [
+      "Attending a department meeting",
+      "Interviewing job applicants",
+      "Developing a marketing campaign",
+      "Presenting a budget proposal"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "SilverSpoon offers a full refund or exchange for any product returned in its original condition within 14 days of purchase. A valid sales receipt must be presented.",
+    "question": "What is required to obtain a refund at {store1}?",
+    "choices": [
+      "A membership card",
+      "A digital coupon",
+      "Proof of purchase",
+      "A written explanation"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "A massive fire at the manufacturing plant of Celestia has severely disrupted its supply chain. The company is currently exploring alternative suppliers to minimize delays.",
+    "question": "What is {company1} trying to do?",
+    "choices": [
+      "Rebuild its main factory",
+      "Find another source of materials",
+      "Reduce its advertising budget",
+      "Hire temporary workers"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "The historic walking tour scheduled for tomorrow morning will be postponed if it rains heavily. A decision will be made and sent to participants via email by 8:00 A.M.",
+    "question": "What is indicated about the tour?",
+    "choices": [
+      "It has been canceled permanently.",
+      "It may be rescheduled due to weather.",
+      "It requires additional registration fees.",
+      "It will be conducted indoors."
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "The elevator at CascadeLodge will be shut down for routine maintenance from 9:00 A.M. to 1:00 P.M. tomorrow. Residents are advised to use the stairs during this period.",
+    "question": "Why is the elevator unavailable tomorrow morning?",
+    "choices": [
+      "It is undergoing inspection.",
+      "It is broken down.",
+      "It is being replaced.",
+      "It is undergoing cleaning."
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "I am planning to paint my living room walls this weekend, but I cannot decide between light blue and soft gray. Which color do you think would look more relaxing?",
+    "question": "What is the speaker deciding about?",
+    "choices": [
+      "A renovation schedule",
+      "A wall paint option",
+      "An apartment layout",
+      "A furniture design"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "To reduce energy consumption, the office will automatically turn off all lights and computer monitors at 7:00 P.M. every evening. Anyone working late must obtain prior approval.",
+    "question": "What is the purpose of the new policy?",
+    "choices": [
+      "To improve system security",
+      "To decrease electrical usage",
+      "To monitor employee attendance",
+      "To organize late-night shifts"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "If you order your projectors online today, we will deliver it to your doorstep by tomorrow morning at no additional cost. This express delivery offer is valid only for local residents.",
+    "question": "What special offer is currently available?",
+    "choices": [
+      "A half-price discount",
+      "Free next-day shipping",
+      "An extended product warranty",
+      "A complimentary gift"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "The company has decided to launch a nationwide advertising campaign to promote its eco-friendly product line. The campaign will focus heavily on social media platforms.",
+    "question": "How will the company promote its new products?",
+    "choices": [
+      "By hosting a public exhibition",
+      "Through social media marketing",
+      "By opening a new branch",
+      "Through television commercials"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "We recommend that all hotel guests confirm their reservations at CascadeLodge at least 48 hours before arrival. This ensures that their preferred room style is available.",
+    "question": "What should hotel guests do before arriving?",
+    "choices": [
+      "Pay the full registration fee",
+      "Verify their room booking",
+      "Check the local weather forecast",
+      "Request a shuttle service"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "A: Excuse me, Mr. Fiona, did you have a chance to review the budget proposal I sent you yesterday?\nB: Yes, but I noticed a discrepancy in the marketing expenses. We need to decrease that portion.\nA: I see. I will adjust the figures and send you the revised version by noon.",
+    "question": "What will the woman most likely do next?",
+    "choices": [
+      "Cancel the marketing campaign",
+      "Modify the budget document",
+      "Organize a staff meeting",
+      "Schedule a client interview"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Hi, I bought this projectors here yesterday, but when I opened the box, the power cable was missing.\nB: I apologize for that. We can either provide you with the missing cable or exchange the entire item for a new one.\nA: An exchange would be great, thank you.",
+    "question": "What problem is the customer reporting?",
+    "choices": [
+      "The projectors is malfunctioning.",
+      "The price of the item was incorrect.",
+      "An accessory was not included.",
+      "The store delivered the wrong model."
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "Celestia announced yesterday that it has signed a strategic partnership with a prominent digital marketing agency in Copenhagen. The collaboration aims to revitalize the company's online brand image and attract a younger demographic of consumers.",
+    "question": "What is the main objective of {company1}'s new partnership?",
+    "choices": [
+      "To develop new software",
+      "To improve its web presence",
+      "To reduce operating expenses",
+      "To recruit experienced designers"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Hi, Ms. Fiona. My flight to Copenhagen tomorrow has been canceled because of the storm.\nB: Oh, that is a problem. The client presentation is scheduled for Tuesday morning.\nA: Don't worry. I will rebook for tomorrow evening, or I can present remotely if needed.",
+    "question": "What are the speakers discussing?",
+    "choices": [
+      "A weather forecast in Copenhagen",
+      "A delay in a product launch",
+      "A travel disruption affecting a meeting",
+      "An adjustment to a client budget"
+    ],
+    "answer": 2,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Hello, I am calling because the hot water in my apartment at CascadeLodge is not working properly.\nB: We apologize for the inconvenience. Our maintenance technician is currently out, but he can visit you at 2:00 P.M.\nA: That works for me. I will make sure I am home.",
+    "question": "Why did the man call the office?",
+    "choices": [
+      "To request a rental contract",
+      "To report a utility issue",
+      "To schedule a property tour",
+      "To cancel a maintenance visit"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Are we still meeting for lunch at SilverSpoon today, or are you too busy?\nB: Actually, I have an urgent client call at 1:00 P.M., so I have to postpone.\nA: No problem. Let's schedule it for Thursday instead. I am free all afternoon.",
+    "question": "Why did the man postpone the lunch meeting?",
+    "choices": [
+      "He has to work on a budget sheet.",
+      "He has a conflict with a client call.",
+      "He forgot his smartphone at home.",
+      "He needs to visit the doctor."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Mr. Fiona, we need to order more office supplies. We are running low on printer paper and folders.\nB: Please fill out the requisition form and submit it to the procurement department.\nA: I will do that right away so we can receive them by Friday.",
+    "question": "What will the woman do next?",
+    "choices": [
+      "Contact the paper supplier",
+      "Submit a supply request form",
+      "Check the warehouse inventory",
+      "Organize a staff meeting"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Welcome to SilverSpoon. Are you looking for a specific item today?\nB: Yes, I saw an advertisement for a compact projectors, but I don't see it on the shelves.\nA: Ah, we are currently out of stock, but we can order one from our warehouse for you.",
+    "question": "What does the customer want to find?",
+    "choices": [
+      "A store catalog",
+      "A specific projectors",
+      "A discount coupon",
+      "A warehouse location"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "The public relations department of Celestia released a statement regarding the recent system outage. According to the press release, all databases have been successfully restored, and the security team has implemented additional safeguards to prevent future incidents.",
+    "question": "What is the main topic of the press release?",
+    "choices": [
+      "A recent technology acquisition",
+      "A system recovery and security update",
+      "The recruitment of a new director",
+      "A schedule for software training"
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Hi, I would like to register for the upcoming marketing workshop at CascadeLodge.\nB: Certainly. Standard registration is $50, but we offer a 20% discount for corporate members.\nA: Great. My company is a member, so I should qualify for that.",
+    "question": "What does the man imply?",
+    "choices": [
+      "He will pay the standard fee.",
+      "He is entitled to a reduced rate.",
+      "He needs to contact his supervisor.",
+      "He wants to reschedule the workshop."
+    ],
+    "answer": 1,
+    "difficulty": 6
+  },
+  {
+    "text": "A: Mr. Fiona, I cannot access the server from my laptop. Do you know if there is a system issue?\nB: Yes, the IT department is currently upgrading the security protocols. It should be resolved in an hour.\nA: Okay, I will work on my report offline in the meantime.",
+    "question": "Why is the woman unable to log in to the server?",
+    "choices": [
+      "She forgot her password.",
+      "The server is undergoing an upgrade.",
+      "Her laptop is malfunctioning.",
+      "The internet connection is down."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Hello, I received my order from SilverSpoon today, but you sent me a different projectors than the one I ordered.\nB: I am very sorry for the error. We will arrange a courier to collect the incorrect item and deliver the correct one tomorrow.\nA: Thank you, I appreciate the quick response.",
+    "question": "How will {store1} resolve the customer's issue?",
+    "choices": [
+      "By offering a full refund",
+      "By sending a discount coupon",
+      "By exchanging the incorrect product",
+      "By providing a free accessory"
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "The board of directors at Celestia has approved the appointment of Ms. Fiona as the new chief financial officer. Ms. Fiona, who previously managed the accounting division at a major firm in Copenhagen, is expected to streamline the company's global financial operations.",
+    "question": "What is indicated about Ms. {name1}?",
+    "choices": [
+      "She will relocate to Copenhagen.",
+      "She has experience in financial management.",
+      "She was promoted from within Celestia.",
+      "She will lead the marketing department."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Excuse me, does this shuttle bus go directly to the conference hall at CascadeLodge?\nB: No, this bus goes to the main airport terminal. You need to take the blue line from Platform 2.\nA: Ah, thank you. I must have misread the signs in the lobby.",
+    "question": "What does the passenger realize?",
+    "choices": [
+      "He is at the wrong platform.",
+      "He boarded the wrong shuttle bus.",
+      "He missed the last departure time.",
+      "He forgot his conference ticket."
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Hi, I am interested in leasing the office space on the second floor of CascadeLodge. Is it still available?\nB: Yes, but we have received multiple inquiries this week. I recommend submitting an application soon.\nA: I understand. I will fill out the online form today.",
+    "question": "What does the woman advise the man to do?",
+    "choices": [
+      "Schedule a property tour",
+      "Submit a rental application quickly",
+      "Compare different office suites",
+      "Negotiate the lease terms"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Hi, Ms. Fiona. Are you still available to help me move some furniture this Saturday morning?\nB: I would love to, but I have to attend a family gathering until 1:00 P.M.\nA: No problem. We can start in the afternoon instead. That actually works better.",
+    "question": "Why is the woman unable to help on Saturday morning?",
+    "choices": [
+      "She has a department shift.",
+      "She is traveling to Copenhagen.",
+      "She is attending a family event.",
+      "She needs to visit a doctor."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Mr. Fiona, our client from Celestia requested some changes to the software specifications.\nB: I see. We need to evaluate if those adjustments will delay our final release schedule.\nA: Exactly. I will draft a quick estimate of the time required and share it with you.",
+    "question": "What is the team evaluating?",
+    "choices": [
+      "The cost of hiring new developers",
+      "The impact of client changes on the deadline",
+      "The quality of the software specifications",
+      "The feedback from the marketing division"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Hello, I am looking for a leather jacket, but the price tag on this one seems to be missing.\nB: Let me scan the barcode for you. Ah, this item is on sale this week for only $120.\nA: That is a great deal. I will purchase it right away.",
+    "question": "What information does the customer request?",
+    "choices": [
+      "The size of a jacket",
+      "The cost of an item",
+      "The store's return policy",
+      "The availability of leather goods"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "The manufacturing plant of Celestia announced a temporary reduction in its production output due to a shortage of electronic components. The company has decided to prioritize its international assembly lines to sustain overall profitability during this transitional period.",
+    "question": "Why did {company1} decrease its domestic manufacturing?",
+    "choices": [
+      "Because of a drop in domestic sales",
+      "Because of a shortage of materials",
+      "Because of an increase in transport costs",
+      "To focus on developing new software"
+    ],
+    "answer": 1,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Hi, I would like to book a double room at CascadeLodge for three nights starting next Friday.\nB: We have rooms available, but our spa facility will be closed for maintenance during those dates.\nA: That is fine. I am traveling for business, so I won't have time to use it anyway.",
+    "question": "What is indicated about the guest's stay?",
+    "choices": [
+      "He will receive a free spa voucher.",
+      "He is traveling for leisure.",
+      "A hotel facility will be undergoing repairs.",
+      "He wants to reschedule his trip."
+    ],
+    "answer": 2,
+    "difficulty": 7
+  },
+  {
+    "text": "A: Ms. Fiona, I noticed that you scheduled the staff training for next Thursday morning. However, that is when the finance team has their weekly meeting.\nB: Ah, I didn't realize that. It is important that everyone attends the training, so I should adjust the schedule.\nA: Excellent. Friday afternoon is usually free for most departments.",
+    "question": "What is implied about next Thursday's training session?",
+    "choices": [
+      "It was canceled due to a budget dispute.",
+      "It will be rescheduled to a different day.",
+      "It is intended only for the finance team.",
+      "It will be held in the main conference hall."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Welcome to SilverSpoon. I am interested in purchasing this smart monitor, but I am concerned about the installation process.\nB: Don't worry. We offer a professional setup service for an additional $20, but it is free for our premium members.\nA: Oh, I signed up for the premium membership program last month.",
+    "question": "What is suggested about the customer?",
+    "choices": [
+      "She will install the monitor herself.",
+      "She will not have to pay extra for installation.",
+      "She is eligible for a discount on the monitor.",
+      "She wants to purchase a different model."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "Celestia is pleased to announce that its innovative performance appraisal system was successfully implemented across all offices yesterday. Designed by our internal technology division, this newly devised platform aims to streamline the evaluation process and provide employees with clearer feedback on their achievements.",
+    "question": "What is suggested about the new appraisal system?",
+    "choices": [
+      "It was purchased from an external technology vendor.",
+      "It is designed to simplify the evaluation process.",
+      "It will be used only by the human resources team.",
+      "It has been delayed due to technical errors."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Excuse me, my reservation at CascadeLodge was for a compact car, but I was told you are completely out of that category.\nB: Yes, we apologize for the inconvenience. However, we can upgrade you to a spacious luxury vehicle at no additional charge.\nA: That is very generous of you. I accept that offer.",
+    "question": "What is most likely true about the customer?",
+    "choices": [
+      "He will pay more than his original estimate.",
+      "He will drive a larger vehicle than he originally booked.",
+      "He will have to wait for a compact car to arrive.",
+      "He wants to cancel his reservation at CascadeLodge."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Hello, I saw an advertisement for the two-bedroom townhouse at CascadeLodge. Is it still available for lease?\nB: Yes, but the landlord requires a minimum of a one-year contract, and pet ownership is strictly prohibited inside the building.\nA: Ah, that is a problem because I have a cat. I will have to look elsewhere.",
+    "question": "What is suggested about the woman?",
+    "choices": [
+      "She wants to negotiate a shorter lease term.",
+      "She is not interested in CascadeLodge.",
+      "She owns a pet and will not rent the townhouse.",
+      "She will apply for a different property today."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Hi, Calvin. Did you receive the agenda for our volunteer event this Saturday?\nB: Yes, but it says we are starting at 7:30 A.M. That is much earlier than we agreed on.\nA: I agree, but the coordinator wanted to finish before the temperature rises in the afternoon.",
+    "question": "What is implied about the volunteer event?",
+    "choices": [
+      "It will be held indoors with air conditioning.",
+      "It was scheduled early to avoid the afternoon heat.",
+      "It has been postponed to next Saturday.",
+      "It is expected to attract a record number of participants."
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Mr. Fiona, our client from Celestia requested that we make our project report more concise yet thorough so they can grasp our key arguments easily.\nB: I see. We should focus on summarizing our core findings in the executive summary and placing the detailed data in the appendix.\nA: That is a wise approach. I will begin editing the document now.",
+    "question": "What will the team do to address the client's request?",
+    "choices": [
+      "Postpone the presentation until next week",
+      "Condense the main sections of the report",
+      "Hire an external editor to review the file",
+      "Conduct additional research on the market"
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Excuse me, does SilverSpoon offer a warranty on this professional camera?\nB: Yes, it includes a standard one-year warranty, but you can extend it to three years by purchasing our protection plan today.\nA: I plan to use this camera frequently for my business, so the extended plan is definitely worth it.",
+    "question": "What is implied about the customer?",
+    "choices": [
+      "She will buy the three-year protection plan.",
+      "She wants to return a malfunctioning camera.",
+      "She is eligible for a discount on professional gear.",
+      "She will use the camera only for leisure activities."
+    ],
+    "answer": 0,
+    "difficulty": 8
+  },
+  {
+    "text": "The tourism board of Copenhagen unveiled plans to construct a massive botanical garden near the civic center to attract more international travelers. The project, which is scheduled for completion in 2028, will feature a wide variety of exotic plants and sustainable greenhouse facilities.",
+    "question": "What is implied about the new botanical garden project?",
+    "choices": [
+      "It is designed primarily for local residents.",
+      "It has been delayed due to budget constraints.",
+      "It aims to increase tourism in the city.",
+      "It will be built using imported timber."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "The public library at CascadeLodge announced that its research database is now accessible to all registered cardholders from their personal computers. Users must log in to the library website with their credentials to access hundreds of digital publications and academic journals at no charge.",
+    "question": "What is suggested about the research database?",
+    "choices": [
+      "It can only be used inside the library building.",
+      "It is available to non-registered visitors for a fee.",
+      "It allows cardholders to read academic journals online.",
+      "It is undergoing major security maintenance today."
+    ],
+    "answer": 2,
+    "difficulty": 8
+  },
+  {
+    "text": "A: Ms. Fiona, the shipping department reported that we are running low on the cardboard containers needed for our product deliveries.\nB: That is critical. If we run out, our shipment schedule will be severely disrupted.\nA: Exactly. I will place an urgent order with our regular supplier, although they usually take three days to deliver.",
+    "question": "What is suggested about the company's shipments?",
+    "choices": [
+      "They will be paused for a week.",
+      "They might be delayed if the containers do not arrive in time.",
+      "They are restricted to domestic destinations.",
+      "They will require additional packaging fees."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: I would like to purchase this dining table, but my car is too small to transport it.\nB: We offer a delivery service to your doorstep. It is usually $40, but we are running a special promotion this week where delivery is free for purchases over $300.\nA: This table is $350, so that is a perfect deal for me.",
+    "question": "What is implied about the customer's purchase?",
+    "choices": [
+      "She will have to pay $40 for shipping.",
+      "She is eligible for free delivery of the table.",
+      "She wants to return a damaged furniture item.",
+      "She will rent a larger vehicle to transport the table."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "Celestia has decided to transition all its software services to a cloud-based platform starting next month. This shift is expected to reduce IT maintenance costs significantly and allow employees from different branch offices to collaborate on shared projects in real time, regardless of their location.",
+    "question": "What is suggested about the new cloud-based platform?",
+    "choices": [
+      "It will increase the company's hardware expenses.",
+      "It is designed to facilitate remote collaboration.",
+      "It will require employees to undergo extensive security training.",
+      "It has been delayed due to system compatibility issues."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Excuse me, does this train stop at Copenhagen? The schedule on my phone shows a different route.\nB: Normally it does, but track maintenance is being conducted on the eastern line today, so we are bypassing that station.\nA: Oh, I see. I must find an alternative way to reach my destination.",
+    "question": "What is implied about the passenger's trip?",
+    "choices": [
+      "She will arrive in Copenhagen ahead of schedule.",
+      "She cannot reach Copenhagen using this train today.",
+      "She needs to purchase an additional train ticket.",
+      "She is traveling on a business trip to Copenhagen."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Hello, I am calling because the elevator in building B at CascadeLodge has been out of service since this morning.\nB: We apologize for the inconvenience. A technician from the repair company has already been dispatched and is expected to arrive within an hour.\nA: Good to hear. Many elderly residents live on the upper floors, so it is urgent.",
+    "question": "What is suggested about building B?",
+    "choices": [
+      "It is undergoing elevator replacement work next week.",
+      "It is scheduled for a complete renovation.",
+      "It is currently being inspected by a safety official.",
+      "It has residents who heavily rely on the elevator."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Hi, Fiona. Are you still planning to attend the cooking class with me this evening?\nB: I would love to, but I have been feeling quite exhausted after working long hours all week.\nA: No problem at all. You should get some rest, and we can register for the next session together.",
+    "question": "What will the woman most likely do this evening?",
+    "choices": [
+      "Attend the cooking class",
+      "Rest at home",
+      "Work late at the office",
+      "Register for a different course"
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Mr. Fiona, the survey results indicate that our employees find the new office layout quite distracting because of the open-concept design.\nB: I agree. We should consider partitioning some areas of the office to provide more privacy and reduce noise.\nA: That is a sensible solution. I will obtain a cost estimate for the partitions today.",
+    "question": "What is suggested about the new office layout?",
+    "choices": [
+      "It has significantly reduced energy consumption.",
+      "It is disliked by workers due to lack of privacy.",
+      "It was designed by an external architecture firm.",
+      "It will be expanded to include a new break room."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "A: Welcome to SilverSpoon. I am interested in purchasing this organic tea, but I noticed the expiration date is next week.\nB: Yes, because of that, we have discounted it by 50%. It is a great deal if you plan to consume it soon.\nA: Oh, I drink tea every day, so that is not an issue for me at all.",
+    "question": "What is implied about the organic tea?",
+    "choices": [
+      "It is offered at a reduced price due to its shelf life.",
+      "It is currently out of stock at SilverSpoon.",
+      "It was imported from an international supplier.",
+      "It is restricted to premium members of the store."
+    ],
+    "answer": 0,
+    "difficulty": 9
+  },
+  {
+    "text": "According to an informal survey, no more than 15% of business owners in Copenhagen regard the current economic outlook as favorable. Many proprietors plan to reduce operating expenses and cut wages to sustain short-term profitability during this challenging period.",
+    "question": "What is implied about most business owners in {city1}?",
+    "choices": [
+      "They plan to hire more staff members next month.",
+      "They are pessimistic about the future economy.",
+      "They will relocate their headquarters to a different city.",
+      "They have increased their advertising budgets significantly."
+    ],
+    "answer": 1,
+    "difficulty": 9
+  },
+  {
+    "text": "The botanical garden at CascadeLodge announced that its annual flower exhibition will be held from April 10 to 15. Due to limited parking capacity, the organizers highly recommend that visitors utilize public transportation, such as the local shuttle bus, which runs every fifteen minutes from the main station.",
+    "question": "What is implied about the flower exhibition?",
+    "choices": [
+      "It is reserved exclusively for premium members.",
+      "It has been delayed due to adverse weather.",
+      "It may be difficult for visitors to park their cars at the venue.",
+      "It will feature sustainable greenhouse facilities."
+    ],
+    "answer": 2,
+    "difficulty": 9
+  }
+]

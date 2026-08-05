@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,7 +83,6 @@
             gap: 15px;
         }
 
-        /* 終了ボタンのスタイル */
         #btn-exit {
             background: none;
             border: none;
@@ -275,8 +274,8 @@
     <div id="app">
         <section id="screen-home" class="screen active">
             <h1>minimo-mini</h1>
-            <button id="btn-start" class="btn primary">start</button>
-            <button id="btn-readme" class="btn secondary">readme</button>
+            <button id="btn-start" class="btn primary">Start</button>
+            <button id="btn-readme" class="btn secondary">Readme</button>
         </section>
 
         <section id="screen-game" class="screen">
@@ -285,7 +284,7 @@
                     <span id="question-counter">Question: 1 / 30</span>
                     <span id="difficulty-display"></span>
                 </div>
-                <button id="btn-exit" title="終了してスコアを見る">
+                <button id="btn-exit" title="Exit and view score">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -307,12 +306,12 @@
 
             <div id="feedback-container" class="hidden">
                 <h2 id="feedback-result"></h2>
-                <button id="btn-next" class="btn primary">next</button>
+                <button id="btn-next" class="btn primary">Next</button>
             </div>
         </section>
 
         <div id="font-size-controls">
-            <button id="btn-font-large" class="icon-btn font-btn" title="text larger">
+            <button id="btn-font-large" class="icon-btn font-btn" title="Text larger">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -320,7 +319,7 @@
                     <line x1="8" y1="11" x2="14" y2="11"></line>
                 </svg>
             </button>
-            <button id="btn-font-small" class="icon-btn font-btn" title="text smaller">
+            <button id="btn-font-small" class="icon-btn font-btn" title="Text smaller">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -329,7 +328,7 @@
             </button>
         </div>
 
-        <button id="btn-save-image" class="icon-btn" title="copy image">
+        <button id="btn-save-image" class="icon-btn" title="Copy image">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
                 <circle cx="12" cy="13" r="4"></circle>
@@ -342,13 +341,13 @@
                 <span class="score-label">Score</span>
                 <span id="final-rate">0</span>
             </div>
-            <button id="btn-home-from-result" class="btn primary">home</button>
+            <button id="btn-home-from-result" class="btn primary">Home</button>
         </section>
 
         <section id="screen-readme" class="screen">
-            <h2>readme</h2>
+            <h2>Readme</h2>
             <div id="readme-content">Loading readme.txt ...</div>
-            <button id="btn-home-from-readme" class="btn primary">home</button>
+            <button id="btn-home-from-readme" class="btn primary">Home</button>
         </section>
     </div>
 
@@ -372,22 +371,21 @@
         async function init() {
             applyFontSize();
 
-            // JSONを1つだけ読み込むように変更
             try {
                 const res = await fetch('questions.json');
                 if (res.ok) {
                     allQuestions = await res.json();
                 } else {
-                    console.error("questions.jsonの読み込みに失敗しました");
+                    console.error("Failed to load questions.json");
                 }
             } catch (e) {
-                console.error("エラー:", e);
+                console.error("Error:", e);
             }
 
             fetch('readme.txt')
-                .then(res => res.ok ? res.text() : "readme.txtが見つかりません。")
+                .then(res => res.ok ? res.text() : "Readme.txt not found.")
                 .then(text => { document.getElementById('readme-content').textContent = text; })
-                .catch(() => { document.getElementById('readme-content').textContent = "読み込みエラー"; });
+                .catch(() => { document.getElementById('readme-content').textContent = "Loading error"; });
             
             document.getElementById('btn-start').addEventListener('click', startGame);
             document.getElementById('btn-readme').addEventListener('click', () => switchScreen('readme'));
@@ -400,10 +398,9 @@
                 nextQuestion();
             });
 
-            // 途中終了ボタンの処理
             document.getElementById('btn-exit').addEventListener('click', (e) => {
                 e.stopPropagation();
-                if (confirm("ここでテストを終了してスコアを確認しますか？\n（未回答の問題は0点として計算されます）")) {
+                if (confirm("Are you sure you want to quit and view your score?\n(Unanswered questions will be scored as 0 points.)")) {
                     clearInterval(timerInterval);
                     finishGame();
                 }
@@ -431,13 +428,13 @@
                     navigator.clipboard.write([item]).then(() => {
                         alert("Copied to clipboard!");
                     }).catch(err => {
-                        console.error("クリップボードへのコピーに失敗:", err);
-                        alert("ブラウザの制限によりコピーできませんでした。");
+                        console.error("Failed to copy to clipboard:", err);
+                        alert("Failed to copy due to browser restrictions.");
                         btnCamera.style.display = 'flex';
                         btnFonts.style.display = 'flex';
                     });
                 } catch (err) {
-                    console.error("キャプチャ生成エラー:", err);
+                    console.error("Capture error:", err);
                     document.getElementById('btn-save-image').style.display = 'flex';
                     document.getElementById('font-size-controls').style.display = 'flex';
                 }
@@ -475,20 +472,17 @@
         }
 
         function startGame() {
-            // 各難易度(1〜5)から6問ずつ抽出
             let selected = [];
             for (let i = 1; i <= 5; i++) {
                 let diffQuestions = allQuestions.filter(q => q.difficulty === i);
                 if (diffQuestions.length < 6) {
-                    alert(`難易度 ${i} の問題が不足しています（現在${diffQuestions.length}問）。各難易度6問以上必要です。`);
+                    alert(`Difficulty ${i} does not have enough questions (currently ${diffQuestions.length}). At least 6 questions are required for each level.`);
                     return;
                 }
-                // シャッフルして6問取得
                 let shuffledDiff = diffQuestions.sort(() => 0.5 - Math.random());
                 selected = selected.concat(shuffledDiff.slice(0, 6));
             }
 
-            // 最終的に難易度順に並び替え（シャッフルしたければここを変えます）
             currentQuestions = selected.sort((a, b) => a.difficulty - b.difficulty);
             currentQIndex = 0;
             currentTrialHistory = [];
@@ -595,8 +589,6 @@
         function finishGame() {
             let earnedPoints = 0;
 
-            // 各難易度に応じた配点（難易度1=31点、2=32点... 5=35点）を計算
-            // 全問正解でピッタリ990点になります
             currentTrialHistory.forEach(record => {
                 if (record.isCorrect) {
                     const point = 30 + record.difficulty;

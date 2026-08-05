@@ -1,0 +1,36 @@
+[
+  { "text": "難易度1 文章1", "question": "難易度1 設問1", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 1 },
+  { "text": "難易度1 文章2", "question": "難易度1 設問2", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 1 },
+  { "text": "難易度1 文章3", "question": "難易度1 設問3", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 1 },
+  { "text": "難易度1 文章4", "question": "難易度1 設問4", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 1 },
+  { "text": "難易度1 文章5", "question": "難易度1 設問5", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 1 },
+  { "text": "難易度1 文章6", "question": "難易度1 設問6", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 1 },
+
+  { "text": "難易度2 文章1", "question": "難易度2 設問1", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 2 },
+  { "text": "難易度2 文章2", "question": "難易度2 設問2", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 2 },
+  { "text": "難易度2 文章3", "question": "難易度2 設問3", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 2 },
+  { "text": "難易度2 文章4", "question": "難易度2 設問4", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 2 },
+  { "text": "難易度2 文章5", "question": "難易度2 設問5", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 2 },
+  { "text": "難易度2 文章6", "question": "難易度2 設問6", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 2 },
+
+  { "text": "難易度3 文章1", "question": "難易度3 設問1", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 3 },
+  { "text": "難易度3 文章2", "question": "難易度3 設問2", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 3 },
+  { "text": "難易度3 文章3", "question": "難易度3 設問3", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 3 },
+  { "text": "難易度3 文章4", "question": "難易度3 設問4", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 3 },
+  { "text": "難易度3 文章5", "question": "難易度3 設問5", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 3 },
+  { "text": "難易度3 文章6", "question": "難易度3 設問6", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 3 },
+
+  { "text": "難易度4 文章1", "question": "難易度4 設問1", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 4 },
+  { "text": "難易度4 文章2", "question": "難易度4 設問2", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 4 },
+  { "text": "難易度4 文章3", "question": "難易度4 設問3", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 4 },
+  { "text": "難易度4 文章4", "question": "難易度4 設問4", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 4 },
+  { "text": "難易度4 文章5", "question": "難易度4 設問5", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 4 },
+  { "text": "難易度4 文章6", "question": "難易度4 設問6", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 4 },
+
+  { "text": "難易度5 文章1", "question": "難易度5 設問1", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 5 },
+  { "text": "難易度5 文章2", "question": "難易度5 設問2", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 5 },
+  { "text": "難易度5 文章3", "question": "難易度5 設問3", "choices": ["1", "2", "3", "4"], "answer": 2, "difficulty": 5 },
+  { "text": "難易度5 文章4", "question": "難易度5 設問4", "choices": ["1", "2", "3", "4"], "answer": 3, "difficulty": 5 },
+  { "text": "難易度5 文章5", "question": "難易度5 設問5", "choices": ["1", "2", "3", "4"], "answer": 0, "difficulty": 5 },
+  { "text": "難易度5 文章6", "question": "難易度5 設問6", "choices": ["1", "2", "3", "4"], "answer": 1, "difficulty": 5 }
+]

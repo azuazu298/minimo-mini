@@ -383,7 +383,7 @@
             }
 
             fetch('readme.txt')
-                .then(res => res.ok ? res.text() : "Readme.txt not found.")
+                .then(res => res.ok ? res.text() : "readme.txt not found.")
                 .then(text => { document.getElementById('readme-content').textContent = text; })
                 .catch(() => { document.getElementById('readme-content').textContent = "Loading error"; });
             
@@ -426,7 +426,7 @@
 
                     const item = new ClipboardItem({ "image/png": blobPromise });
                     navigator.clipboard.write([item]).then(() => {
-                        alert("Copied to clipboard!");
+                        alert("Copied to clipboard.");
                     }).catch(err => {
                         console.error("Failed to copy to clipboard:", err);
                         alert("Failed to copy due to browser restrictions.");
@@ -569,7 +569,7 @@
                 feedbackResult.textContent = "Time out... (Incorrect)";
                 feedbackResult.style.color = "var(--incorrect-color)";
             } else {
-                feedbackResult.textContent = isCorrect ? "Correct!" : "Incorrect...";
+                feedbackResult.textContent = isCorrect ? "Correct" : "Incorrect";
                 feedbackResult.style.color = isCorrect ? "var(--correct-color)" : "var(--incorrect-color)";
             }
 

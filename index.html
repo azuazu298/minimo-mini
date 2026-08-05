@@ -72,10 +72,30 @@
         .header-info {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             width: 100%;
             margin-bottom: 5px;
             font-weight: bold;
         }
+
+        .header-left {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* 終了ボタンのスタイル */
+        #btn-exit {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #999;
+            padding: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s;
+        }
+        #btn-exit:hover { color: var(--incorrect-color); }
 
         .timer-container {
             width: 100%;
@@ -92,7 +112,7 @@
             background-color: var(--primary-color);
             transition: width 0.1s linear;
         }
-        
+
         #timer-text {
             width: 100%;
             text-align: right;
@@ -153,9 +173,9 @@
         .choice-btn.correct { background-color: var(--correct-color) !important; color: white !important; border-color: var(--correct-color) !important; }
         .choice-btn.incorrect { background-color: var(--incorrect-color) !important; color: white !important; border-color: var(--incorrect-color) !important; }
 
-        #feedback-container { 
-            text-align: center; 
-            width: 100%; 
+        #feedback-container {
+            text-align: center;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -163,9 +183,9 @@
             gap: 8px;
         }
 
-        #feedback-container.hidden { 
-            display: flex !important; 
-            visibility: hidden; 
+        #feedback-container.hidden {
+            display: flex !important;
+            visibility: hidden;
         }
 
         #feedback-result {
@@ -201,7 +221,7 @@
             position: absolute;
             bottom: 15px;
             left: 15px;
-            display: none; 
+            display: none;
             gap: 8px;
             z-index: 10;
         }
@@ -226,20 +246,20 @@
             max-height: 400px;
             overflow-y: auto;
         }
-        
+
         .score-display {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin: 20px 0 40px 0;
         }
-        
+
         .score-label {
             font-size: 24px;
             color: #555;
             font-weight: bold;
         }
-        
+
         #final-rate {
             font-size: 72px;
             color: var(--primary-color);
@@ -261,19 +281,27 @@
 
         <section id="screen-game" class="screen">
             <div class="header-info">
-                <span id="question-counter">Question: 1 / 30</span>
-                <span id="difficulty-display"></span>
+                <div class="header-left">
+                    <span id="question-counter">Question: 1 / 30</span>
+                    <span id="difficulty-display"></span>
+                </div>
+                <button id="btn-exit" title="終了してスコアを見る">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
             </div>
             <div class="timer-container">
                 <div id="timer-bar"></div>
             </div>
             <div id="timer-text">30.0</div>
-            
+
             <div class="question-container">
                 <p id="passage-text">Loading...</p>
                 <p id="question-text"></p>
             </div>
-            
+
             <div id="choices-container" class="choices-grid">
             </div>
 
@@ -344,37 +372,41 @@
         async function init() {
             applyFontSize();
 
-            const fetchPromises = [];
-            for (let i = 1; i <= 9; i++) {
-                const p = fetch(`questions${i}.json`)
-                    .then(res => res.ok ? res.json() : [])
-                    .catch(() => []);
-                fetchPromises.push(p);
+            // JSONを1つだけ読み込むように変更
+            try {
+                const res = await fetch('questions.json');
+                if (res.ok) {
+                    allQuestions = await res.json();
+                } else {
+                    console.error("questions.jsonの読み込みに失敗しました");
+                }
+            } catch (e) {
+                console.error("エラー:", e);
             }
 
-            try {
-                const results = await Promise.all(fetchPromises);
-                results.forEach(questions => {
-                    allQuestions = allQuestions.concat(questions);
-                });
-            } catch (e) {
-                console.error("問題データの読み込みに失敗しました", e);
-            }
-            
             fetch('readme.txt')
-                .then(res => res.ok ? res.text() : "readme.txt が見つかりません。同じフォルダに作成してください。")
+                .then(res => res.ok ? res.text() : "readme.txtが見つかりません。")
                 .then(text => { document.getElementById('readme-content').textContent = text; })
                 .catch(() => { document.getElementById('readme-content').textContent = "読み込みエラー"; });
-
+            
             document.getElementById('btn-start').addEventListener('click', startGame);
             document.getElementById('btn-readme').addEventListener('click', () => switchScreen('readme'));
             
             document.getElementById('btn-home-from-result').addEventListener('click', () => switchScreen('home'));
             document.getElementById('btn-home-from-readme').addEventListener('click', () => switchScreen('home'));
-            
+
             document.getElementById('btn-next').addEventListener('click', (e) => {
-                e.stopPropagation(); 
+                e.stopPropagation();
                 nextQuestion();
+            });
+
+            // 途中終了ボタンの処理
+            document.getElementById('btn-exit').addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (confirm("ここでテストを終了してスコアを確認しますか？\n（未回答の問題は0点として計算されます）")) {
+                    clearInterval(timerInterval);
+                    finishGame();
+                }
             });
 
             document.getElementById('btn-save-image').addEventListener('click', function(e) {
@@ -382,9 +414,10 @@
                 try {
                     const btnCamera = document.getElementById('btn-save-image');
                     const btnFonts = document.getElementById('font-size-controls');
+                    
                     btnCamera.style.display = 'none';
                     btnFonts.style.display = 'none';
-
+                    
                     const captureTarget = document.getElementById('app');
                     const blobPromise = html2canvas(captureTarget, { backgroundColor: "#ffffff" }).then(canvas => {
                         btnCamera.style.display = 'flex';
@@ -395,31 +428,30 @@
                     });
 
                     const item = new ClipboardItem({ "image/png": blobPromise });
-                    
                     navigator.clipboard.write([item]).then(() => {
                         alert("Copied to clipboard!");
                     }).catch(err => {
-                        console.error("クリップボード書き込みエラー", err);
-                        alert("コピーに失敗しました。iOSの場合は設定により制限されている場合があります。");
+                        console.error("クリップボードへのコピーに失敗:", err);
+                        alert("ブラウザの制限によりコピーできませんでした。");
                         btnCamera.style.display = 'flex';
                         btnFonts.style.display = 'flex';
                     });
                 } catch (err) {
-                    console.error("画像の生成に失敗しました", err);
+                    console.error("キャプチャ生成エラー:", err);
                     document.getElementById('btn-save-image').style.display = 'flex';
                     document.getElementById('font-size-controls').style.display = 'flex';
                 }
             });
 
             document.getElementById('btn-font-large').addEventListener('click', (e) => {
-                e.stopPropagation(); 
-                currentFontSize = Math.min(currentFontSize + 4, 30); 
+                e.stopPropagation();
+                currentFontSize = Math.min(currentFontSize + 4, 30);
                 applyFontSize();
             });
 
             document.getElementById('btn-font-small').addEventListener('click', (e) => {
                 e.stopPropagation();
-                currentFontSize = Math.max(currentFontSize - 4, 12); 
+                currentFontSize = Math.max(currentFontSize - 4, 12);
                 applyFontSize();
             });
         }
@@ -433,7 +465,7 @@
         function switchScreen(screenName) {
             Object.values(screens).forEach(s => s.classList.remove('active'));
             screens[screenName].classList.add('active');
-            
+
             document.getElementById('btn-save-image').style.display = 'none';
             if (screenName === 'game') {
                 document.getElementById('font-size-controls').style.display = 'flex';
@@ -443,14 +475,21 @@
         }
 
         function startGame() {
-            if (allQuestions.length < 30) {
-                alert(`Problem data shortage. Current loaded: ${allQuestions.length} questions.\n(Please place questions1.json ~ questions9.json)`);
-                return;
+            // 各難易度(1〜5)から6問ずつ抽出
+            let selected = [];
+            for (let i = 1; i <= 5; i++) {
+                let diffQuestions = allQuestions.filter(q => q.difficulty === i);
+                if (diffQuestions.length < 6) {
+                    alert(`難易度 ${i} の問題が不足しています（現在${diffQuestions.length}問）。各難易度6問以上必要です。`);
+                    return;
+                }
+                // シャッフルして6問取得
+                let shuffledDiff = diffQuestions.sort(() => 0.5 - Math.random());
+                selected = selected.concat(shuffledDiff.slice(0, 6));
             }
-            
-            let shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-            currentQuestions = shuffled.slice(0, 30).sort((a, b) => a.difficulty - b.difficulty);
-            
+
+            // 最終的に難易度順に並び替え（シャッフルしたければここを変えます）
+            currentQuestions = selected.sort((a, b) => a.difficulty - b.difficulty);
             currentQIndex = 0;
             currentTrialHistory = [];
 
@@ -463,19 +502,19 @@
 
             document.getElementById('question-counter').textContent = `Question: ${currentQIndex + 1} / 30`;
             document.getElementById('difficulty-display').textContent = `Level: ${q.difficulty}`;
-            
+
             document.getElementById('passage-text').textContent = q.text;
             document.getElementById('question-text').textContent = q.question;
-            
+
             document.getElementById('btn-save-image').style.display = 'none';
-            
+
             const choicesContainer = document.getElementById('choices-container');
             choicesContainer.innerHTML = '';
-            
+
             const originalChoices = [...q.choices];
             const correctAnswerStr = originalChoices[q.answer];
             const shuffledChoices = [...originalChoices].sort(() => Math.random() - 0.5);
-            
+
             shuffledChoices.forEach((choiceText) => {
                 const btn = document.createElement('button');
                 btn.textContent = choiceText;
@@ -492,22 +531,22 @@
         function startTimer(correctAnswerStr, q) {
             const maxTime = 30.0;
             timeLeft = maxTime;
-            
+
             const timerBar = document.getElementById('timer-bar');
             const timerText = document.getElementById('timer-text');
-            
+
             timerBar.style.width = '100%';
             timerText.textContent = timeLeft.toFixed(1);
-            
+
             clearInterval(timerInterval);
             timerInterval = setInterval(() => {
                 timeLeft -= 0.1;
                 timerBar.style.width = `${(timeLeft / maxTime) * 100}%`;
                 timerText.textContent = Math.max(0, timeLeft).toFixed(1);
-                
+
                 if (timeLeft <= 0) {
                     clearInterval(timerInterval);
-                    handleAnswer(null, correctAnswerStr, q); 
+                    handleAnswer(null, correctAnswerStr, q);
                 }
             }, 100);
         }
@@ -516,13 +555,13 @@
             clearInterval(timerInterval);
             const isCorrect = selectedText === correctText;
             const btns = document.querySelectorAll('.choice-btn');
-            
+
             btns.forEach((btn) => {
-                btn.disabled = true; 
+                btn.disabled = true;
                 if (btn.textContent === correctText) {
-                    btn.classList.add('correct'); 
+                    btn.classList.add('correct');
                 } else if (btn.textContent === selectedText) {
-                    btn.classList.add('incorrect'); 
+                    btn.classList.add('incorrect');
                 }
             });
 
@@ -539,14 +578,14 @@
                 feedbackResult.textContent = isCorrect ? "Correct!" : "Incorrect...";
                 feedbackResult.style.color = isCorrect ? "var(--correct-color)" : "var(--incorrect-color)";
             }
-            
+
             document.getElementById('feedback-container').classList.remove('hidden');
             document.getElementById('btn-save-image').style.display = 'flex';
         }
 
         function nextQuestion() {
             currentQIndex++;
-            if (currentQIndex < 30) {
+            if (currentQIndex < currentQuestions.length) {
                 displayQuestion();
             } else {
                 finishGame();
@@ -554,30 +593,18 @@
         }
 
         function finishGame() {
-            let totalPoints = 0;
             let earnedPoints = 0;
 
+            // 各難易度に応じた配点（難易度1=31点、2=32点... 5=35点）を計算
+            // 全問正解でピッタリ990点になります
             currentTrialHistory.forEach(record => {
-                const point = 10 + (record.difficulty * 2);
-                totalPoints += point;
                 if (record.isCorrect) {
+                    const point = 30 + record.difficulty;
                     earnedPoints += point;
                 }
             });
 
-            let finalRate = totalPoints === 0 ? 0 : (earnedPoints / totalPoints) * 990;
-            
-            finalRate = Math.round(finalRate / 5) * 5;
-
-            if (earnedPoints < totalPoints && finalRate >= 990) {
-                finalRate = 985;
-            }
-            
-            if (finalRate > 990) finalRate = 990;
-            if (finalRate < 0) finalRate = 0;
-
-            document.getElementById('final-rate').textContent = finalRate;
-            
+            document.getElementById('final-rate').textContent = earnedPoints;
             switchScreen('result');
         }
 

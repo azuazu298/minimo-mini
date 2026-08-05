@@ -6,15 +6,17 @@
     <title>minimo-mini</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <style>
+        /* CSS変数の定義：アプリ全体で使用するテーマカラーや背景色を一元管理 */
         :root {
-            --primary-color: #4A90E2;
-            --correct-color: #2ECC71;
-            --incorrect-color: #E74C3C;
-            --bg-color: #F5F7FA;
-            --text-color: #333333;
-            --container-bg: #FFFFFF;
+            --primary-color: #4A90E2;      /* メインカラー（青系） */
+            --correct-color: #2ECC71;      /* 正解時のカラー（緑系） */
+            --incorrect-color: #E74C3C;    /* 不正解時のカラー（赤系） */
+            --bg-color: #F5F7FA;           /* ページ全体の背景色 */
+            --text-color: #333333;         /* 基本のテキストカラー */
+            --container-bg: #FFFFFF;       /* アプリコンテナの背景色 */
         }
 
+        /* ページ全体のリセットとレイアウト設定。画面中央にアプリを配置 */
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             background-color: var(--bg-color);
@@ -26,6 +28,7 @@
             min-height: 100vh;
         }
 
+        /* アプリケーションのメインコンテナ。カード型のデザインを適用 */
         #app {
             position: relative;
             width: 100%;
@@ -37,6 +40,7 @@
             box-sizing: border-box;
         }
 
+        /* 画面ごとのセクション設定（デフォルトは非表示） */
         .screen {
             display: none;
             flex-direction: column;
@@ -44,12 +48,16 @@
             width: 100%;
         }
 
+        /* アクティブな画面のみを表示状態（Flexbox）にするクラス */
         .screen.active {
             display: flex;
         }
 
-        h1, h2, h3 { text-align: center; margin: 10px 0; }
+        /* 見出しの中央揃えとマージン調整 */
+        h1, h2, h3 { text-align: center; margin: 10px 0;
+        }
 
+        /* 汎用ボタンのスタイル設定 */
         .btn {
             padding: 12px 24px;
             font-size: 16px;
@@ -58,17 +66,25 @@
             cursor: pointer;
             width: 100%;
             max-width: 300px;
-            transition: opacity 0.2s;
+            transition: opacity 0.2s; /* ホバー時の透過アニメーション */
             margin: 10px auto;
             display: block;
             letter-spacing: 1px;
         }
 
-        .btn:hover { opacity: 0.8; }
-        .btn.primary { background-color: var(--primary-color); color: white; }
-        .btn.secondary { background-color: #ddd; color: #333; }
-        .btn:disabled { cursor: not-allowed; opacity: 0.5; }
+        .btn:hover { opacity: 0.8;
+        }
+        /* プライマリーボタン（青色） */
+        .btn.primary { background-color: var(--primary-color); color: white;
+        }
+        /* セカンダリーボタン（グレー系） */
+        .btn.secondary { background-color: #ddd; color: #333;
+        }
+        /* 無効化（disabled）状態のボタンスタイル */
+        .btn:disabled { cursor: not-allowed; opacity: 0.5;
+        }
 
+        /* ゲーム画面上部のヘッダー情報（問題番号・難易度・終了ボタン）のレイアウト */
         .header-info {
             display: flex;
             justify-content: space-between;
@@ -78,11 +94,13 @@
             font-weight: bold;
         }
 
+        /* 問題番号と難易度を横並びにするコンテナ */
         .header-left {
             display: flex;
             gap: 15px;
         }
 
+        /* 終了（バツ）ボタンのスタイル設定 */
         #btn-exit {
             background: none;
             border: none;
@@ -94,8 +112,11 @@
             justify-content: center;
             transition: color 0.2s;
         }
-        #btn-exit:hover { color: var(--incorrect-color); }
+        /* 終了ボタンのホバー時は赤色に変化 */
+        #btn-exit:hover { color: var(--incorrect-color);
+        }
 
+        /* タイマーの背景バー設定 */
         .timer-container {
             width: 100%;
             height: 10px;
@@ -105,6 +126,7 @@
             margin-bottom: 5px;
         }
 
+        /* タイマーの進行度を示すバー。時間と共に幅が縮むアニメーションを設定 */
         #timer-bar {
             height: 100%;
             width: 100%;
@@ -112,6 +134,7 @@
             transition: width 0.1s linear;
         }
 
+        /* 残り時間の数値表示テキストの設定 */
         #timer-text {
             width: 100%;
             text-align: right;
@@ -121,14 +144,16 @@
             margin: 0 0 5px 0;
         }
 
+        /* 問題文と長文（パッセージ）を囲むコンテナ */
         .question-container {
             margin: 0 0 5px 0;
             text-align: center;
-            transition: font-size 0.2s;
-            white-space: pre-wrap;
+            transition: font-size 0.2s; /* フォントサイズ変更時のアニメーション */
+            white-space: pre-wrap;      /* 改行を反映させる */
             width: 100%;
         }
 
+        /* 読解問題などの本文テキストのスタイル設定 */
         #passage-text {
             font-weight: normal;
             font-size: 16px;
@@ -138,15 +163,17 @@
             background: #f9f9f9;
             padding: 10px 15px;
             border-radius: 8px;
-            border-left: 4px solid var(--primary-color);
+            border-left: 4px solid var(--primary-color); /* 左側の青い装飾線 */
         }
 
+        /* 問題の質問文テキスト */
         #question-text {
             font-weight: bold;
             font-size: 16px;
             margin: 5px 0;
         }
 
+        /* 選択肢ボタンを縦に並べるグリッドコンテナ */
         .choices-grid {
             display: flex;
             flex-direction: column;
@@ -155,6 +182,7 @@
             margin-bottom: 8px;
         }
 
+        /* 各選択肢ボタンの基本スタイル設定 */
         .choice-btn {
             padding: 12px 15px;
             font-size: 15px;
@@ -168,10 +196,17 @@
             line-height: 1.3;
         }
 
-        .choice-btn:hover:not(:disabled) { border-color: var(--primary-color); }
-        .choice-btn.correct { background-color: var(--correct-color) !important; color: white !important; border-color: var(--correct-color) !important; }
-        .choice-btn.incorrect { background-color: var(--incorrect-color) !important; color: white !important; border-color: var(--incorrect-color) !important; }
+        /* 選択肢ホバー時のスタイル（無効状態以外） */
+        .choice-btn:hover:not(:disabled) { border-color: var(--primary-color);
+        }
+        /* 正解時の選択肢ボタンスタイル（強制適用） */
+        .choice-btn.correct { background-color: var(--correct-color) !important; color: white !important; border-color: var(--correct-color) !important;
+        }
+        /* 不正解時の選択肢ボタンスタイル（強制適用） */
+        .choice-btn.incorrect { background-color: var(--incorrect-color) !important; color: white !important; border-color: var(--incorrect-color) !important;
+        }
 
+        /* 正誤判定結果を表示するコンテナのスタイル設定 */
         #feedback-container {
             text-align: center;
             width: 100%;
@@ -182,20 +217,24 @@
             gap: 8px;
         }
 
+        /* フィードバックコンテナの非表示状態。レイアウトを崩さずに不可視化 */
         #feedback-container.hidden {
             display: flex !important;
             visibility: hidden;
         }
 
+        /* 正誤結果テキスト（Correct/Incorrect）のスタイル */
         #feedback-result {
             font-size: 20px;
             margin: 0;
         }
 
+        /* 「Next」ボタンの中央配置 */
         #btn-next {
             margin: 0 auto;
         }
 
+        /* アイコンボタン（カメラ、フォントサイズ変更）の共通スタイル */
         .icon-btn {
             background: none;
             border: none;
@@ -207,8 +246,10 @@
             justify-content: center;
             color: #333;
         }
-        .icon-btn:hover { opacity: 0.6; }
+        .icon-btn:hover { opacity: 0.6;
+        }
 
+        /* 画像保存（クリップボードコピー）ボタンの配置位置 */
         #btn-save-image {
             position: absolute;
             bottom: 15px;
@@ -216,6 +257,7 @@
             display: none;
         }
 
+        /* フォントサイズ変更コントロールの配置位置 */
         #font-size-controls {
             position: absolute;
             bottom: 15px;
@@ -225,14 +267,17 @@
             z-index: 10;
         }
 
+        /* フォント変更ボタン独自のスタイル */
         .font-btn {
             background-color: #eee;
             border: 1px solid #ccc;
             border-radius: 6px;
             transition: background-color 0.2s;
         }
-        .font-btn:hover { background-color: #ddd; }
+        .font-btn:hover { background-color: #ddd;
+        }
 
+        /* Readme（説明書）のコンテンツ表示エリア設定 */
         #readme-content {
             width: 100%;
             line-height: 1.6;
@@ -243,9 +288,10 @@
             padding: 15px;
             border-radius: 8px;
             max-height: 400px;
-            overflow-y: auto;
+            overflow-y: auto; /* 長い場合はスクロールバーを表示 */
         }
 
+        /* 最終スコア表示部分のレイアウト */
         .score-display {
             display: flex;
             flex-direction: column;
@@ -253,12 +299,14 @@
             margin: 20px 0 40px 0;
         }
 
+        /* "Score" というラベルのスタイル */
         .score-label {
             font-size: 24px;
             color: #555;
             font-weight: bold;
         }
 
+        /* 実際のスコア数値のスタイル設定 */
         #final-rate {
             font-size: 72px;
             color: var(--primary-color);
@@ -267,7 +315,9 @@
             margin-top: 10px;
         }
 
-        .hidden { display: none !important; }
+        /* 完全に非表示にするための汎用クラス */
+        .hidden { display: none !important;
+        }
     </style>
 </head>
 <body>
@@ -352,15 +402,17 @@
     </div>
 
     <script>
-        let allQuestions = [];
-        let currentQuestions = [];
-        let currentQIndex = 0;
-        let timerInterval;
-        let timeLeft;
-        let currentTrialHistory = [];
-
+        // グローバル変数の定義
+        let allQuestions = [];          // 読み込んだ全ての問題データを格納する配列
+        let currentQuestions = [];      // 現在のプレイで使用する問題（30問）の配列
+        let currentQIndex = 0;          // 現在解いている問題のインデックス（0〜29）
+        let timerInterval;              // タイマーのsetIntervalIDを保持する変数
+        let timeLeft;                   // 現在の残り時間（秒）
+        let currentTrialHistory = [];   // 各問題の難易度と正誤結果を記録する配列
+        // フォントサイズの設定（ローカルストレージから取得、なければデフォルト16px）
         let currentFontSize = parseInt(localStorage.getItem('toeicFontSize')) || 16;
 
+        // 各画面（セクション）のDOM要素への参照オブジェクト
         const screens = {
             home: document.getElementById('screen-home'),
             game: document.getElementById('screen-game'),
@@ -368,9 +420,11 @@
             readme: document.getElementById('screen-readme')
         };
 
+        // 初期化処理関数：ページの読み込み完了時に実行される
         async function init() {
-            applyFontSize();
-
+            applyFontSize(); // 保持されているフォントサイズを反映
+            
+            // questions.jsonから問題データを非同期で取得
             try {
                 const res = await fetch('questions.json');
                 if (res.ok) {
@@ -382,22 +436,25 @@
                 console.error("Error:", e);
             }
 
+            // readme.txtから説明テキストを非同期で取得
             fetch('readme.txt')
                 .then(res => res.ok ? res.text() : "readme.txt not found.")
                 .then(text => { document.getElementById('readme-content').textContent = text; })
                 .catch(() => { document.getElementById('readme-content').textContent = "Loading error"; });
-            
+
+            // 各種ボタンにクリックイベントリスナーを登録
             document.getElementById('btn-start').addEventListener('click', startGame);
             document.getElementById('btn-readme').addEventListener('click', () => switchScreen('readme'));
-            
             document.getElementById('btn-home-from-result').addEventListener('click', () => switchScreen('home'));
             document.getElementById('btn-home-from-readme').addEventListener('click', () => switchScreen('home'));
-
+            
+            // 「Next」ボタン：次の問題へ進む（イベントバブリングを停止）
             document.getElementById('btn-next').addEventListener('click', (e) => {
                 e.stopPropagation();
                 nextQuestion();
             });
-
+            
+            // 「終了」ボタン：確認ダイアログを表示し、OKならタイマーを止めて結果画面へ移行
             document.getElementById('btn-exit').addEventListener('click', (e) => {
                 e.stopPropagation();
                 if (confirm("Are you sure you want to quit and view your score?\n(Unanswered questions will be scored as 0 points.)")) {
@@ -406,17 +463,22 @@
                 }
             });
 
+            // 「カメラ」ボタン：アプリ画面（#app要素）を画像化してクリップボードにコピー
             document.getElementById('btn-save-image').addEventListener('click', function(e) {
                 e.stopPropagation();
                 try {
                     const btnCamera = document.getElementById('btn-save-image');
                     const btnFonts = document.getElementById('font-size-controls');
-                    
+                   
+                    // キャプチャ時に余計なUI（ボタン群）が写り込まないように一時的に非表示化
                     btnCamera.style.display = 'none';
                     btnFonts.style.display = 'none';
                     
                     const captureTarget = document.getElementById('app');
+            
+                    // html2canvasで#app要素をCanvasに変換し、Blob（画像データ）化する
                     const blobPromise = html2canvas(captureTarget, { backgroundColor: "#ffffff" }).then(canvas => {
+                        // キャプチャ完了後、UIを再表示
                         btnCamera.style.display = 'flex';
                         btnFonts.style.display = 'flex';
                         return new Promise(resolve => {
@@ -424,12 +486,14 @@
                         });
                     });
 
+                    // ClipboardItemオブジェクトを作成し、クリップボードへ書き込む
                     const item = new ClipboardItem({ "image/png": blobPromise });
                     navigator.clipboard.write([item]).then(() => {
                         alert("Copied to clipboard.");
                     }).catch(err => {
                         console.error("Failed to copy to clipboard:", err);
                         alert("Failed to copy due to browser restrictions.");
+                        // エラー時もUIを再表示する
                         btnCamera.style.display = 'flex';
                         btnFonts.style.display = 'flex';
                     });
@@ -440,12 +504,13 @@
                 }
             });
 
+            // フォント拡大ボタン：最大30pxまで4pxずつ拡大し保存
             document.getElementById('btn-font-large').addEventListener('click', (e) => {
                 e.stopPropagation();
                 currentFontSize = Math.min(currentFontSize + 4, 30);
                 applyFontSize();
             });
-
+            // フォント縮小ボタン：最小12pxまで4pxずつ縮小し保存
             document.getElementById('btn-font-small').addEventListener('click', (e) => {
                 e.stopPropagation();
                 currentFontSize = Math.max(currentFontSize - 4, 12);
@@ -453,17 +518,23 @@
             });
         }
 
+        // 本文テキスト(#passage-text)のフォントサイズを更新し、LocalStorageに保存する関数
         function applyFontSize() {
             const passageText = document.getElementById('passage-text');
             passageText.style.fontSize = `${currentFontSize}px`;
             localStorage.setItem('toeicFontSize', currentFontSize);
         }
 
+        // 画面切り替えを制御する関数
         function switchScreen(screenName) {
+            // 一旦すべての画面の 'active' クラスを外し非表示にする
             Object.values(screens).forEach(s => s.classList.remove('active'));
+            // 対象の画面のみ 'active' クラスを付与し表示する
             screens[screenName].classList.add('active');
 
+            // 画面切り替え時にカメラボタンを非表示にする
             document.getElementById('btn-save-image').style.display = 'none';
+            // ゲーム画面の場合のみフォントサイズ変更UIを表示
             if (screenName === 'game') {
                 document.getElementById('font-size-controls').style.display = 'flex';
             } else {
@@ -471,99 +542,135 @@
             }
         }
 
+        // ゲーム（テスト）開始時の処理関数
         function startGame() {
             let selected = [];
+            
+            // 難易度(1〜5)ごとに、それぞれ6問ずつ問題をランダムに抽出する
             for (let i = 1; i <= 5; i++) {
                 let diffQuestions = allQuestions.filter(q => q.difficulty === i);
+                // 該当する難易度の問題が6問未満の場合はエラーを出して処理を中断
                 if (diffQuestions.length < 6) {
                     alert(`Difficulty ${i} does not have enough questions (currently ${diffQuestions.length}). At least 6 questions are required for each level.`);
                     return;
                 }
+                // 問題配列をランダムにシャッフル
                 let shuffledDiff = diffQuestions.sort(() => 0.5 - Math.random());
+                // 先頭から6問をselected配列に追加
                 selected = selected.concat(shuffledDiff.slice(0, 6));
             }
 
+            // 抽出した30問を難易度の低い順(1から5)に並び替える
             currentQuestions = selected.sort((a, b) => a.difficulty - b.difficulty);
+            
+            // 変数を初期化
             currentQIndex = 0;
             currentTrialHistory = [];
 
+            // ゲーム画面に切り替えて1問目を表示
             switchScreen('game');
             displayQuestion();
         }
 
+        // 問題画面のUIを描画する関数
         function displayQuestion() {
             const q = currentQuestions[currentQIndex];
-
+            
+            // ヘッダー情報（問題番号、難易度）の更新
             document.getElementById('question-counter').textContent = `Question: ${currentQIndex + 1} / 30`;
             document.getElementById('difficulty-display').textContent = `Level: ${q.difficulty}`;
 
+            // 本文と質問文テキストのセット
             document.getElementById('passage-text').textContent = q.text;
             document.getElementById('question-text').textContent = q.question;
-
+            // 問題回答中はカメラボタンを非表示
             document.getElementById('btn-save-image').style.display = 'none';
 
+            // 選択肢コンテナを一旦空にする
             const choicesContainer = document.getElementById('choices-container');
             choicesContainer.innerHTML = '';
 
+            // 正解のテキスト文字列を取得（q.answerは正解のインデックス番号）
             const originalChoices = [...q.choices];
             const correctAnswerStr = originalChoices[q.answer];
+            
+            // 選択肢の表示順をランダムにシャッフルする
             const shuffledChoices = [...originalChoices].sort(() => Math.random() - 0.5);
 
+            // シャッフルされた選択肢のボタンを生成し、DOMに追加
             shuffledChoices.forEach((choiceText) => {
                 const btn = document.createElement('button');
                 btn.textContent = choiceText;
                 btn.className = 'choice-btn';
+                // 選択肢クリック時の処理をバインド
                 btn.onclick = () => handleAnswer(choiceText, correctAnswerStr, q);
                 choicesContainer.appendChild(btn);
             });
 
+            // 前の問題のフィードバック（正解・不正解など）を隠す
             document.getElementById('feedback-container').classList.add('hidden');
             
+            // タイマーを開始
             startTimer(correctAnswerStr, q);
         }
 
+        // タイマーのカウントダウン処理を行う関数
         function startTimer(correctAnswerStr, q) {
-            const maxTime = 30.0;
+            const maxTime = 30.0; // 制限時間は30秒
             timeLeft = maxTime;
 
             const timerBar = document.getElementById('timer-bar');
             const timerText = document.getElementById('timer-text');
 
+            // 初期状態（100%）にセット
             timerBar.style.width = '100%';
             timerText.textContent = timeLeft.toFixed(1);
 
+            // 既存のタイマーがあればクリア
             clearInterval(timerInterval);
+            
+            // 100ミリ秒(0.1秒)ごとに実行される処理
             timerInterval = setInterval(() => {
                 timeLeft -= 0.1;
+                // プログレスバーの幅とテキストを更新
                 timerBar.style.width = `${(timeLeft / maxTime) * 100}%`;
                 timerText.textContent = Math.max(0, timeLeft).toFixed(1);
 
+                // 時間切れの場合の処理
                 if (timeLeft <= 0) {
                     clearInterval(timerInterval);
+                    // 時間切れ時は selectedText を null として解答処理へ
                     handleAnswer(null, correctAnswerStr, q);
                 }
             }, 100);
         }
 
+        // 解答が選択された際（または時間切れ時）の処理関数
         function handleAnswer(selectedText, correctText, q) {
+            // タイマーをストップ
             clearInterval(timerInterval);
+            
+            // 選択したテキストと正解のテキストが一致するか判定
             const isCorrect = selectedText === correctText;
             const btns = document.querySelectorAll('.choice-btn');
-
+            
+            // 全ての選択肢ボタンの処理（クリック不可化と色付け）
             btns.forEach((btn) => {
-                btn.disabled = true;
+                btn.disabled = true; // ボタンを無効化
                 if (btn.textContent === correctText) {
-                    btn.classList.add('correct');
+                    btn.classList.add('correct'); // 正解のボタンは緑色に
                 } else if (btn.textContent === selectedText) {
-                    btn.classList.add('incorrect');
+                    btn.classList.add('incorrect'); // 選んだ不正解のボタンは赤色に
                 }
             });
-
+            
+            // 結果履歴にこの問題の難易度と正誤判定を記録
             currentTrialHistory.push({
                 difficulty: q.difficulty,
                 isCorrect: isCorrect
             });
-
+            
+            // フィードバック表示（正解、不正解、またはタイムアウト）のUI更新
             const feedbackResult = document.getElementById('feedback-result');
             if (selectedText === null) {
                 feedbackResult.textContent = "Time out... (Incorrect)";
@@ -573,12 +680,16 @@
                 feedbackResult.style.color = isCorrect ? "var(--correct-color)" : "var(--incorrect-color)";
             }
 
+            // フィードバック領域を表示し、「Next」ボタンと「カメラ」ボタンを表示
             document.getElementById('feedback-container').classList.remove('hidden');
             document.getElementById('btn-save-image').style.display = 'flex';
         }
 
+        // 「Next」ボタンが押された時の処理関数
         function nextQuestion() {
-            currentQIndex++;
+            currentQIndex++; // 問題番号をインクリメント
+            
+            // まだ問題が残っている場合は次の問題を表示、全て終わった場合はゲーム終了処理へ
             if (currentQIndex < currentQuestions.length) {
                 displayQuestion();
             } else {
@@ -586,20 +697,27 @@
             }
         }
 
+        // ゲーム終了（全問終了または途中退出）時のスコア計算と画面遷移を行う関数
         function finishGame() {
             let earnedPoints = 0;
-
+            
+            // 記録された履歴からスコアを計算
             currentTrialHistory.forEach(record => {
                 if (record.isCorrect) {
+                    // 独自の配点ルール：基本点30点 ＋ 問題の難易度（1〜5）
                     const point = 30 + record.difficulty;
                     earnedPoints += point;
                 }
             });
-
+            
+            // 計算された最終スコアをDOMに反映
             document.getElementById('final-rate').textContent = earnedPoints;
+            
+            // 結果画面へ遷移
             switchScreen('result');
         }
 
+        // ページ全体（DOMやリソースなど）が読み込まれた後にinit関数を実行
         window.onload = init;
     </script>
 </body>

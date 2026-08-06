@@ -8,15 +8,15 @@
     <style>
         /* CSS変数の定義：アプリ全体で使用するテーマカラーや背景色を一元管理 */
         :root {
-            --primary-color: #4A90E2;      /* メインカラー（青系） */
-            --correct-color: #2ECC71;      /* 正解時のカラー（緑系） */
-            --incorrect-color: #E74C3C;    /* 不正解時のカラー（赤系） */
+            --primary-color: #4A90E2;      /* メインカラー 青系  */
+            --correct-color: #2ECC71;      /* 正解時のカラー 緑系  */
+            --incorrect-color: #E74C3C;    /* 不正解時のカラー 赤系  */
             --bg-color: #F5F7FA;           /* ページ全体の背景色 */
             --text-color: #333333;         /* 基本のテキストカラー */
             --container-bg: #FFFFFF;       /* アプリコンテナの背景色 */
         }
 
-        /* ページ全体のリセットとレイアウト設定。画面中央にアプリを配置 */
+        /* ページ全体のリセットとレイアウト設定｡ 画面中央にアプリを配置 */
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             background-color: var(--bg-color);
@@ -28,7 +28,7 @@
             min-height: 100vh;
         }
 
-        /* アプリケーションのメインコンテナ。カード型のデザインを適用 */
+        /* アプリケーションのメインコンテナ｡ カード型のデザインを適用 */
         #app {
             position: relative;
             width: 100%;
@@ -40,7 +40,7 @@
             box-sizing: border-box;
         }
 
-        /* 画面ごとのセクション設定（デフォルトは非表示） */
+        /* 画面ごとのセクション設定 デフォルトは非表示  */
         .screen {
             display: none;
             flex-direction: column;
@@ -48,13 +48,15 @@
             width: 100%;
         }
 
-        /* アクティブな画面のみを表示状態（Flexbox）にするクラス */
+        /* アクティブな画面のみを表示状態 Flexbox にするクラス */
         .screen.active {
             display: flex;
         }
 
         /* 見出しの中央揃えとマージン調整 */
-        h1, h2, h3 { text-align: center; margin: 10px 0;
+        h1, h2, h3 { 
+            text-align: center; 
+            margin: 10px 0;
         }
 
         /* 汎用ボタンのスタイル設定 */
@@ -72,19 +74,29 @@
             letter-spacing: 1px;
         }
 
-        .btn:hover { opacity: 0.8;
+        .btn:hover { 
+            opacity: 0.8;
         }
-        /* プライマリーボタン（青色） */
-        .btn.primary { background-color: var(--primary-color); color: white;
+        
+        /* プライマリーボタン 青色  */
+        .btn.primary { 
+            background-color: var(--primary-color); 
+            color: white;
         }
-        /* セカンダリーボタン（グレー系） */
-        .btn.secondary { background-color: #ddd; color: #333;
+        
+        /* セカンダリーボタン グレー系  */
+        .btn.secondary { 
+            background-color: #ddd; 
+            color: #333;
         }
-        /* 無効化（disabled）状態のボタンスタイル */
-        .btn:disabled { cursor: not-allowed; opacity: 0.5;
+        
+        /* 無効化 disabled 状態のボタンスタイル */
+        .btn:disabled { 
+            cursor: not-allowed; 
+            opacity: 0.5;
         }
 
-        /* ゲーム画面上部のヘッダー情報（問題番号・難易度・終了ボタン）のレイアウト */
+        /* ゲーム画面上部のヘッダー情報 問題番号・難易度・終了ボタン のレイアウト */
         .header-info {
             display: flex;
             justify-content: space-between;
@@ -100,7 +112,7 @@
             gap: 15px;
         }
 
-        /* 終了（バツ）ボタンのスタイル設定 */
+        /* 終了 バツ ボタンのスタイル設定 */
         #btn-exit {
             background: none;
             border: none;
@@ -112,8 +124,10 @@
             justify-content: center;
             transition: color 0.2s;
         }
+        
         /* 終了ボタンのホバー時は赤色に変化 */
-        #btn-exit:hover { color: var(--incorrect-color);
+        #btn-exit:hover { 
+            color: var(--incorrect-color);
         }
 
         /* タイマーの背景バー設定 */
@@ -126,7 +140,7 @@
             margin-bottom: 5px;
         }
 
-        /* タイマーの進行度を示すバー。時間と共に幅が縮むアニメーションを設定 */
+        /* タイマーの進行度を示すバー｡ 時間と共に幅が縮むアニメーションを設定 */
         #timer-bar {
             height: 100%;
             width: 100%;
@@ -144,7 +158,7 @@
             margin: 0 0 5px 0;
         }
 
-        /* 問題文と長文（パッセージ）を囲むコンテナ */
+        /* 問題文と長文 パッセージ を囲むコンテナ */
         .question-container {
             margin: 0 0 5px 0;
             text-align: center;
@@ -196,14 +210,23 @@
             line-height: 1.3;
         }
 
-        /* 選択肢ホバー時のスタイル（無効状態以外） */
-        .choice-btn:hover:not(:disabled) { border-color: var(--primary-color);
+        /* 選択肢ホバー時のスタイル 無効状態以外  */
+        .choice-btn:hover:not(:disabled) { 
+            border-color: var(--primary-color);
         }
-        /* 正解時の選択肢ボタンスタイル（強制適用） */
-        .choice-btn.correct { background-color: var(--correct-color) !important; color: white !important; border-color: var(--correct-color) !important;
+        
+        /* 正解時の選択肢ボタンスタイル 強制適用  */
+        .choice-btn.correct { 
+            background-color: var(--correct-color) !important; 
+            color: white !important; 
+            border-color: var(--correct-color) !important;
         }
-        /* 不正解時の選択肢ボタンスタイル（強制適用） */
-        .choice-btn.incorrect { background-color: var(--incorrect-color) !important; color: white !important; border-color: var(--incorrect-color) !important;
+        
+        /* 不正解時の選択肢ボタンスタイル 強制適用  */
+        .choice-btn.incorrect { 
+            background-color: var(--incorrect-color) !important; 
+            color: white !important; 
+            border-color: var(--incorrect-color) !important;
         }
 
         /* 正誤判定結果を表示するコンテナのスタイル設定 */
@@ -217,24 +240,24 @@
             gap: 8px;
         }
 
-        /* フィードバックコンテナの非表示状態。レイアウトを崩さずに不可視化 */
+        /* フィードバックコンテナの非表示状態｡ レイアウトを崩さずに不可視化 */
         #feedback-container.hidden {
             display: flex !important;
             visibility: hidden;
         }
 
-        /* 正誤結果テキスト（Correct/Incorrect）のスタイル */
+        /* 正誤結果テキスト Correct/Incorrect のスタイル */
         #feedback-result {
             font-size: 20px;
             margin: 0;
         }
 
-        /* 「Next」ボタンの中央配置 */
+        /* ｢Next｣ ボタンの中央配置 */
         #btn-next {
             margin: 0 auto;
         }
 
-        /* アイコンボタン（カメラ、フォントサイズ変更）の共通スタイル */
+        /* アイコンボタン カメラ､ フォントサイズ変更 の共通スタイル */
         .icon-btn {
             background: none;
             border: none;
@@ -246,10 +269,12 @@
             justify-content: center;
             color: #333;
         }
-        .icon-btn:hover { opacity: 0.6;
+        
+        .icon-btn:hover { 
+            opacity: 0.6;
         }
 
-        /* 画像保存（クリップボードコピー）ボタンの配置位置 */
+        /* 画像保存 クリップボードコピー ボタンの配置位置 */
         #btn-save-image {
             position: absolute;
             bottom: 15px;
@@ -257,27 +282,7 @@
             display: none;
         }
 
-        /* フォントサイズ変更コントロールの配置位置 */
-        #font-size-controls {
-            position: absolute;
-            bottom: 15px;
-            left: 15px;
-            display: none;
-            gap: 8px;
-            z-index: 10;
-        }
-
-        /* フォント変更ボタン独自のスタイル */
-        .font-btn {
-            background-color: #eee;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            transition: background-color 0.2s;
-        }
-        .font-btn:hover { background-color: #ddd;
-        }
-
-        /* Readme（説明書）のコンテンツ表示エリア設定 */
+        /* Readme 説明書 のコンテンツ表示エリア設定 */
         #readme-content {
             width: 100%;
             line-height: 1.6;
@@ -316,7 +321,34 @@
         }
 
         /* 完全に非表示にするための汎用クラス */
-        .hidden { display: none !important;
+        .hidden { 
+            display: none !important;
+        }
+
+        /* フォント変更ボタン独自のスタイル */
+        .font-btn {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+        .font-btn:hover { background-color: #ddd; }
+        
+        #font-size-controls {
+            display: none;
+            gap: 10px;
+            margin-top: 10px;
+            justify-content: center;
+            width: 100%;
+        }
+
+        /* ホーム画面の右下に問題数を表示する要素のスタイル追加 */
+        #loaded-count {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            color: #d3d3d3;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -326,6 +358,8 @@
             <h1>minimo-mini</h1>
             <button id="btn-start" class="btn primary">Start</button>
             <button id="btn-readme" class="btn secondary">Readme</button>
+            <!-- 読み込んだ問題数を表示するコンテナ -->
+            <div id="loaded-count"></div>
         </section>
 
         <section id="screen-game" class="screen">
@@ -358,32 +392,32 @@
                 <h2 id="feedback-result"></h2>
                 <button id="btn-next" class="btn primary">Next</button>
             </div>
+            
+            <div id="font-size-controls">
+                <button id="btn-font-large" class="icon-btn font-btn" title="Text larger">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        <line x1="11" y1="8" x2="11" y2="14"></line>
+                        <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                </button>
+                <button id="btn-font-small" class="icon-btn font-btn" title="Text smaller">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                </button>
+            </div>
+            
+            <button id="btn-save-image" class="icon-btn" title="Copy image">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+            </button>
         </section>
-
-        <div id="font-size-controls">
-            <button id="btn-font-large" class="icon-btn font-btn" title="Text larger">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                    <line x1="11" y1="8" x2="11" y2="14"></line>
-                    <line x1="8" y1="11" x2="14" y2="11"></line>
-                </svg>
-            </button>
-            <button id="btn-font-small" class="icon-btn font-btn" title="Text smaller">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                    <line x1="8" y1="11" x2="14" y2="11"></line>
-                </svg>
-            </button>
-        </div>
-
-        <button id="btn-save-image" class="icon-btn" title="Copy image">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                <circle cx="12" cy="13" r="4"></circle>
-            </svg>
-        </button>
 
         <section id="screen-result" class="screen">
             <h2>Result</h2>
@@ -395,27 +429,24 @@
         </section>
 
         <section id="screen-readme" class="screen">
-  <h2>Readme</h2>
-  
-  <p id="loaded-question-count" style="color: gray; text-align: center; margin-top: -5px; margin-bottom: 15px; font-size: 14px;"></p>
-  <div id="readme-content">Loading readme.txt ...</div>
-  <button id="btn-home-from-readme" class="btn primary">Home</button>
-</section>
-
+            <h2>Readme</h2>
+            <div id="readme-content">Loading readme.txt ...</div>
+            <button id="btn-home-from-readme" class="btn primary">Home</button>
+        </section>
     </div>
 
     <script>
         // グローバル変数の定義
         let allQuestions = [];          // 読み込んだ全ての問題データを格納する配列
-        let currentQuestions = [];      // 現在のプレイで使用する問題（30問）の配列
-        let currentQIndex = 0;          // 現在解いている問題のインデックス（0〜29）
+        let currentQuestions = [];      // 現在のプレイで使用する問題 30問 の配列
+        let currentQIndex = 0;          // 現在解いている問題のインデックス 0～29
         let timerInterval;              // タイマーのsetIntervalIDを保持する変数
-        let timeLeft;                   // 現在の残り時間（秒）
+        let timeLeft;                   // 現在の残り時間 秒
         let currentTrialHistory = [];   // 各問題の難易度と正誤結果を記録する配列
-        // フォントサイズの設定（ローカルストレージから取得、なければデフォルト16px）
+        // フォントサイズの設定 ローカルストレージから取得､ なければデフォルト16px
         let currentFontSize = parseInt(localStorage.getItem('toeicFontSize')) || 16;
 
-        // 各画面（セクション）のDOM要素への参照オブジェクト
+        // 各画面 セクション のDOM要素への参照オブジェクト
         const screens = {
             home: document.getElementById('screen-home'),
             game: document.getElementById('screen-game'),
@@ -432,10 +463,8 @@
                 const res = await fetch('questions.json');
                 if (res.ok) {
                     allQuestions = await res.json();
-
-                    // 読み込んだ問題の数（数字のみ）を表示する
-      document.getElementById('loaded-question-count').textContent = allQuestions.length;
-                    
+                    // 追加：ホーム画面右下に問題数を表示
+                    document.getElementById('loaded-count').textContent = allQuestions.length;
                 } else {
                     console.error("Failed to load questions.json");
                 }
@@ -455,35 +484,35 @@
             document.getElementById('btn-home-from-result').addEventListener('click', () => switchScreen('home'));
             document.getElementById('btn-home-from-readme').addEventListener('click', () => switchScreen('home'));
             
-            // 「Next」ボタン：次の問題へ進む（イベントバブリングを停止）
+            // ｢Next｣ ボタン：次の問題へ進む イベントバブリングを停止
             document.getElementById('btn-next').addEventListener('click', (e) => {
                 e.stopPropagation();
                 nextQuestion();
             });
             
-            // 「終了」ボタン：確認ダイアログを表示し、OKならタイマーを止めて結果画面へ移行
+            // ｢終了｣ボタン：確認ダイアログを表示し､ OKならタイマーを止めて結果画面へ移行
             document.getElementById('btn-exit').addEventListener('click', (e) => {
                 e.stopPropagation();
-                if (confirm("Are you sure you want to quit and view your score?\n(Unanswered questions will be scored as 0 points.)")) {
+                if (confirm("Are you sure you want to quit and view your score? \n(Unanswered questions will be scored as 0 points.)")) {
                     clearInterval(timerInterval);
                     finishGame();
                 }
             });
 
-            // 「カメラ」ボタン：アプリ画面（#app要素）を画像化してクリップボードにコピー
-            document.getElementById('btn-save-image').addEventListener('click', function(e) {
+            // 画像保存ボタン：画面をキャプチャしてクリップボードにコピー
+            document.getElementById('btn-save-image').addEventListener('click', async (e) => {
                 e.stopPropagation();
+                
+                const btnCamera = document.getElementById('btn-save-image');
+                const btnFonts = document.getElementById('font-size-controls');
+                // キャプチャ時にUIを一時的に隠す
+                btnCamera.style.display = 'none';
+                btnFonts.style.display = 'none';
+                
                 try {
-                    const btnCamera = document.getElementById('btn-save-image');
-                    const btnFonts = document.getElementById('font-size-controls');
-                   
-                    // キャプチャ時に余計なUI（ボタン群）が写り込まないように一時的に非表示化
-                    btnCamera.style.display = 'none';
-                    btnFonts.style.display = 'none';
-                    
                     const captureTarget = document.getElementById('app');
-            
-                    // html2canvasで#app要素をCanvasに変換し、Blob（画像データ）化する
+                    
+                    // html2canvasで#app要素を Canvas に変換し、Blob（画像データ）化する
                     const blobPromise = html2canvas(captureTarget, { backgroundColor: "#ffffff" }).then(canvas => {
                         // キャプチャ完了後、UIを再表示
                         btnCamera.style.display = 'flex';
@@ -517,6 +546,7 @@
                 currentFontSize = Math.min(currentFontSize + 4, 30);
                 applyFontSize();
             });
+            
             // フォント縮小ボタン：最小12pxまで4pxずつ縮小し保存
             document.getElementById('btn-font-small').addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -525,7 +555,7 @@
             });
         }
 
-        // 本文テキスト(#passage-text)のフォントサイズを更新し、LocalStorageに保存する関数
+        // 本文テキスト (#passage-text)のフォントサイズを更新し､ LocalStorageに保存する関数
         function applyFontSize() {
             const passageText = document.getElementById('passage-text');
             passageText.style.fontSize = `${currentFontSize}px`;
@@ -549,11 +579,11 @@
             }
         }
 
-        // ゲーム（テスト）開始時の処理関数
+        // ゲーム テスト 開始時の処理関数
         function startGame() {
             let selected = [];
             
-            // 難易度(1〜5)ごとに、それぞれ6問ずつ問題をランダムに抽出する
+            // 難易度 (1～5)ごとに､ それぞれ6問ずつ問題をランダムに抽出する
             for (let i = 1; i <= 5; i++) {
                 let diffQuestions = allQuestions.filter(q => q.difficulty === i);
                 // 該当する難易度の問題が6問未満の場合はエラーを出して処理を中断
@@ -567,7 +597,7 @@
                 selected = selected.concat(shuffledDiff.slice(0, 6));
             }
 
-            // 抽出した30問を難易度の低い順(1から5)に並び替える
+            // 抽出した30問を難易度の低い順 (1から5)に並び替える
             currentQuestions = selected.sort((a, b) => a.difficulty - b.difficulty);
             
             // 変数を初期化
@@ -583,7 +613,7 @@
         function displayQuestion() {
             const q = currentQuestions[currentQIndex];
             
-            // ヘッダー情報（問題番号、難易度）の更新
+            // ヘッダー情報 問題番号､ 難易度 の更新
             document.getElementById('question-counter').textContent = `Question: ${currentQIndex + 1} / 30`;
             document.getElementById('difficulty-display').textContent = `Level: ${q.difficulty}`;
 
@@ -597,14 +627,14 @@
             const choicesContainer = document.getElementById('choices-container');
             choicesContainer.innerHTML = '';
 
-            // 正解のテキスト文字列を取得（q.answerは正解のインデックス番号）
+            // 正解のテキスト文字列を取得 q.answerは正解のインデックス番号
             const originalChoices = [...q.choices];
             const correctAnswerStr = originalChoices[q.answer];
             
             // 選択肢の表示順をランダムにシャッフルする
             const shuffledChoices = [...originalChoices].sort(() => Math.random() - 0.5);
 
-            // シャッフルされた選択肢のボタンを生成し、DOMに追加
+            // シャッフルされた選択肢のボタンを生成し､ DOMに追加
             shuffledChoices.forEach((choiceText) => {
                 const btn = document.createElement('button');
                 btn.textContent = choiceText;
@@ -614,7 +644,7 @@
                 choicesContainer.appendChild(btn);
             });
 
-            // 前の問題のフィードバック（正解・不正解など）を隠す
+            // 前の問題のフィードバック 正解・不正解など を隠す
             document.getElementById('feedback-container').classList.add('hidden');
             
             // タイマーを開始
@@ -629,14 +659,14 @@
             const timerBar = document.getElementById('timer-bar');
             const timerText = document.getElementById('timer-text');
 
-            // 初期状態（100%）にセット
+            // 初期状態 100% にセット
             timerBar.style.width = '100%';
             timerText.textContent = timeLeft.toFixed(1);
 
             // 既存のタイマーがあればクリア
             clearInterval(timerInterval);
             
-            // 100ミリ秒(0.1秒)ごとに実行される処理
+            // 100ミリ秒 (0.1秒)ごとに実行される処理
             timerInterval = setInterval(() => {
                 timeLeft -= 0.1;
                 // プログレスバーの幅とテキストを更新
@@ -652,7 +682,7 @@
             }, 100);
         }
 
-        // 解答が選択された際（または時間切れ時）の処理関数
+        // 解答が選択された際 または時間切れ時 の処理関数
         function handleAnswer(selectedText, correctText, q) {
             // タイマーをストップ
             clearInterval(timerInterval);
@@ -661,7 +691,7 @@
             const isCorrect = selectedText === correctText;
             const btns = document.querySelectorAll('.choice-btn');
             
-            // 全ての選択肢ボタンの処理（クリック不可化と色付け）
+            // 全ての選択肢ボタンの処理 クリック不可化と色付け
             btns.forEach((btn) => {
                 btn.disabled = true; // ボタンを無効化
                 if (btn.textContent === correctText) {
@@ -677,7 +707,7 @@
                 isCorrect: isCorrect
             });
             
-            // フィードバック表示（正解、不正解、またはタイムアウト）のUI更新
+            // フィードバック表示 正解､ 不正解､ またはタイムアウト のUI更新
             const feedbackResult = document.getElementById('feedback-result');
             if (selectedText === null) {
                 feedbackResult.textContent = "Time out... (Incorrect)";
@@ -687,16 +717,16 @@
                 feedbackResult.style.color = isCorrect ? "var(--correct-color)" : "var(--incorrect-color)";
             }
 
-            // フィードバック領域を表示し、「Next」ボタンと「カメラ」ボタンを表示
+            // フィードバック領域を表示し､ ｢Next｣ ボタンと ｢カメラ｣ボタンを表示
             document.getElementById('feedback-container').classList.remove('hidden');
             document.getElementById('btn-save-image').style.display = 'flex';
         }
 
-        // 「Next」ボタンが押された時の処理関数
+        // ｢Next｣ ボタンが押された時の処理関数
         function nextQuestion() {
             currentQIndex++; // 問題番号をインクリメント
             
-            // まだ問題が残っている場合は次の問題を表示、全て終わった場合はゲーム終了処理へ
+            // まだ問題が残っている場合は次の問題を表示､ 全て終わった場合はゲーム終了処理へ
             if (currentQIndex < currentQuestions.length) {
                 displayQuestion();
             } else {
@@ -704,14 +734,14 @@
             }
         }
 
-        // ゲーム終了（全問終了または途中退出）時のスコア計算と画面遷移を行う関数
+        // ゲーム終了 全問終了または途中退出 時のスコア計算と画面遷移を行う関数
         function finishGame() {
             let earnedPoints = 0;
             
             // 記録された履歴からスコアを計算
             currentTrialHistory.forEach(record => {
                 if (record.isCorrect) {
-                    // 独自の配点ルール：基本点30点 ＋ 問題の難易度（1〜5）
+                    // 独自の配点ルール：基本点30点 ＋ 問題の難易度 1～5
                     const point = 30 + record.difficulty;
                     earnedPoints += point;
                 }
@@ -724,8 +754,8 @@
             switchScreen('result');
         }
 
-        // ページ全体（DOMやリソースなど）が読み込まれた後にinit関数を実行
-        window.onload = init;
+        // 初期化処理の実行
+        window.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
 </html>

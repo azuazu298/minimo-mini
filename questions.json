@@ -1798,5 +1798,605 @@
     ],
     "answer": 0,
     "difficulty": 5
+  },
+  {
+    "text": "Please remember to submit your monthly timesheet to the HR department by 5:00 PM on Friday to ensure the timely processing of your next paycheck.",
+    "question": "What is the deadline to submit the timesheet?",
+    "choices": [
+      "Friday at 5:00 PM",
+      "Monday at 9:00 AM",
+      "Friday at 12:00 PM",
+      "Monday at 5:00 PM"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "We are currently offering a 20 percent discount on all winter coats and jackets. Please note that this special promotion will definitively end next Tuesday.",
+    "question": "What kind of items are currently discounted?",
+    "choices": [
+      "Summer shoes and hats",
+      "Spring shirts and bags",
+      "Winter coats and jackets",
+      "Autumn boots and scarves"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The newly renovated local library will finally open to the public on October 12. A special ribbon-cutting ceremony will be held in the early morning.",
+    "question": "What will happen in the early morning on October 12?",
+    "choices": [
+      "A building will be demolished",
+      "A ribbon-cutting ceremony will be held",
+      "A city marathon will officially start",
+      "A local museum will close early"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "Passengers traveling on Flight 4B to Chicago, please proceed to Gate 15 immediately. The aircraft is now completely ready for the final boarding process.",
+    "question": "Where should passengers traveling to Chicago go?",
+    "choices": [
+      "To the baggage claim area",
+      "To the main security checkpoint",
+      "To the airport ticket counter",
+      "To Gate 15 immediately"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "The main elevators in the north wing of the building are under maintenance today. Please use the stairs or the south wing elevators instead.",
+    "question": "Which elevators are under maintenance today?",
+    "choices": [
+      "The main elevators in the north wing",
+      "The large elevators in the south wing",
+      "The staff elevators in the east wing",
+      "The guest elevators in the west wing"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  },
+  {
+    "text": "Let's meet at the new coffee shop near the central train station at 3:00 PM. I will definitely bring the contract documents you requested.",
+    "question": "What will the speaker bring to the coffee shop?",
+    "choices": [
+      "The daily train tickets",
+      "The ceramic coffee mugs",
+      "The contract documents",
+      "The new financial reports"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The regular weekly staff meeting has been officially rescheduled to Thursday afternoon. The venue remains the same main conference room on the second floor.",
+    "question": "When is the staff meeting now scheduled to take place?",
+    "choices": [
+      "On Tuesday morning",
+      "On Tuesday afternoon",
+      "On Thursday morning",
+      "On Thursday afternoon"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "If you are not entirely satisfied with your recent purchase, you can easily return the unused item within 30 days for a full refund.",
+    "question": "How long do customers have to return an unused item?",
+    "choices": [
+      "Within 10 days",
+      "Within 15 days",
+      "Within 20 days",
+      "Within 30 days"
+    ],
+    "answer": 3,
+    "difficulty": 1
+  },
+  {
+    "text": "Our respected CEO, Mr. Robert Smith, formally announced his retirement yesterday. He has led the corporation extremely successfully for well over fifteen years.",
+    "question": "What did Mr. Robert Smith announce yesterday?",
+    "choices": [
+      "His promotion to president",
+      "His formal retirement",
+      "His upcoming vacation",
+      "His new business plan"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  },
+  {
+    "text": "The upcoming marketing seminar will feature three prominent guest speakers from leading tech companies. It costs exactly fifty dollars to register for this event.",
+    "question": "How much does it cost to register for the seminar?",
+    "choices": [
+      "Exactly thirty dollars",
+      "Exactly forty dollars",
+      "Exactly fifty dollars",
+      "Exactly sixty dollars"
+    ],
+    "answer": 2,
+    "difficulty": 1
+  },
+  {
+    "text": "The management has decided to upgrade all office computers by the end of this month. Technicians will visit each department starting next Monday to install the latest operating systems and software.",
+    "question": "What is scheduled to happen next week?",
+    "choices": [
+      "Workers will receive a financial bonus",
+      "IT staff will update the equipment",
+      "A new manager will be appointed",
+      "The office furniture will be replaced"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "Thank you for calling Silverwood Electronics. Our customer support representatives are currently assisting other callers. Please leave your name and phone number, and someone will return your call shortly.",
+    "question": "Why is the caller asked to leave a message?",
+    "choices": [
+      "The store is closed for the holiday",
+      "The phone lines are disconnected",
+      "The staff members are presently busy",
+      "The requested product is out of stock"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Green Valley Farms recently acquired a large piece of land adjacent to their main facility. The company intends to use this space to expand its organic vegetable production next spring.",
+    "question": "What does the business plan to do with the new property?",
+    "choices": [
+      "Build a new corporate office",
+      "Host a local farmers market",
+      "Grow more crops organically",
+      "Sell it to another competitor"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Due to heavy snowfall in the Denver area, all outbound flights have been temporarily delayed. Passengers are advised to check the departure boards frequently for the latest schedule updates.",
+    "question": "Why has air travel been interrupted?",
+    "choices": [
+      "Because of a mechanical failure",
+      "Because of severe weather conditions",
+      "Because of a pilot union strike",
+      "Because of airport runway repairs"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "The city council has approved a budget to renovate the historic downtown theater. Construction crews will begin repairing the roof and replacing the exterior lighting fixtures early next month.",
+    "question": "What part of the building will be fixed first?",
+    "choices": [
+      "The main entrance doors",
+      "The interior seating area",
+      "The top of the structure",
+      "The basement parking lot"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "I won't be able to make it to our tennis match on Saturday morning. My car broke down yesterday, and the mechanic said it will take three days to fix.",
+    "question": "Why is the speaker canceling the weekend plans?",
+    "choices": [
+      "They have to work overtime",
+      "They are feeling somewhat sick",
+      "Their vehicle needs to be repaired",
+      "Their tennis racket is entirely broken"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "Please ensure that all confidential documents are shredded before you leave the office for the weekend. The recycling bins should only be used for regular, non-sensitive paper waste materials.",
+    "question": "What should employees do with sensitive information?",
+    "choices": [
+      "Place it in the recycling bins",
+      "Store it in a locked drawer",
+      "Destroy it using a machine",
+      "Take it home for the weekend"
+    ],
+    "answer": 2,
+    "difficulty": 2
+  },
+  {
+    "text": "We apologize for the inconvenience, but the espresso machine is currently out of order. However, we are still serving freshly brewed iced tea and our signature cold brew coffee.",
+    "question": "What is unavailable at the moment?",
+    "choices": [
+      "A certain hot beverage maker",
+      "The signature cold brew coffee",
+      "A specific type of iced tea",
+      "The daily breakfast sandwiches"
+    ],
+    "answer": 0,
+    "difficulty": 2
+  },
+  {
+    "text": "Renowned author Lisa Monroe will be signing copies of her latest mystery novel at the Maple Street Bookstore on Friday evening. Early arrival is highly recommended to guarantee a spot.",
+    "question": "What is suggested for attendees of the event?",
+    "choices": [
+      "To purchase the book online",
+      "To arrive at the venue early",
+      "To bring a friend along",
+      "To read the novel beforehand"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "The annual medical conference, originally planned for Miami, will now be held in Orlando. All registered participants will receive an email containing updated hotel booking information by tomorrow afternoon.",
+    "question": "What change has been made to the convention?",
+    "choices": [
+      "Its primary topic has changed",
+      "Its host city has been altered",
+      "Its registration fee has increased",
+      "Its starting date has been delayed"
+    ],
+    "answer": 1,
+    "difficulty": 2
+  },
+  {
+    "text": "... \nFurthermore, starting from October 1, the reimbursement process for travel expenses will be completely digitized. Employees must scan their receipts and upload them via the new Delta HR Portal. Paper submissions will no longer be accepted by the accounting department under any circumstances.",
+    "question": "What is the main purpose of this announcement?",
+    "choices": [
+      "To introduce a new travel policy",
+      "To explain a software installation",
+      "To detail a shift in a procedure",
+      "To announce a company merger"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "Welcome to Bright Home Furnishings. We have a special weekend promotion on our newly arrived dining tables and comfortable living room sofas. If you purchase any two items from these categories, you will automatically receive complimentary delivery service to your residence within the metropolitan area.",
+    "question": "How can a customer qualify for free shipping?",
+    "choices": [
+      "By buying a specific combination of goods",
+      "By joining a premium membership program",
+      "By spending over a certain dollar amount",
+      "By living outside the metropolitan region"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "... \nSince its founding in 2010, Apex Dynamics has been at the forefront of robotic engineering. The firm recently patented a lightweight industrial arm that can operate in extreme temperatures. CEO Mark Vargas predicts this innovation will drastically reduce manufacturing costs for automobile companies globally.",
+    "question": "What is stated about the newly patented device?",
+    "choices": [
+      "It is primarily used for medical surgeries",
+      "It can function in severe weather conditions",
+      "It is the heaviest model produced by the firm",
+      "It will increase the cost of producing cars"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "The Riverside Music Festival will take place over three days during the Labor Day weekend. While general admission tickets allow access to all outdoor stages, VIP pass holders will also enjoy exclusive entry to the air-conditioned lounge and complimentary catered meals throughout the entire event.",
+    "question": "What is a benefit exclusive to VIP attendees?",
+    "choices": [
+      "Access to all the outdoor music stages",
+      "Free transportation to the festival venue",
+      "The ability to meet the performing artists",
+      "Provided food in a climate-controlled area"
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "... \nResidents of the Willow Creek neighborhood are reminded that trash collection will be pushed back by one day next week due to the national holiday on Monday. Therefore, please place your recycling and garbage bins on the curb on Thursday morning instead of Wednesday.",
+    "question": "When should residents take out their garbage next week?",
+    "choices": [
+      "On Monday morning",
+      "On Tuesday morning",
+      "On Wednesday morning",
+      "On Thursday morning"
+    ],
+    "answer": 3,
+    "difficulty": 3
+  },
+  {
+    "text": "Hey Sarah, it's David. I know we were supposed to see the 7:00 PM movie tonight, but I'm stuck in heavy traffic on Highway 9. I don't think I'll make it in time for the previews. Can we exchange our tickets for the 9:30 PM showing instead?",
+    "question": "Why is David leaving this voicemail message?",
+    "choices": [
+      "To propose a different time for an activity",
+      "To apologize for losing the movie tickets",
+      "To ask for directions to the movie theater",
+      "To complain about the highway conditions"
+    ],
+    "answer": 0,
+    "difficulty": 3
+  },
+  {
+    "text": "As part of our commitment to employee wellness, Nova Solutions is opening an on-site fitness center on the ground floor. It will feature state-of-the-art treadmills, weights, and yoga mats. The gym will be accessible 24/7 using your standard employee ID badge, starting from next Monday.",
+    "question": "How will staff members enter the new facility?",
+    "choices": [
+      "By scanning a downloaded mobile application",
+      "By typing a secret code on a keypad",
+      "By using their regular company identification",
+      "By showing a special gym membership card"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "... \nAlthough the Kingston waterproof boots are our best-selling footwear, we are currently experiencing a severe shortage of sizes 9 and 10 in our main warehouse. We expect a new shipment from our overseas supplier to arrive by the end of next week to restock these items.",
+    "question": "What is the current issue with the Kingston boots?",
+    "choices": [
+      "They are no longer being manufactured",
+      "They have a flaw in their waterproof design",
+      "They are temporarily unavailable in certain sizes",
+      "They are too expensive for most consumers"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "The upcoming documentary 'Ocean Whispers' explores the complex communication methods of deep-sea marine life. Directed by award-winning filmmaker Elena Rostova, the film took over four years to shoot. It will premiere at the International Film Expo in Berlin before being released on major streaming platforms worldwide.",
+    "question": "Where will the documentary be shown first?",
+    "choices": [
+      "On various global streaming platforms",
+      "At a special event held in Germany",
+      "In local movie theaters across Europe",
+      "At an underwater research facility"
+    ],
+    "answer": 1,
+    "difficulty": 3
+  },
+  {
+    "text": "... \nPlease note that the orientation session for new volunteers at the City Art Museum has been relocated. It will no longer be held in the main auditorium. Instead, participants should gather in the smaller seminar room on the third floor, adjacent to the staff cafeteria.",
+    "question": "Where should the new volunteers assemble?",
+    "choices": [
+      "In the main auditorium on the first floor",
+      "In the staff cafeteria on the second floor",
+      "In the smaller seminar room on the third floor",
+      "In the main lobby near the entrance"
+    ],
+    "answer": 2,
+    "difficulty": 3
+  },
+  {
+    "text": "W: Have you had a chance to review the budget proposal for the Q3 marketing campaign, Thomas?\nM: I looked it over this morning. However, allocating thirty percent of the funds to social media ads seems excessive, considering our primary demographic usually responds better to email newsletters.\nW: That's a valid point. Let's adjust the figures before the final presentation.",
+    "question": "What do the speakers agree to do?",
+    "choices": [
+      "Hire a new social media manager",
+      "Modify a financial plan before a meeting",
+      "Send out an email newsletter immediately",
+      "Cancel the Q3 marketing campaign entirely"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Rarely have we seen such an overwhelming customer response as we did during the launch of the X-200 smart vacuum. Having sold out completely within the first four hours of operation, the store management was compelled to issue rain checks and sincerely apologize to the hundreds of frustrated patrons waiting outside.",
+    "question": "What is the main reason for the customers' frustration?",
+    "choices": [
+      "The store opened much later than scheduled",
+      "The product was priced higher than advertised",
+      "The available inventory was depleted very quickly",
+      "The vacuum cleaners had severe mechanical defects"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Nestled in the heart of the Rocky Mountains, the recently constructed Alpine Retreat Lodge boasts not only breathtaking panoramic views but also a fully sustainable energy system powered by solar panels. Designed by renowned architect Julian Mercer, the facility aims to attract environmentally conscious travelers seeking luxury without a heavy carbon footprint.",
+    "question": "What is a notable feature of the Alpine Retreat Lodge?",
+    "choices": [
+      "It was built using recycled materials only",
+      "It is completely self-sufficient in food production",
+      "It utilizes renewable energy for its operations",
+      "It was designed by an unknown local artist"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "M: Excuse me, I registered for the 10:00 AM watercolor painting workshop, but the door to Studio B is locked.\nW: Oh, I apologize for the confusion. Due to a minor plumbing issue in that room, the instructor has relocated the class to Studio F, which is just down the hall on your left.\nM: Thank you, I'll head there right now.",
+    "question": "Why was the workshop moved to a different room?",
+    "choices": [
+      "The original room was double-booked",
+      "There was a problem with the water pipes",
+      "The instructor preferred a larger space",
+      "The painting supplies were missing"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Despite the extensive renovations scheduled for the downtown transit hub, commuter train services will continue to operate on their normal timetables. Nevertheless, passengers should anticipate minor detours when navigating through the station concourse, as several main entrances will be strictly cordoned off to ensure public safety during the construction phases.",
+    "question": "What are commuters warned to expect?",
+    "choices": [
+      "Significant delays in train schedules",
+      "Complete closure of the transit hub",
+      "Changes to the paths inside the station",
+      "Increased ticket prices during construction"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "W: Hi Mark, I just realized I left my reading glasses on the kitchen counter this morning. I really need them to review these legal contracts today.\nM: No problem, I'm actually working from home today. I can drop them off at your office during my lunch break around noon.\nW: You're a lifesaver! I'll buy you dinner tonight to make up for it.",
+    "question": "What will the man do at noon?",
+    "choices": [
+      "Review some legal contracts at home",
+      "Have lunch with his coworkers",
+      "Deliver an item to the woman's workplace",
+      "Buy dinner for the woman at a restaurant"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "... \nHaving thoroughly analyzed the latest quarterly sales figures, the board of directors has authorized a substantial expansion of our logistics network. By establishing two new distribution centers in the Midwest region, the corporation expects to reduce delivery times by at least thirty percent and significantly enhance overall customer satisfaction rates.",
+    "question": "How does the company plan to improve its delivery speed?",
+    "choices": [
+      "By hiring more delivery truck drivers",
+      "By upgrading its current shipping software",
+      "By opening additional warehouse facilities",
+      "By partnering with a new courier service"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "M: Hello, I bought this wireless headset here last week, but the microphone seems to be defective. People can barely hear me during online meetings.\nW: I'm sorry to hear that. Since you're within the 14-day warranty period, I can offer you a direct replacement or a full refund. Do you have your original receipt?\nM: Yes, here it is. I'd prefer to just exchange it for a new one.",
+    "question": "What does the man ultimately request?",
+    "choices": [
+      "A complete refund of his money",
+      "A different model of the headset",
+      "A replacement for the broken item",
+      "A repair service for his microphone"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Anticipating a surge in demand during the upcoming holiday season, the prominent toy manufacturer, Playtime Innovations, has ramped up production of its highly anticipated interactive robot dog. Industry analysts predict that this particular item will undoubtedly become the fastest-selling toy of the year, potentially outperforming last year's top-selling video game console.",
+    "question": "What is expected to happen with the interactive robot dog?",
+    "choices": [
+      "It will be recalled due to a safety issue",
+      "It will experience extremely high sales volume",
+      "It will be delayed until after the holidays",
+      "It will cost more than a video game console"
+    ],
+    "answer": 1,
+    "difficulty": 4
+  },
+  {
+    "text": "Should the outdoor music concert be canceled owing to inclement weather, all ticket holders will automatically receive a voucher valid for any future performance within the current calendar year. Please be advised that cash refunds will only be processed for individuals who purchased premium VIP packages directly through our official website.",
+    "question": "Who is eligible to receive their money back if the event is canceled?",
+    "choices": [
+      "All individuals who bought a ticket",
+      "People who purchased tickets at the door",
+      "Customers who bought specific premium passes online",
+      "Anyone who complains about the weather conditions"
+    ],
+    "answer": 2,
+    "difficulty": 4
+  },
+  {
+    "text": "Memo to all floor supervisors:\nWhile we appreciate the enthusiasm shown for the newly proposed open-plan office layout, recent productivity metrics suggest a concerning increase in distraction-related errors among the data entry teams. Consequently, management is currently evaluating the feasibility of installing acoustic partition panels between desks to mitigate noise pollution, prior to finalizing any further structural modifications.",
+    "question": "What is implied about the open-plan office layout?",
+    "choices": [
+      "It has successfully boosted employee morale",
+      "It may be causing a decline in work quality",
+      "It will be implemented across all departments",
+      "It is too expensive to maintain long-term"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "W: Our boutique's foot traffic has dropped significantly since the construction on Elm Street began last month.\nM: I know. The barricades completely block the view of our display windows from the main road. However, I noticed the online orders for our handmade jewelry have tripled in the exact same timeframe.\nW: That's a relief. We should probably reallocate some of our window display budget into digital marketing for now.",
+    "question": "What is implied about the boutique's current financial situation?",
+    "choices": [
+      "It is on the verge of bankruptcy due to construction",
+      "Its physical store sales are likely compensating for online losses",
+      "Its online sales are helping to offset the lack of walk-in customers",
+      "It is planning to close its physical location permanently"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "... \nDespite rumors circulating in various financial journals, Horizon Pharmaceuticals has categorically denied any intentions of acquiring its smaller rival, BioTech Innovations. A spokesperson clarified that Horizon's current strategic focus remains solely on expediting the clinical trials for its groundbreaking cardiovascular medication, which has encountered several unforeseen regulatory hurdles in the European market over the past quarter.",
+    "question": "What can be inferred about Horizon Pharmaceuticals' new medication?",
+    "choices": [
+      "It has already been approved for sale in Europe",
+      "It is facing difficulties getting approval abroad",
+      "It was originally developed by BioTech Innovations",
+      "It is entirely focused on curing rare diseases"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Following the unexpected departure of our keynote speaker, the organizing committee has hastily restructured tomorrow's itinerary for the technology summit. Dr. Aris Thorne has graciously agreed to extend his presentation on artificial intelligence to fill the morning slot. Consequently, the networking luncheon will be pushed back by an hour, allowing attendees extra time to discuss Dr. Thorne's extended insights.",
+    "question": "What is suggested about Dr. Thorne's presentation?",
+    "choices": [
+      "It will cover topics unrelated to technology",
+      "It was originally scheduled for the afternoon",
+      "It will be longer than initially planned",
+      "It was canceled due to a scheduling conflict"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "Attention commuters: The municipal transportation authority regrets to inform you that the newly introduced express bus route, Line 88, will be suspended indefinitely starting this Friday. An internal audit revealed that the average daily ridership falls drastically short of the operational threshold required to justify the fuel and maintenance expenditures associated with the heavy-duty articulated vehicles used on this route.",
+    "question": "What is the most likely reason for the suspension of Line 88?",
+    "choices": [
+      "There are not enough passengers using the service",
+      "The bus drivers went on a sudden strike",
+      "The heavy-duty vehicles require immediate repair",
+      "The local government passed a new environmental law"
+    ],
+    "answer": 0,
+    "difficulty": 5
+  },
+  {
+    "text": "M: Are you still planning to plant tomatoes in the community garden this weekend? The forecast says temperatures might drop below freezing on Sunday night.\nW: Oh, I hadn't checked the weather yet. Thanks for the heads-up. I guess I'll just keep the seedlings in my sunroom for another week or two. It's not worth the risk.",
+    "question": "What can be inferred about the woman's seedlings?",
+    "choices": [
+      "They are highly resistant to cold weather",
+      "They would likely die if planted outside this weekend",
+      "They have already grown too large for the sunroom",
+      "They were purchased from a local community garden"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "In light of the fact that the lease for our downtown corporate headquarters expires in just under eight months, the executive board has commissioned a comprehensive spatial utilization analysis. Preliminary findings indicate that, given the overwhelming success of our remote work policy, maintaining a facility of this magnitude is fiscally irresponsible and entirely disproportionate to our actual on-site needs.",
+    "question": "What will the executive board most likely do in the future?",
+    "choices": [
+      "Require all employees to return to the office full-time",
+      "Renew the lease for the current building for another decade",
+      "Search for a much smaller office space or relocate entirely",
+      "Purchase the downtown corporate headquarters outright"
+    ],
+    "answer": 2,
+    "difficulty": 5
+  },
+  {
+    "text": "We pride ourselves on the exceptional craftsmanship of our bespoke leather briefcases. Due to the meticulous hand-stitching process required for each individual piece, we cannot guarantee fulfillment of custom orders placed after November 15th in time for the winter holidays. Customers are strongly advised to secure their purchases well in advance to avoid disappointment.",
+    "question": "What is implied about the briefcases?",
+    "choices": [
+      "They are mass-produced in a large factory setting",
+      "They take a considerable amount of time to manufacture",
+      "They are only available for purchase during the winter",
+      "They are made from artificial, synthetic leather materials"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "W: Have you seen the draft for the press release regarding the software patch, Kevin?\nM: Yes, but I think the tone is a bit too defensive. We should focus more on how quickly our engineering team resolved the security vulnerability, rather than dwelling on the fact that the breach happened in the first place.\nW: I agree. I'll rewrite the opening paragraph to highlight our rapid response time.",
+    "question": "What is suggested about the company's recent situation?",
+    "choices": [
+      "They successfully prevented a major cyber attack",
+      "They experienced a temporary lapse in their software security",
+      "They are planning to sue the engineering team",
+      "They recently released a completely new software product"
+    ],
+    "answer": 1,
+    "difficulty": 5
+  },
+  {
+    "text": "Although the culinary arts exhibition was originally intended to be a one-time charitable gala, the unprecedented critical acclaim and robust ticket sales have prompted the organizers to reconsider its format. Discussions are currently underway with the venue management to secure a multi-year contract, potentially transforming this isolated success into a highly anticipated annual municipal tradition.",
+    "question": "What is implied about the culinary arts exhibition?",
+    "choices": [
+      "It failed to raise enough money for the charity",
+      "It was much more successful than initially expected",
+      "It will be moved to a different city next year",
+      "It was poorly received by food critics and journalists"
+    ],
+    "answer": 1,
+    "difficulty": 5
   }
 ]

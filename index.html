@@ -395,10 +395,13 @@
         </section>
 
         <section id="screen-readme" class="screen">
-            <h2>Readme</h2>
-            <div id="readme-content">Loading readme.txt ...</div>
-            <button id="btn-home-from-readme" class="btn primary">Home</button>
-        </section>
+  <h2>Readme</h2>
+  
+  <p id="loaded-question-count" style="color: gray; text-align: center; margin-top: -5px; margin-bottom: 15px; font-size: 14px;"></p>
+  <div id="readme-content">Loading readme.txt ...</div>
+  <button id="btn-home-from-readme" class="btn primary">Home</button>
+</section>
+
     </div>
 
     <script>
@@ -429,6 +432,10 @@
                 const res = await fetch('questions.json');
                 if (res.ok) {
                     allQuestions = await res.json();
+
+                    // 読み込んだ問題の数（数字のみ）を表示する
+      document.getElementById('loaded-question-count').textContent = allQuestions.length;
+                    
                 } else {
                     console.error("Failed to load questions.json");
                 }
